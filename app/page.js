@@ -376,7 +376,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="flex pt-16 lg:pt-[120px] w-full items-center justify-center">
+              <div className="flex pt-8 lg:pt-[120px] w-full items-center justify-center">
                 <div
                   id="CTA"
                   class="py-2 px-4 rounded-[20px] w-auto flex justify-center items-center gap-1 text-xs g10 border border-[#fafafa]"
@@ -412,7 +412,9 @@ export default function Home() {
             </div>
           </section>
 
-          <div id="actual-footer"></div>
+          <div id="actual-footer">
+            <div></div>
+          </div>
         </div>
       </footer>
     </>
