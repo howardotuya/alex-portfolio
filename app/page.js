@@ -12,7 +12,7 @@ import flows from "@/public/images/selectedprojects/flows.png";
 import collects from "@/public/images/selectedprojects/collects.png";
 import pollens from "@/public/images/selectedprojects/pollens.png";
 import sorolingos from "@/public/images/selectedprojects/sorolingos.png";
-import zacracm from "@/public/images/selectedprojects/zacrac-mini.png";
+import zacracm from "@/public/images/selectedprojects/zacrac-mini2.png";
 
 import crushin from "@/public/images/selectedprojects/crushing.png";
 import ctaarrow from "@/public/images/cta-arrow.png";
@@ -229,7 +229,7 @@ export default function Home() {
                         </span>
                       </div>
                     </div>
-                    <div className="w-full relative h-auto flex flex-col">
+                    <div className="w-full relative h-auto max-w-[353px] md:max-w-none flex flex-col">
                       <Image
                         className="hidden md:block w-full h-auto "
                         src={zacrac}
