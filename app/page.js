@@ -15,6 +15,7 @@ import sorolingos from "@/public/images/selectedprojects/sorolingos.png";
 import zacracm from "@/public/images/selectedprojects/zacrac-mini.png";
 
 import crushin from "@/public/images/selectedprojects/crushing.png";
+import ctaarrow from "@/public/images/cta-arrow.png";
 
 import arrowright from "@/public/images/arrow-right.png";
 import arrowright2 from "@/public/images/black-arrow-right.png";
@@ -77,7 +78,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="px-5 lg:px-6">
+          <section className="px-5 lg:px-6 pb-24 lg:pb-[170px]">
             <div
               id="header-selectedProjects"
               className="uppercase g30 text-[18px] leading-[119%] lg:text-[32px] flex flex-col gap-3 font-bold"
@@ -300,7 +301,11 @@ export default function Home() {
                         />
                       </div>
                       <div className="absolute w-[89.607px] lg:w-[216.783px] lg:bottom-[73px] bottom-[204px] right-[-23px] lg:right-[-55px] h-auto">
-                        <Image className="w-full h-auto" src={crushin} alt="Crushin'" />
+                        <Image
+                          className="w-full h-auto"
+                          src={crushin}
+                          alt="Crushin'"
+                        />
                       </div>
                     </div>
                     <div id="content-2" className="content-2">
@@ -371,13 +376,45 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div id="CTA"></div>
+              <div className="flex pt-16 lg:pt-[120px] w-full items-center justify-center">
+                <div
+                  id="CTA"
+                  class="py-2 px-4 rounded-[20px] w-auto flex justify-center items-center gap-1 text-xs g10 border border-[#fafafa]"
+                >
+                  View All Projects
+                  <Image className="w-3 h-3" src={ctaarrow} alt="Arrow Right" />
+                </div>
+              </div>
             </div>
           </section>
         </div>
       </main>
 
-      <footer></footer>
+      <footer className="g20 setbody">
+        <div>
+          <section className="px-5 py-24 lg:pl-6 lg:pt-[184px] lg:pb-[214px] g50 flex flex-col gap-4 lg:gap-6">
+            <h6 className="lg:text-xl lg:font-bold font-semibold text-base uppercase">
+              life outside design
+            </h6>
+            <div>
+              <p className="lg:text-[56px] lg:leading-[72px] lg:font-bold font-semibold text-base leading-[160%]">
+                <span className="block">
+                  I realised early that I am a people person. I love to help
+                  people see new perspectives and help them get unstuck. So when
+                  I’m not pushing impactful pixels, you’d find me in virtual and
+                  physical communities leading conversations on topics around
+                  emotional intelligence for tech talents.
+                </span>
+                <span className="g80 pt-3 lg:pt-[72px] block">
+                  Oh, and I take the best iPhone pictures too. Now pose! 😎 📸
+                </span>
+              </p>
+            </div>
+          </section>
+
+          <div id="actual-footer"></div>
+        </div>
+      </footer>
     </>
   );
 }
