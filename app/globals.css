@@ -1,27 +1,168 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@font-face {
+  font-family: "SF pro";
+  src: url("/fonts/sf-pro/SFProDisplay-Regular.ttf") format("TrueType");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "SF pro";
+  src: url("/fonts/sf-pro/SFProDisplay-Medium.ttf") format("TrueType");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "SF pro";
+  src: url("/fonts/sf-pro/SFProDisplay-Semibold.ttf") format("TrueType");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "SF pro";
+  src: url("/fonts/sf-pro/SFProDisplay-Bold.ttf") format("TrueType");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "SF pro";
+  src: url("/fonts/sf-pro/SFProDisplay-Black.ttf") format("TrueType");
+  font-weight: 900;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+body,
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  margin: 0;
+  padding: 0;
+  font-family: "SF pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji";
+  line-height: normal;
+}
+
+.header-full {
+  height: 100vh;
+  overflow: hidden;
+}
+
+@layer utilities {
+  .g10 {
+    color: #fafafa;
+  }
+  .g20 {
+    background-color: #f5f5f5;
+  }
+  .g40 {
+    color: #dfdfdf;
+  }
+  .g30 {
+    color: #ebebec;
+  }
+  .g90 {
+    color: #898a8a;
+  }
+  .g100 {
+    color: #7b7b7c;
+  }
+  .g700 {
+    color: #252627;
+  }
+  .g900 {
+    color: #898a8a;
+  }
+}
+
+#first-row-projects, #second-row-projects {
+  display: grid;
+  gap: 48px;
+}
+
+.setbody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.setbody > div {
+  max-width: 1440px;
+  width: 100%;
+  height: 100%;
+}
+
+.content-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px; /* should originally be 4px  */
+}
+
+.content-2 > div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.content-2 > div:nth-child(2) {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.content-1 {
+  padding: 20px;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.content-1 > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 1024px) {
+  .content-1 > div {
+    gap: 12px;
+  }
+
+  .content-1 {
+    padding-top: 80px;
+    padding-bottom: 0;
+    padding-left: 80px;
+    padding-right: 80px ;
+    gap: 48px;
+  }
+  .content-2 > div:nth-child(2) {
+    font-size: 16px;
+    width: auto;
+    line-height: 20px;
+    max-width: 334px;
+    justify-self: flex-end;
+  }
+  .content-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+  #first-row-projects, #second-row-projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1640px) {
+  .header-full {
+    height: auto;
+    padding-bottom: 337px;
+  }
 }
