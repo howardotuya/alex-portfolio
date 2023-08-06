@@ -59,11 +59,11 @@ body {
   .g30 {
     color: #ebebec;
   }
-  .g50{
+  .g50 {
     color: #424344;
   }
   .g80 {
-    color: #989999 ;
+    color: #989999;
   }
   .g90 {
     color: #898a8a;
@@ -79,7 +79,8 @@ body {
   }
 }
 
-#first-row-projects, #second-row-projects {
+#first-row-projects,
+#second-row-projects {
   display: grid;
   gap: 48px;
 }
@@ -129,10 +130,84 @@ body {
   gap: 8px;
 }
 
+#actual-footer {
+  padding: 40px 20px 56px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+#actual-footer > div:nth-child(2) {
+  display: flex;
+  flex-direction: column; 
+  flex-wrap: wrap;
+  white-space: nowrap;
+  gap: 40px;
+  color: #6c6d6d;
+  font-size: 12px;
+  line-height: 16px;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+
+#actual-footer > div:nth-child(1) {
+  color: #363738;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+#actual-footer ul {
+  display: flex;
+  text-decoration-line: underline;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+#actual-footer > div > div {
+  color: #989999;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  text-decoration-line: none !important;
+}
+
 @media only screen and (min-width: 768px) {
 }
 
 @media only screen and (min-width: 1024px) {
+
+  #actual-footer ul {
+    display: flex;
+    text-decoration-line: underline;
+    gap: 48px;
+  }
+#actual-footer {
+  padding: 34px 24px 56px 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#actual-footer > div:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  color: #6c6d6d;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
   .content-1 > div {
     gap: 12px;
   }
@@ -141,7 +216,7 @@ body {
     padding-top: 80px;
     padding-bottom: 0;
     padding-left: 80px;
-    padding-right: 80px ;
+    padding-right: 80px;
     gap: 48px;
   }
   .content-2 > div:nth-child(2) {
@@ -156,7 +231,8 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 8px;
   }
-  #first-row-projects, #second-row-projects {
+  #first-row-projects,
+  #second-row-projects {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 24px;

@@ -413,7 +413,17 @@ export default function Home() {
           </section>
 
           <div id="actual-footer">
-            <div></div>
+            <div className="">Alex Oyebade</div>
+            <div>
+              <ul>
+                <li>Contact me</li>
+                <li>resumé</li>
+                <li>Linkedin</li>
+                <li>TWitter</li>
+                <li>dribble</li>
+              </ul>
+              <div>copyright 2023 alex oyebade</div>
+            </div>
           </div>
         </div>
       </footer>
