@@ -413,16 +413,16 @@ export default function Home() {
           </section>
 
           <div id="actual-footer">
-            <div className="">Alex Oyebade</div>
+            <div className="d-110">Alex Oyebade</div>
             <div>
-              <ul>
+              <ul className="d-120">
                 <li>Contact me</li>
                 <li>resumé</li>
                 <li>Linkedin</li>
                 <li>TWitter</li>
                 <li>dribble</li>
               </ul>
-              <div>copyright 2023 alex oyebade</div>
+              <div className="d-130">copyright 2023 alex oyebade</div>
             </div>
           </div>
         </div>

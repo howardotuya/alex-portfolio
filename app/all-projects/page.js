@@ -73,7 +73,7 @@ export default function Home() {
 
       <main className="bg-[#161718] setbody px-5 lg:px-6">
         <div>
-          <section className="pb-24 lg:pb-[170px]">
+          <section className="pb-24 lg:pb-[312px]">
             <div
               id="header-selectedProjects"
               className="uppercase g30 text-[18px] leading-[119%] lg:text-[32px] flex flex-col gap-3 font-bold"
@@ -552,12 +552,10 @@ export default function Home() {
                 <div id="content-2" className="content-2 w-full">
                   <div className="">
                     <h6 className="g40 font-semibold">Contentionary, 2022</h6>
-                    <span className="g90 text-sm"></span>
+                    <span className=" text-sm text-[hsl(24,71%,36%)] ">a proper category on Contentionary is needed</span>
                   </div>
-                  <div className="g90 max-w-[422px!important]">
-                    Contentionary allows schools, faculties, educational
-                    centres, and creators to create a full and robust system to
-                    sell and engage their students and subscribers.
+                  <div className=" text-sm text-[hsl(24,71%,36%)] max-w-[422px!important]">
+                    a proper summary on Contentionary is needed
                   </div>
                 </div>
               </div>
@@ -566,39 +564,19 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className="g20 setbody">
+      <footer className="setbody bg-[#161718] d-140">
         <div>
-          <section className="px-5 py-24 lg:pl-6 lg:pt-[184px] lg:pb-[214px] g50 flex flex-col gap-4 lg:gap-6">
-            <h6 className="lg:text-xl lg:font-bold font-semibold text-base uppercase">
-              life outside design
-            </h6>
-            <div>
-              <p className="lg:text-[56px] lg:leading-[72px] lg:font-bold font-semibold text-base leading-[160%]">
-                <span className="block">
-                  I realised early that I am a people person. I love to help
-                  people see new perspectives and help them get unstuck. So when
-                  I’m not pushing impactful pixels, you’d find me in virtual and
-                  physical communities leading conversations on topics around
-                  emotional intelligence for tech talents.
-                </span>
-                <span className="g80 pt-3 lg:pt-[72px] block">
-                  Oh, and I take the best iPhone pictures too. Now pose! 😎 📸
-                </span>
-              </p>
-            </div>
-          </section>
-
           <div id="actual-footer">
             <div className="">Alex Oyebade</div>
             <div>
-              <ul>
+              <ul className="">
                 <li>Contact me</li>
                 <li>resumé</li>
                 <li>Linkedin</li>
                 <li>TWitter</li>
                 <li>dribble</li>
               </ul>
-              <div>copyright 2023 alex oyebade</div>
+              <span className="d-150">copyright 2023 alex oyebade</span>
             </div>
           </div>
         </div>

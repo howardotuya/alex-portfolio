@@ -66,7 +66,7 @@ body {
     color: #424344;
   }
   .g70 {
-    color: #A7A7A8
+    color: #a7a7a8;
   }
   .g80 {
     color: #989999;
@@ -146,11 +146,10 @@ body {
 
 #actual-footer > div:nth-child(2) {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   flex-wrap: wrap;
   white-space: nowrap;
   gap: 40px;
-  color: #6c6d6d;
   font-size: 12px;
   line-height: 16px;
   font-style: normal;
@@ -158,9 +157,27 @@ body {
   text-transform: uppercase;
 }
 
+.d-110 {
+  color: #363738;
+}
+
+.d-120 {
+  color: #6c6d6d;
+}
+
+.d-130 {
+  color: #989999;
+}
+
+.d-140 {
+  color: #d7d7d7;
+}
+
+.d-150 {
+  color: #7B7B7C;
+}
 
 #actual-footer > div:nth-child(1) {
-  color: #363738;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -176,7 +193,6 @@ body {
 }
 
 #actual-footer > div > div {
-  color: #989999;
   font-size: 14px;
   font-weight: 500;
   line-height: normal;
@@ -189,30 +205,28 @@ body {
 }
 
 @media only screen and (min-width: 1024px) {
-
   #actual-footer ul {
     display: flex;
     text-decoration-line: underline;
     gap: 48px;
   }
-#actual-footer {
-  padding: 34px 24px 56px 24px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
+  #actual-footer {
+    padding: 34px 24px 56px 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
-#actual-footer > div:nth-child(2) {
-  display: flex;
-  flex-direction: row;
-  gap: 48px;
-  color: #6c6d6d;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  text-transform: uppercase;
-}
+  #actual-footer > div:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+  }
 
   .content-1 > div {
     gap: 12px;
