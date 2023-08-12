@@ -19,7 +19,8 @@ import arrowright from "@/public/images/arrow-right.png";
 import arrowright2 from "@/public/images/black-arrow-right.png";
 
 import yoohoobg from "@/public/images/selectedprojects/yoohoo-bg.png";
-import ybg2 from "@/public/images/selectedprojects/ybg2.png";
+import condesktop from "@/public/images/selectedprojects/con-desktop.png";
+import conmobile from "@/public/images/selectedprojects/con-mobile.png";
 
 export default function Home() {
   return (
@@ -506,6 +507,57 @@ export default function Home() {
                   </div>
                   <div className="g90 max-w-[422px!important]">
                     A video streaming platform for clean and family content.
+                  </div>
+                </div>
+              </div>
+
+              <div id="Contentionary" className="flex flex-col gap-4">
+                <div className="content-1 px-[0!important] bg-[#363738]">
+                  <div className="g10">
+                    <h6 className="text-sm font-medium lg:font-semibold">
+                      Website, WebApp, and Mobile Design
+                    </h6>
+                    <h2 className="xl:text-[80px] xl:leading-[95px] text-2xl font-bold">
+                      Contentionary
+                    </h2>
+                    <div className="flex flex-row gap-[10px] items-center">
+                      <span className="text-sm text-[#69A9E9]">Read More</span>
+                      <span className="w-4 h-4">
+                        <Image
+                          src={arrowright}
+                          quality={100}
+                          placeholder="blur"
+                          alt="Arrow Right"
+                        />
+                      </span>
+                    </div>
+                  </div>
+                  <div className="w-full relative h-auto max-w-[353px] md:max-w-none flex flex-col">
+                    <Image
+                      className="hidden md:block w-full h-auto "
+                      src={condesktop}
+                      quality={100}
+                      placeholder="blur"
+                      alt="Contentionary"
+                    />
+                    <Image
+                      className="block md:hidden w-full h-auto "
+                      src={conmobile}
+                      quality={100}
+                      placeholder="blur"
+                      alt="Contentionary"
+                    />
+                  </div>
+                </div>
+                <div id="content-2" className="content-2 w-full">
+                  <div className="">
+                    <h6 className="g40 font-semibold">Contentionary, 2022</h6>
+                    <span className="g90 text-sm">UI Design (Web)</span>
+                  </div>
+                  <div className="g90 max-w-[422px!important]">
+                    Contentionary allows schools, faculties, educational
+                    centres, and creators to create a full and robust system to
+                    sell and engage their students and subscribers.
                   </div>
                 </div>
               </div>
