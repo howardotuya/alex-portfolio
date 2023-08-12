@@ -552,7 +552,7 @@ export default function Home() {
                 <div id="content-2" className="content-2 w-full">
                   <div className="">
                     <h6 className="g40 font-semibold">Contentionary, 2022</h6>
-                    <span className="g90 text-sm">UI Design (Web)</span>
+                    <span className="g90 text-sm"></span>
                   </div>
                   <div className="g90 max-w-[422px!important]">
                     Contentionary allows schools, faculties, educational
