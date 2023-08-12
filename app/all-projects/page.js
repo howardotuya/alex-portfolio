@@ -389,7 +389,7 @@ export default function Home() {
                         <h6 className="text-sm font-medium lg:font-semibold">
                           Brand, WebApp, and Mobile App Design
                         </h6>
-                        <h1 className="font-semibold lg:font-bold text-2xl lg:text-[80px] lg:leading-normal max-w-[705px]">
+                        <h1 className="font-semibold lg:font-bold text-2xl lg:text-[80px] lg:leading-[95px] max-w-[705px]">
                           Stream clean video content all day, everyday
                         </h1>
                       </div>
