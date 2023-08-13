@@ -110,7 +110,6 @@ body {
   gap: 8px; /* should originally be 4px  */
 }
 
-
 .content-2 > div:nth-child(1) {
   display: flex;
   flex-direction: column;
@@ -176,7 +175,7 @@ body {
 }
 
 .d-150 {
-  color: #7B7B7C;
+  color: #7b7b7c;
 }
 
 #actual-footer > div:nth-child(1) {
@@ -205,12 +204,107 @@ body {
 
 /* For collect Africa */
 
+.phc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
+.phc-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.phc-x1 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  color: #f5f5f5;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 20px;
+  border: 1px solid #fafafa;
+  padding: 8px 16px;
+}
+
+.phc-x2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.phc-h1 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0.4px;
+  text-align: center;
+  font-style: normal;
+  max-width: 981px;
+}
+
+.phc-p {
+  max-width: 677px;
+  text-align: center;
+  color: #989999;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+  letter-spacing: 0.56px;
+}
+
+.phc-image {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 @media only screen and (min-width: 768px) {
 }
 
 @media only screen and (min-width: 1024px) {
+  /* For collect Africa */
+
+  .phc {
+    gap: 66px;
+  }
+
+  .phc-h1 {
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 112%; /* 98.56px */
+    letter-spacing: 1.76px;
+  }
+
+  .phc-p {
+    font-size: 20px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    letter-spacing: 0.8px;
+  }
+
+  .phc-x2 {
+    gap: 20px;
+  }
+
   #actual-footer ul {
     display: flex;
     text-decoration-line: underline;
