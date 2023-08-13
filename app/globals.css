@@ -151,7 +151,7 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   white-space: nowrap;
-  gap: 40px;
+  gap: 32px;
   font-size: 12px;
   line-height: 16px;
   font-style: normal;
@@ -202,6 +202,10 @@ body {
   text-decoration: none !important;
   text-decoration-line: none !important;
 }
+
+/* For collect Africa */
+
+
 
 @media only screen and (min-width: 768px) {
 }

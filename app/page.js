@@ -19,23 +19,14 @@ import ctaarrow from "@/public/images/cta-arrow.png";
 
 import arrowright from "@/public/images/arrow-right.png";
 import arrowright2 from "@/public/images/black-arrow-right.png";
+import NavbarLight from "@/components/navbar-light";
 
 export default function Home() {
   return (
     <div class="flex flex-col gap-4 lg:gap-6 bg-[#252627] justify-center items-center">
+      <NavbarLight />
       <header className="g20 header-full setbody">
         <div>
-          <nav className="px-6 pt-8 lg:pt-12 pb-[22px] w-full text-xs font-bold uppercase flex flex-row justify-between items-center">
-            <h6 className="g700">Alex Oyebade</h6>
-            <ul className="hidden lg:flex items-center g900 gap-6">
-              <li className="underline">Contact me</li>
-              <li>works</li>
-              <li>articles</li>
-            </ul>
-            <div className="flex lg:hidden flex-col w-6 h-6">
-              <Image src={menu} quality={100} placeholder="blur" alt="menu" />
-            </div>
-          </nav>
           <div className="lg:pt-[245px] self-end items-end flex flex-col justify-center w-full h-full lg:h-auto pr-5 lg:pr-[21.53%]">
             <Image
               className="hidden lg:flex max-w-[323px] lg:max-w-[746px] w-full h-auto"
@@ -379,7 +370,7 @@ export default function Home() {
               <div className="flex pt-10 lg:pt-[120px] w-full items-center justify-center">
                 <div
                   id="CTA"
-                  class="py-2 px-4 rounded-[20px] w-auto flex justify-center items-center gap-1 text-xs g10 border border-[#fafafa]"
+                  class="py-2 px-4 rounded-[20px] w-auto flex justify-center items-center gap-1 text-[14px] leading-[120%] g10 border border-[#fafafa]"
                 >
                   View All Projects
                   <Image className="w-3 h-3" src={ctaarrow} alt="Arrow Right" />
