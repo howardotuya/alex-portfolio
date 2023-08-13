@@ -57,15 +57,15 @@ export default function Home() {
 
       <main className="bg-[#161718] setbody">
         <div>
-          <section className="px-5 py-24 lg:pl-6 lg:pt-[184px] lg:pb-[214px] g30 flex flex-col gap-10 lg:gap-16">
+          <section className="px-5 py-24 lg:pl-6 lg:pt-[184px] lg:pb-[214px] g30 flex flex-col gap-8 lg:gap-16">
             <div className="flex flex-col gap-2 lg:gap-3">
-              <h6 className="lg:text-xl lg:font-bold font-semibold text-base">
+              <h6 className="lg:text-xl lg:font-bold font-semibold text-[16px] leading-[120%]">
                 Alex <span className="g100">Oyebade</span>{" "}
               </h6>
-              <p className="text-2xl font-normal">/Oh-yay-BAH-day/</p>
+              <p className="text-2xl font-normal leading-[120%]">/Oh-yay-BAH-day/</p>
             </div>
             <div>
-              <p className="lg:text-[80px] lg:leading-[104px] lg:font-bold font-semibold text-base leading-[160%]">
+              <p className="lg:text-[80px] lg:leading-[104px] lg:font-bold font-semibold text-[16px] leading-[160%]">
                 <span>
                   I love how design is able to endear a business to her
                   customers and have them hooked even at first use.
@@ -92,20 +92,20 @@ export default function Home() {
             <div>
               <div
                 id="project-3-sections"
-                className="pt-2 flex flex-col gap-12 lg:gap-[72px] lg:pt-3"
+                className="pt-2 flex flex-col gap-[56px] lg:gap-[72px] lg:pt-3"
               >
                 <div id="first-row-projects" className="">
                   <div id="flow-finance" className="flex flex-col gap-4">
                     <div className="content-1 bg-[#363738]">
                       <div className="g10">
-                        <h6 className="text-sm font-medium lg:font-semibold">
+                        <h6 className="text-sm font-medium lg:font-semibold leading-[120%]">
                           Mobile & Website Design
                         </h6>
                         <h2 className="xl:text-[80px] xl:leading-[95px] text-2xl font-bold">
                           Flow Finance
                         </h2>
                         <div className="flex flex-row gap-[10px] items-center">
-                          <span className="text-sm text-[#69A9E9]">
+                          <span className="text-sm text-[#69A9E9] leading-[120%]">
                             Read More
                           </span>
                           <span className="w-4 h-4">
@@ -153,14 +153,14 @@ export default function Home() {
                   <div id="Collect Africa" className="flex flex-col gap-4">
                     <div className="content-1 bg-[#5285F2]">
                       <div className="g10">
-                        <h6 className="text-sm font-medium lg:font-semibold">
+                        <h6 className="text-sm font-medium lg:font-semibold leading-[120%]">
                           Mobile & Website Design
                         </h6>
-                        <h2 className="xl:text-[80px]  xl:leading-[95px] text-2xl font-bold">
+                        <h2 className="xl:text-[80px] xl:leading-[95px] text-2xl font-bold">
                           Collect Africa
                         </h2>
                         <div className="flex flex-row gap-[10px] items-center">
-                          <span className="text-sm text-[#252627]">
+                          <span className="text-sm text-[#252627] leading-[120%]">
                             Read More
                           </span>
                           <span className="w-4 h-4">
@@ -209,14 +209,14 @@ export default function Home() {
                 <div id="Zacrac" className="flex flex-col gap-4">
                   <div className="content-1 px-[0!important] bg-[#363738]">
                     <div className="g10">
-                      <h6 className="text-sm font-medium lg:font-semibold">
+                      <h6 className="text-sm font-medium lg:font-semibold leading-[120%]">
                         Website Design
                       </h6>
                       <h2 className="xl:text-[80px] xl:leading-[95px] text-2xl font-bold">
                         Zacrac Learning
                       </h2>
                       <div className="flex flex-row gap-[10px] items-center">
-                        <span className="text-sm text-[#69A9E9]">
+                        <span className="text-sm text-[#69A9E9] leading-[120%]">
                           Read More
                         </span>
                         <span className="w-4 h-4">
@@ -264,14 +264,14 @@ export default function Home() {
                   <div id="Pollen" className="flex flex-col gap-4">
                     <div className="content-1 relative overflow-hidden bg-[#363738]">
                       <div className="g10">
-                        <h6 className="text-sm font-medium lg:font-semibold">
+                        <h6 className="text-sm font-medium lg:font-semibold leading-[120%]">
                           Brand & Mobile App Design
                         </h6>
                         <h2 className="xl:text-[80px] xl:leading-[95px] text-2xl font-bold">
                           Pollen
                         </h2>
                         <div className="flex flex-row gap-[10px] items-center">
-                          <span className="text-sm text-[#69A9E9]">
+                          <span className="text-sm text-[#69A9E9] leading-[120%]">
                             Read More
                           </span>
                           <span className="w-4 h-4">
@@ -324,14 +324,14 @@ export default function Home() {
                   <div id="Surolingo" className="flex flex-col gap-4">
                     <div className="content-1 bg-[#363738]">
                       <div className="g10">
-                        <h6 className="text-sm font-medium lg:font-semibold">
+                        <h6 className="text-sm font-medium lg:font-semibold leading-[120%]">
                           Mobile App Design
                         </h6>
                         <h2 className="xl:text-[80px] xl:leading-[95px] text-2xl font-bold">
                           Sorolingo
                         </h2>
                         <div className="flex flex-row gap-[10px] items-center">
-                          <span className="text-sm text-[#69A9E9]">
+                          <span className="text-sm text-[#69A9E9] leading-[120%]">
                             Read More
                           </span>
                           <span className="w-4 h-4">

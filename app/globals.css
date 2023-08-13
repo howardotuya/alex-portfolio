@@ -88,7 +88,7 @@ body {
 #first-row-projects,
 #second-row-projects {
   display: grid;
-  gap: 48px;
+  gap: 56px;
 }
 
 .setbody {
@@ -108,6 +108,7 @@ body {
   flex-direction: column;
   gap: 8px; /* should originally be 4px  */
 }
+
 
 .content-2 > div:nth-child(1) {
   display: flex;

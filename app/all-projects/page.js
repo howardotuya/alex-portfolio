@@ -48,15 +48,17 @@ export default function Home() {
               />
             </svg>
           </nav>
-          <section className="px-5 pt-20 pb-24 lg:pl-6 lg:pt-[100px] lg:pb-[214px] g30 flex flex-col gap-10 lg:gap-16">
+          <section className="px-5 pt-20 pb-24 lg:pl-6 lg:pt-[100px] lg:pb-[214px] g30 flex flex-col gap-8 lg:gap-16">
             <div className="flex flex-col gap-2 lg:gap-3">
-              <h6 className="lg:text-xl lg:font-bold font-semibold text-base">
+              <h6 className="lg:text-xl lg:font-bold font-semibold text-[16px] leading-[120%]">
                 Alex <span className="g100">Oyebade</span>{" "}
               </h6>
-              <p className="text-2xl font-normal">/Oh-yay-BAH-day/</p>
+              <p className="text-2xl font-normal leading-[120%]">
+                /Oh-yay-BAH-day/
+              </p>
             </div>
             <div>
-              <p className="lg:text-[80px] lg:leading-[104px] lg:font-bold font-semibold text-base leading-[160%]">
+              <p className="lg:text-[80px] lg:leading-[104px] lg:font-bold font-semibold text-[16px] leading-[160%]">
                 <span>
                   I love how design is able to endear a business to her
                   customers and have them hooked even at first use.
@@ -76,7 +78,7 @@ export default function Home() {
           <section className="pb-24 lg:pb-[312px]">
             <div
               id="header-selectedProjects"
-              className="uppercase g30 text-[18px] leading-[119%] lg:text-[32px] flex flex-col gap-3 font-bold"
+              className="uppercase g30 text-[18px] leading-[120%] lg:text-[32px] flex flex-col gap-3 font-bold"
             >
               <h2>ALL Projects</h2>
               <div className="w-full">
@@ -84,136 +86,21 @@ export default function Home() {
               </div>
             </div>
             <div
-              id="Project-listing"
-              class="flex flex-col gap-12 lg:gap-[72px]"
+              id="project-3-sections"
+              className="pt-2 flex flex-col gap-[56px] lg:gap-[72px] lg:pt-3"
             >
-              <div
-                id="project-3-sections"
-                className="pt-2 flex flex-col gap-12 lg:gap-[72px] lg:pt-3"
-              >
-                <div id="first-row-projects" className="">
-                  <div id="flow-finance" className="flex flex-col gap-4">
-                    <div className="content-1 bg-[#363738]">
-                      <div className="g10">
-                        <h6 className="text-sm font-medium lg:font-semibold">
-                          Mobile & Website Design
-                        </h6>
-                        <h2 className="xl:text-[80px] xl:leading-[95px] text-2xl font-bold">
-                          Flow Finance
-                        </h2>
-                        <div className="flex flex-row gap-[10px] items-center">
-                          <span className="text-sm text-[#69A9E9]">
-                            Read More
-                          </span>
-                          <span className="w-4 h-4">
-                            <Image
-                              src={arrowright}
-                              quality={100}
-                              placeholder="blur"
-                              alt="Arrow Right"
-                            />
-                          </span>
-                        </div>
-                      </div>
-                      <div className="flex flex-col w-full max-w-[233px] lg:max-w-[425px] h-auto">
-                        <Image
-                          className="w-full h-auto hidden md:block"
-                          src={flow}
-                          quality={100}
-                          placeholder="blur"
-                          alt="Flow Finance"
-                        />
-                        <Image
-                          className="w-full h-auto block md:hidden"
-                          src={flows}
-                          quality={100}
-                          placeholder="blur"
-                          alt="Flow Finance"
-                        />
-                      </div>
-                    </div>
-                    <div id="content-2" className="content-2">
-                      <div className="">
-                        <h6 className="g40 font-semibold">
-                          Flow Finance, 2023
-                        </h6>
-                        <span className="g90 text-sm">
-                          Product Strategy & Product Design
-                        </span>
-                      </div>
-                      <div className="g90">
-                        A full service credit and financial services platform
-                        for employees and employers.
-                      </div>
-                    </div>
-                  </div>
-                  <div id="Collect Africa" className="flex flex-col gap-4">
-                    <div className="content-1 bg-[#5285F2]">
-                      <div className="g10">
-                        <h6 className="text-sm font-medium lg:font-semibold">
-                          Mobile & Website Design
-                        </h6>
-                        <h2 className="xl:text-[80px]  xl:leading-[95px] text-2xl font-bold">
-                          Collect Africa
-                        </h2>
-                        <div className="flex flex-row gap-[10px] items-center">
-                          <span className="text-sm text-[#252627]">
-                            Read More
-                          </span>
-                          <span className="w-4 h-4">
-                            <Image
-                              src={arrowright2}
-                              quality={100}
-                              placeholder="blur"
-                              alt="Arrow Right"
-                            />
-                          </span>
-                        </div>
-                      </div>
-                      <div className="flex flex-col w-full max-w-[233px] lg:max-w-[425px] h-auto">
-                        <Image
-                          className="w-full hidden md:block h-autp"
-                          src={collect}
-                          quality={100}
-                          placeholder="blur"
-                          alt="Collect Africa"
-                        />
-                        <Image
-                          className="w-full block md:hidden h-auto"
-                          src={collects}
-                          quality={100}
-                          placeholder="blur"
-                          alt="Collect Africa"
-                        />
-                      </div>
-                    </div>
-                    <div id="content-2" className="content-2">
-                      <div className="">
-                        <h6 className="g40 font-semibold">
-                          Collect Africa, 2022 - Present
-                        </h6>
-                        <span className="g90 text-sm">
-                          Product Design (Web & Mobile)
-                        </span>
-                      </div>
-                      <div className="g90">
-                        Seamless payments for small and large businesses
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div id="Zacrac" className="flex flex-col gap-4">
-                  <div className="content-1 px-[0!important] bg-[#363738]">
+              <div id="first-row-projects" className="">
+                <div id="flow-finance" className="flex flex-col gap-4">
+                  <div className="content-1 bg-[#363738]">
                     <div className="g10">
-                      <h6 className="text-sm font-medium lg:font-semibold">
-                        Website Design
+                      <h6 className="text-sm font-medium lg:font-semibold leading-[120%]">
+                        Mobile & Website Design
                       </h6>
                       <h2 className="xl:text-[80px] xl:leading-[95px] text-2xl font-bold">
-                        Zacrac Learning
+                        Flow Finance
                       </h2>
                       <div className="flex flex-row gap-[10px] items-center">
-                        <span className="text-sm text-[#69A9E9]">
+                        <span className="text-sm text-[#69A9E9] leading-[120%]">
                           Read More
                         </span>
                         <span className="w-4 h-4">
@@ -226,149 +113,254 @@ export default function Home() {
                         </span>
                       </div>
                     </div>
-                    <div className="w-full relative h-auto max-w-[353px] md:max-w-none flex flex-col">
+                    <div className="flex flex-col w-full max-w-[233px] lg:max-w-[425px] h-auto">
                       <Image
-                        className="hidden md:block w-full h-auto "
-                        src={zacrac}
+                        className="w-full h-auto hidden md:block"
+                        src={flow}
                         quality={100}
                         placeholder="blur"
                         alt="Flow Finance"
                       />
                       <Image
-                        className="block md:hidden w-full h-auto "
-                        src={zacracm}
+                        className="w-full h-auto block md:hidden"
+                        src={flows}
                         quality={100}
                         placeholder="blur"
                         alt="Flow Finance"
                       />
                     </div>
                   </div>
-                  <div id="content-2" className="content-2 w-full">
+                  <div id="content-2" className="content-2">
                     <div className="">
-                      <h6 className="g40 font-semibold">
-                        Zacrac Learning, 2022
-                      </h6>
-                      <span className="g90 text-sm">UI Design (Web)</span>
+                      <h6 className="g40 font-semibold">Flow Finance, 2023</h6>
+                      <span className="g90 text-sm">
+                        Product Strategy & Product Design
+                      </span>
                     </div>
-                    <div className="g90 max-w-[422px!important]">
-                      The leading online educational platform providing students
-                      with world class courses in data science and analytics.
+                    <div className="g90">
+                      A full service credit and financial services platform for
+                      employees and employers.
                     </div>
                   </div>
                 </div>
-
-                <div id="second-row-projects" className="">
-                  <div id="Pollen" className="flex flex-col gap-4">
-                    <div className="content-1 relative overflow-hidden bg-[#363738]">
-                      <div className="g10">
-                        <h6 className="text-sm font-medium lg:font-semibold">
-                          Brand & Mobile App Design
-                        </h6>
-                        <h2 className="xl:text-[80px] xl:leading-[95px] text-2xl font-bold">
-                          Pollen
-                        </h2>
-                        <div className="flex flex-row gap-[10px] items-center">
-                          <span className="text-sm text-[#69A9E9]">
-                            Read More
-                          </span>
-                          <span className="w-4 h-4">
-                            <Image
-                              src={arrowright}
-                              quality={100}
-                              placeholder="blur"
-                              alt="Arrow Right"
-                            />
-                          </span>
-                        </div>
-                      </div>
-                      <div className="flex flex-col w-full max-w-[233px] lg:max-w-[425px] h-auto">
-                        <Image
-                          className="w-full hidden md:block h-autp"
-                          src={pollen}
-                          quality={100}
-                          placeholder="blur"
-                          alt="Pollen"
-                        />
-                        <Image
-                          className="w-full block md:hidden h-auto"
-                          src={pollens}
-                          quality={100}
-                          placeholder="blur"
-                          alt="Pollen"
-                        />
-                      </div>
-                      <div className="absolute w-[89.607px] lg:w-[216.783px] lg:bottom-[73px] bottom-[204px] right-[-23px] lg:right-[-55px] h-auto">
-                        <Image
-                          className="w-full h-auto"
-                          src={crushin}
-                          alt="Crushin'"
-                        />
-                      </div>
-                    </div>
-                    <div id="content-2" className="content-2">
-                      <div className="">
-                        <h6 className="g40 font-semibold">Pollen, 2022</h6>
-                        <span className="g90 text-sm">
-                          Brand Identity & Product Design
+                <div id="Collect Africa" className="flex flex-col gap-4">
+                  <div className="content-1 bg-[#5285F2]">
+                    <div className="g10">
+                      <h6 className="text-sm font-medium lg:font-semibold leading-[120%]">
+                        Mobile & Website Design
+                      </h6>
+                      <h2 className="xl:text-[80px] xl:leading-[95px] text-2xl font-bold">
+                        Collect Africa
+                      </h2>
+                      <div className="flex flex-row gap-[10px] items-center">
+                        <span className="text-sm text-[#252627] leading-[120%]">
+                          Read More
+                        </span>
+                        <span className="w-4 h-4">
+                          <Image
+                            src={arrowright2}
+                            quality={100}
+                            placeholder="blur"
+                            alt="Arrow Right"
+                          />
                         </span>
                       </div>
-                      <div className="g90">
-                        A financial literacy app for young kids and young
-                        adults.
-                      </div>
+                    </div>
+                    <div className="flex flex-col w-full max-w-[233px] lg:max-w-[425px] h-auto">
+                      <Image
+                        className="w-full hidden md:block h-autp"
+                        src={collect}
+                        quality={100}
+                        placeholder="blur"
+                        alt="Collect Africa"
+                      />
+                      <Image
+                        className="w-full block md:hidden h-auto"
+                        src={collects}
+                        quality={100}
+                        placeholder="blur"
+                        alt="Collect Africa"
+                      />
                     </div>
                   </div>
-                  <div id="Surolingo" className="flex flex-col gap-4">
-                    <div className="content-1 bg-[#363738]">
-                      <div className="g10">
-                        <h6 className="text-sm font-medium lg:font-semibold">
-                          Mobile App Design
-                        </h6>
-                        <h2 className="xl:text-[80px] xl:leading-[95px] text-2xl font-bold">
-                          Sorolingo
-                        </h2>
-                        <div className="flex flex-row gap-[10px] items-center">
-                          <span className="text-sm text-[#69A9E9]">
-                            Read More
-                          </span>
-                          <span className="w-4 h-4">
-                            <Image
-                              src={arrowright}
-                              quality={100}
-                              placeholder="blur"
-                              alt="Arrow Right"
-                            />
-                          </span>
-                        </div>
-                      </div>
-                      <div className="flex flex-col w-full max-w-[233px] lg:max-w-[425px] h-auto">
-                        <Image
-                          className="w-full hidden md:block h-autp"
-                          src={sorolingo}
-                          quality={100}
-                          placeholder="blur"
-                          alt="sorolingo"
-                        />
-                        <Image
-                          className="w-full block md:hidden h-auto"
-                          src={sorolingos}
-                          quality={100}
-                          placeholder="blur"
-                          alt="sorolingo"
-                        />
-                      </div>
+                  <div id="content-2" className="content-2">
+                    <div className="">
+                      <h6 className="g40 font-semibold">
+                        Collect Africa, 2022 - Present
+                      </h6>
+                      <span className="g90 text-sm">
+                        Product Design (Web & Mobile)
+                      </span>
                     </div>
-                    <div id="content-2" className="content-2">
-                      <div className="">
-                        <h6 className="g40 font-semibold">Sorolingo, 2022</h6>
-                        <span className="g90 text-sm">
-                          Product Design (Web & Mobile)
+                    <div className="g90">
+                      Seamless payments for small and large businesses
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="Zacrac" className="flex flex-col gap-4">
+                <div className="content-1 px-[0!important] bg-[#363738]">
+                  <div className="g10">
+                    <h6 className="text-sm font-medium lg:font-semibold leading-[120%]">
+                      Website Design
+                    </h6>
+                    <h2 className="xl:text-[80px] xl:leading-[95px] text-2xl font-bold">
+                      Zacrac Learning
+                    </h2>
+                    <div className="flex flex-row gap-[10px] items-center">
+                      <span className="text-sm text-[#69A9E9] leading-[120%]">
+                        Read More
+                      </span>
+                      <span className="w-4 h-4">
+                        <Image
+                          src={arrowright}
+                          quality={100}
+                          placeholder="blur"
+                          alt="Arrow Right"
+                        />
+                      </span>
+                    </div>
+                  </div>
+                  <div className="w-full relative h-auto max-w-[353px] md:max-w-none flex flex-col">
+                    <Image
+                      className="hidden md:block w-full h-auto "
+                      src={zacrac}
+                      quality={100}
+                      placeholder="blur"
+                      alt="Flow Finance"
+                    />
+                    <Image
+                      className="block md:hidden w-full h-auto "
+                      src={zacracm}
+                      quality={100}
+                      placeholder="blur"
+                      alt="Flow Finance"
+                    />
+                  </div>
+                </div>
+                <div id="content-2" className="content-2 w-full">
+                  <div className="">
+                    <h6 className="g40 font-semibold">Zacrac Learning, 2022</h6>
+                    <span className="g90 text-sm">UI Design (Web)</span>
+                  </div>
+                  <div className="g90 max-w-[422px!important]">
+                    The leading online educational platform providing students
+                    with world class courses in data science and analytics.
+                  </div>
+                </div>
+              </div>
+
+              <div id="second-row-projects" className="">
+                <div id="Pollen" className="flex flex-col gap-4">
+                  <div className="content-1 relative overflow-hidden bg-[#363738]">
+                    <div className="g10">
+                      <h6 className="text-sm font-medium lg:font-semibold leading-[120%]">
+                        Brand & Mobile App Design
+                      </h6>
+                      <h2 className="xl:text-[80px] xl:leading-[95px] text-2xl font-bold">
+                        Pollen
+                      </h2>
+                      <div className="flex flex-row gap-[10px] items-center">
+                        <span className="text-sm text-[#69A9E9] leading-[120%]">
+                          Read More
+                        </span>
+                        <span className="w-4 h-4">
+                          <Image
+                            src={arrowright}
+                            quality={100}
+                            placeholder="blur"
+                            alt="Arrow Right"
+                          />
                         </span>
                       </div>
-                      <div className="g90">
-                        Designed the easiest and most immersive way to learn any
-                        African Language.
+                    </div>
+                    <div className="flex flex-col w-full max-w-[233px] lg:max-w-[425px] h-auto">
+                      <Image
+                        className="w-full hidden md:block h-autp"
+                        src={pollen}
+                        quality={100}
+                        placeholder="blur"
+                        alt="Pollen"
+                      />
+                      <Image
+                        className="w-full block md:hidden h-auto"
+                        src={pollens}
+                        quality={100}
+                        placeholder="blur"
+                        alt="Pollen"
+                      />
+                    </div>
+                    <div className="absolute w-[89.607px] lg:w-[216.783px] lg:bottom-[73px] bottom-[204px] right-[-23px] lg:right-[-55px] h-auto">
+                      <Image
+                        className="w-full h-auto"
+                        src={crushin}
+                        alt="Crushin'"
+                      />
+                    </div>
+                  </div>
+                  <div id="content-2" className="content-2">
+                    <div className="">
+                      <h6 className="g40 font-semibold">Pollen, 2022</h6>
+                      <span className="g90 text-sm">
+                        Brand Identity & Product Design
+                      </span>
+                    </div>
+                    <div className="g90">
+                      A financial literacy app for young kids and young adults.
+                    </div>
+                  </div>
+                </div>
+                <div id="Surolingo" className="flex flex-col gap-4">
+                  <div className="content-1 bg-[#363738]">
+                    <div className="g10">
+                      <h6 className="text-sm font-medium lg:font-semibold leading-[120%]">
+                        Mobile App Design
+                      </h6>
+                      <h2 className="xl:text-[80px] xl:leading-[95px] text-2xl font-bold">
+                        Sorolingo
+                      </h2>
+                      <div className="flex flex-row gap-[10px] items-center">
+                        <span className="text-sm text-[#69A9E9] leading-[120%]">
+                          Read More
+                        </span>
+                        <span className="w-4 h-4">
+                          <Image
+                            src={arrowright}
+                            quality={100}
+                            placeholder="blur"
+                            alt="Arrow Right"
+                          />
+                        </span>
                       </div>
+                    </div>
+                    <div className="flex flex-col w-full max-w-[233px] lg:max-w-[425px] h-auto">
+                      <Image
+                        className="w-full hidden md:block h-autp"
+                        src={sorolingo}
+                        quality={100}
+                        placeholder="blur"
+                        alt="sorolingo"
+                      />
+                      <Image
+                        className="w-full block md:hidden h-auto"
+                        src={sorolingos}
+                        quality={100}
+                        placeholder="blur"
+                        alt="sorolingo"
+                      />
+                    </div>
+                  </div>
+                  <div id="content-2" className="content-2">
+                    <div className="">
+                      <h6 className="g40 font-semibold">Sorolingo, 2022</h6>
+                      <span className="g90 text-sm">
+                        Product Design (Web & Mobile)
+                      </span>
+                    </div>
+                    <div className="g90">
+                      Designed the easiest and most immersive way to learn any
+                      African Language.
                     </div>
                   </div>
                 </div>
@@ -387,7 +379,7 @@ export default function Home() {
                   <div class="relative flex flex-col gap-10 lg:gap-[84px]">
                     <div className="flex flex-col justify-start gap-4">
                       <div className="flex flex-col gap-3">
-                        <h6 className="text-sm font-medium lg:font-semibold">
+                        <h6 className="text-sm font-medium lg:font-semibold leading-[120%]">
                           Brand, WebApp, and Mobile App Design
                         </h6>
                         <h1 className="font-semibold lg:font-bold text-2xl lg:text-[80px] lg:leading-[95px] max-w-[705px]">
@@ -397,7 +389,7 @@ export default function Home() {
                       <div className="flex w-full">
                         <div
                           id="CTA"
-                          class="py-2 px-4 lg:py-4 lg:px-8 rounded-[25px] text-[#DFDFDF] w-auto flex items-center justify-center gap-[10px] text-xs lg:text-sm leading-[133.333%] border border-[#EBEBEC]"
+                          class="py-2 px-4 lg:py-4 lg:px-8 rounded-[25px] text-[#DFDFDF] w-auto flex items-center justify-center gap-[10px] lg:text-[14px] text-xs leading-[120%] border border-[#EBEBEC]"
                         >
                           Read More
                           <div className="w-4 h-4 relative">
@@ -514,14 +506,14 @@ export default function Home() {
               <div id="Contentionary" className="flex flex-col gap-4">
                 <div className="content-1 px-[0!important] bg-[#363738]">
                   <div className="g10">
-                    <h6 className="text-sm font-medium lg:font-semibold">
+                    <h6 className="text-sm font-medium lg:font-semibold leading-[120%]">
                       Website, WebApp, and Mobile Design
                     </h6>
                     <h2 className="xl:text-[80px] xl:leading-[95px] text-2xl font-bold">
                       Contentionary
                     </h2>
                     <div className="flex flex-row gap-[10px] items-center">
-                      <span className="text-sm text-[#69A9E9]">Read More</span>
+                      <span className="text-sm text-[#69A9E9] leading-[120%]">Read More</span>
                       <span className="w-4 h-4">
                         <Image
                           src={arrowright}
@@ -552,7 +544,9 @@ export default function Home() {
                 <div id="content-2" className="content-2 w-full">
                   <div className="">
                     <h6 className="g40 font-semibold">Contentionary, 2022</h6>
-                    <span className=" text-sm text-[hsl(24,71%,36%)] ">a proper category on Contentionary is needed</span>
+                    <span className=" text-sm text-[hsl(24,71%,36%)] ">
+                      a proper category on Contentionary is needed
+                    </span>
                   </div>
                   <div className=" text-sm text-[hsl(24,71%,36%)] max-w-[422px!important]">
                     a proper summary on Contentionary is needed
