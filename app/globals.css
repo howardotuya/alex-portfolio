@@ -275,11 +275,125 @@ body {
   justify-content: center;
 }
 
+.phc-heading2 {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 112%; /* 26.88px */
+  letter-spacing: 0.48px;
+}
+
+.highlights {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.phc-h-h4 {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 21px */
+  letter-spacing: 0.28px;
+  color: #898a8a;
+}
+.phc-h-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.phc-h-p {
+  color: #ebebec;
+  padding-top: 4px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+  letter-spacing: 0.56px;
+}
+
+.minusSect {
+  margin-top: -76px;
+  z-index: 10;
+  background-color: #252627;
+  position: relative;
+}
+
+.phc-bodyp {
+  color: #989999;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  letter-spacing: 0.64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+}
+
+.phc-bcont {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
 @media only screen and (min-width: 768px) {
 }
 
 @media only screen and (min-width: 1024px) {
   /* For collect Africa */
+  .phc-bcont {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .phc-bodyp {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.96px;
+    gap: 36px;
+  }
+
+  .minusSect {
+    margin-top: 0;
+    z-index: 10;
+    background-color: #252627;
+    position: relative;
+  }
+
+  .highlights {
+    gap: 32px;
+  }
+
+  .phc-heading2 {
+    font-size: 54px;
+    font-style: normal;
+    line-height: 111.111%;
+    letter-spacing: 1.08px;
+  }
+
+  .phc-h-h4 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 160% */
+    letter-spacing: 0.4px;
+  }
+  .phc-h-p {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    letter-spacing: 0.8px;
+  }
 
   .phc {
     gap: 66px;
@@ -304,6 +418,8 @@ body {
   .phc-x2 {
     gap: 20px;
   }
+
+  /* end of collect africa */
 
   #actual-footer ul {
     display: flex;
