@@ -25,7 +25,8 @@ import conmobile from "@/public/images/selectedprojects/con-mobile.png";
 export default function Home() {
   return (
     <>
-      <header className="grey-g20 setbody bg-[#161718] text-[#F5F5F5]">
+    <div className="bg-[#161718]">
+      <header className="grey-g20 setbody text-[#F5F5F5]">
         <div className="">
           <nav className="px-6 pt-8 lg:pt-12 pb-[22px] w-full text-xs font-bold uppercase flex flex-row justify-between items-center">
             <h6 className="">Alex Oyebade</h6>
@@ -73,7 +74,7 @@ export default function Home() {
         </div>
       </header>
 
-      <main className="bg-[#161718] setbody px-5 lg:px-6">
+      <main className="setbody px-5 lg:px-6">
         <div>
           <section className="pb-24 lg:pb-[312px]">
             <div
@@ -558,7 +559,7 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className="setbody bg-[#161718] d-140">
+      <footer className="setbody d-140">
         <div>
           <div id="actual-footer">
             <div className="">Alex Oyebade</div>
@@ -575,6 +576,8 @@ export default function Home() {
           </div>
         </div>
       </footer>
+    </div>
+      
     </>
   );
 }

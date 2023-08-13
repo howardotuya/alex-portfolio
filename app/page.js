@@ -22,7 +22,7 @@ import arrowright2 from "@/public/images/black-arrow-right.png";
 
 export default function Home() {
   return (
-    <>
+    <div class="flex flex-col gap-4 lg:gap-6 bg-[#252627] justify-center items-center">
       <header className="g20 header-full setbody">
         <div>
           <nav className="px-6 pt-8 lg:pt-12 pb-[22px] w-full text-xs font-bold uppercase flex flex-row justify-between items-center">
@@ -427,6 +427,6 @@ export default function Home() {
           </div>
         </div>
       </footer>
-    </>
+    </div>
   );
 }

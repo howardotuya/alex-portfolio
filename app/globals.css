@@ -94,6 +94,7 @@ body {
 .setbody {
   display: flex;
   flex-direction: column;
+  width: 100%;
   align-items: center;
 }
 
@@ -142,7 +143,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 40px;
+  gap: 32px;
 }
 
 #actual-footer > div:nth-child(2) {
