@@ -14,6 +14,7 @@ import brain5 from "@/public/images/collect-africa/strength1.svg";
 import brain6 from "@/public/images/collect-africa/weakness2.svg";
 import brain7 from "@/public/images/collect-africa/oppurtunity2.svg";
 import brain8 from "@/public/images/collect-africa/threat2.svg";
+import munachi from "@/public/images/collect-africa/munachi.png";
 
 function Collect() {
   return (
@@ -245,7 +246,7 @@ function Collect() {
           </section>
 
           <section class="competitiveAnalysis">
-            <div className="flex flex-col gap-3 lg:gap-5 ms-padding">
+            <div className="phc-bcont-alt ms-padding">
               <h2 className="phc-heading2">Competitive Analysis</h2>
               <p className="phc-bodyp max-w-[853px]">
                 <span>
@@ -352,6 +353,118 @@ function Collect() {
                   </div>
                 </div>
               </div>
+            </div>
+          </section>
+
+          <section class="WhoAmIDesigningFor">
+            <div className="phc-bcont-alt ms-padding">
+              <h2 className="phc-heading2">Who am I designing for?</h2>
+              <p className="phc-bodyp max-w-[682px]">
+                <span>
+                  Based on the research I conducted, I was able to come up with
+                  two personas for the project as seen below.
+                </span>
+              </p>
+            </div>
+
+            <div className="waidf-subcont ms-padding">
+              <div className="muna">
+                <div className="ws-sub-left flex flex-col gap-[14px]">
+                  <div className="w-[256px] h-auto overflow-hidden rounded-[20px]">
+                    <Image
+                      className=" w-full h-auto"
+                      src={munachi}
+                      alt="Munachi Eze"
+                    />
+                  </div>
+                  <div className="muna-cont">
+                    <h6>Munachi Eze, 32</h6>
+                    <div>
+                      <div>
+                        <h6>Occupation</h6>
+                        <p>Business man</p>
+                      </div>
+                      <div>
+                        <h6>Location</h6>
+                        <p>Lagos, Nigeria</p>
+                      </div>
+                      <div>
+                        <h6>Tech Literacy</h6>
+                        <p>Average</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="ws-sub-right">
+                  <div>
+                    <h6>Background</h6>
+                    <p>
+                      <span className="max-w-[315px]">
+                        Munachi is a 32 year old business man in Lagos that runs
+                        a small business where he sells and delivers
+                        wristwatches within and out of Lagos from his little
+                        store at Obalende Market
+                      </span>
+                    </p>
+                  </div>
+                  <div>
+                    <h6>Core needs</h6>
+                    <p>
+                      <ul>
+                        <li>
+                          needs a medium to receive payments from his customers
+                          all over the country who order his watches
+                        </li>
+                        <li>
+                          looking for a way to easily receive payments from
+                          other vendors who purchase similar products from him
+                          regularly to resell.
+                        </li>
+                        <li>
+                          Receive payments from customers who want to pay with
+                          card or cash and without mixing business account with
+                          personal.
+                        </li>
+                      </ul>
+                    </p>
+                  </div>
+                  <div>
+                    <h6>Frustrations</h6>
+                    <p>
+                      <ul>
+                        <li>
+                          Customers who come to the shop to pay, sometimes bank
+                          doesn't show the credit alert, thereby delaying the
+                          customer from leaving
+                        </li>
+                        <li>
+                          Inability to fully organize and handle his account.
+                        </li>
+                        <li>Finds it difficult to balance his account.</li>
+                      </ul>
+                    </p>
+                  </div>
+                  <div>
+                    <h6>Behaviours</h6>
+                    <p>
+                      <ul>
+                        <li>
+                          Munachi usually sends his account via WhatsApp to old
+                          customers who make orders and make the delivery when
+                          they pay, and always sends it when they need
+                        </li>
+                        <li>
+                          For customers who come to his store he either receives
+                          cash and or those who transfer he gives his bank
+                          account number and waits for an alert before selling.
+                        </li>
+                      </ul>
+                      <span></span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="phonehub"></div>
             </div>
           </section>
         </div>

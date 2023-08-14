@@ -448,11 +448,126 @@ body {
   gap: 56px;
 }
 
+.phc-bcont-alt {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.WhoAmIDesigningFor {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+
+.muna {
+  border-radius: 42px;
+  background: #171a1e;
+  max-width: 831px;
+  gap: 24px;
+  padding: 35px 58px 120px;
+  display: flex;
+  flex-direction: row;
+}
+
+.ws-sub-right {
+  display: flex;
+  flex-direction: column;
+  gap:24px;
+}
+
+.ws-sub-right > div {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: #070b0e;
+  border-radius: 24px;
+}
+
+.ws-sub-right > div > h6 {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 510;
+  line-height: normal;
+}
+
+.ws-sub-right > div > p {
+  color: #a7a7a8;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 183.333% */
+  letter-spacing: 0.48px;
+}
+
+.ws-sub-right ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: disc;
+  padding-left: 24px;
+}
+
+.muna-cont {
+  display: inline-flex;
+  padding: 42px 18px 66px 32px;
+  gap: 24px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 24px;
+  background: #070b0e;
+  width: 256px;
+  width: 100%;
+}
+
+.muna-cont > h6 {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  align-self: start;
+  font-weight: 510;
+  line-height: 32px; /* 133.333% */
+  text-align: left;
+}
+
+.muna-cont > div {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 510;
+  line-height: 22px; /* 157.143% */
+  width: 100%;
+  letter-spacing: 0.56px;
+  display: flex;
+  flex-direction: column;
+  gap:12px;
+}
+
+.muna-cont > div > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.muna-cont > div > div > h6 {
+  color: #ebebec;
+}
+
+.muna-cont > div > div > p {
+  color: #898a8a;
+}
+
 @media only screen and (min-width: 768px) {
 }
 
 @media only screen and (min-width: 1024px) {
   /* For collect Africa */
+
+  .phc-bcont-alt {
+    gap: 20px;
+  }
 
   .pbsc-ul {
     gap: 0;
