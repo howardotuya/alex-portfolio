@@ -5,6 +5,15 @@ import headerlg from "@/public/images/collect-africa/header-lg.png";
 import headersm from "@/public/images/collect-africa/header-sm.png";
 import challenge from "@/public/images/collect-africa/challenge.png";
 import despro from "@/public/images/collect-africa/despro.svg";
+import brainstorming from "@/public/images/collect-africa/brainstorming.svg";
+import brain1 from "@/public/images/collect-africa/strength.svg";
+import brain2 from "@/public/images/collect-africa/weakness.svg";
+import brain3 from "@/public/images/collect-africa/oppurtunity.svg";
+import brain4 from "@/public/images/collect-africa/threat.svg";
+import brain5 from "@/public/images/collect-africa/strength1.svg";
+import brain6 from "@/public/images/collect-africa/weakness2.svg";
+import brain7 from "@/public/images/collect-africa/oppurtunity2.svg";
+import brain8 from "@/public/images/collect-africa/threat2.svg";
 
 function Collect() {
   return (
@@ -55,7 +64,7 @@ function Collect() {
         <div className="flex flex-col gap-20 lg:gap-[120px] pt-20 lg:pt-[120px]">
           <section class="highlights ms-padding">
             <h2 class="phc-heading2">Highlights</h2>
-            <div className="phc-h-cont">
+            <div className="phc-h-cont max-w-[957px]">
               <div className="w-full lg:w-auto">
                 <h4 className="phc-h-h4">MY ROLE</h4>
                 <p className="phc-h-p">Product Designer</p>
@@ -72,9 +81,9 @@ function Collect() {
           </section>
 
           <section class="theChallenge">
-            <div className="phc-bcont ms-padding">
+            <div className="phc-bcont ms-padding ">
               <h2 className="phc-heading2">The Challenge</h2>
-              <p className="phc-bodyp">
+              <p className="phc-bodyp max-w-[862px]">
                 <span>
                   Receiving payments for services can be rather burdensome when
                   there is a delay in confirming the transaction, especially
@@ -92,7 +101,7 @@ function Collect() {
               </p>
             </div>
             <div className="phc-bimage nopad">
-              <div className="flex flex-col justify-center items-center">
+              <div className="max-w-[957px] self-start">
                 <Image
                   className="w-full h-auto"
                   src={challenge}
@@ -106,7 +115,7 @@ function Collect() {
           <section class="theObjective ms-padding">
             <div className="phc-bcont">
               <h2 className="phc-heading2">The Objective</h2>
-              <p className="phc-bodyp">
+              <p className="phc-bodyp max-w-[871px]">
                 <span>
                   The objective was to develop a unique solution that would
                   target businesses and provide them with a one-stop solution to
@@ -137,12 +146,211 @@ function Collect() {
               <h2 className="phc-heading2">Design Process</h2>
             </div>
             <div className="phc-bimage nopad">
-              <div className="flex overflow-hidden lg:rounded-[25px]">
+              <div className="flex max-w-[964px] self-start overflow-hidden lg:rounded-[25px]">
                 <Image
                   className="w-full h-auto"
                   src={despro}
                   alt="Design Process"
                 />
+              </div>
+            </div>
+          </section>
+
+          <section class="research ms-padding">
+            <div className="phc-bcont">
+              <h2 className="phc-heading2">Research</h2>
+              <p className="phc-bodyp max-w-[913px]">
+                <span className="text-[#989999]">
+                  Despite having been given a brief, the product manager and we
+                  on the design team did some research to figure out what we
+                  were creating. We did this to test our assumptions, gain a
+                  deeper understanding of the users' problems and connect it to
+                  the company's objectives. The UX phase started with getting to
+                  know the consumers and their habits.
+                </span>
+                <span>
+                  The goal of the research was to gain a comprehensive
+                  understanding of the issue as it directly impacts the users,
+                  discovering their requirements and frustrations and improving
+                  their experience. As a result, I was better able to relate to
+                  and comprehend the problems that our users were experiencing.
+                  Interviews were conducted as part of the research to obtain
+                  some qualitative data.
+                </span>
+              </p>
+            </div>
+          </section>
+
+          <section class="examiningThePainPoints ms-padding">
+            <div className="phc-bcont max-w-[733px]">
+              <h2 className="phc-heading2">Examining the pain points</h2>
+              <p className="phc-bodyp">
+                <span className="text-[#989999]">
+                  Here are some of the paint points I highlighted during
+                  research:
+                </span>
+                <span>
+                  <ul className="phc-bodyp-ul">
+                    <li>
+                      Having trouble confirming customer payments when banks
+                      take too long to provide the notice, especially with
+                      international transfers.
+                    </li>
+                    <li>
+                      Accepting payments from customers to businesses that do
+                      e-commerce activity can be difficult.
+                    </li>
+                    <li>
+                      Having trouble keeping business books in order and
+                      maintaining accessible records.
+                    </li>
+                    <li>
+                      Having trouble managing business clients and preserving a
+                      relationship.
+                    </li>
+                    <li>
+                      Having trouble maintaining a single company account across
+                      many branches of the same firm.
+                    </li>
+                    <li>Having trouble collecting funds from abroad.</li>
+                  </ul>
+                </span>
+              </p>
+            </div>
+          </section>
+
+          <section class="brainstorming">
+            <div className="phc-bcont ms-padding">
+              <h2 className="phc-heading2">Brainstorming</h2>
+              <p className="phc-bodyp max-w-[871px]">
+                <span>
+                  We got together at this point to come up with the best
+                  strategy. In order to distill the sown ideas and input
+                  obtained from the team, I continued after the brainstorming by
+                  drawing up some of the most intriguing concepts. This phase
+                  was finalized and it included how-might-we inquiries. Mockups
+                  were created during this phase.
+                </span>
+              </p>
+            </div>
+            <div className="phc-bimage nopad">
+              <div className="flex self-start max-w-[964px] overflow-hidden lg:rounded-[25px]">
+                <Image
+                  className="w-full h-auto"
+                  src={brainstorming}
+                  alt="Brainstorming"
+                />
+              </div>
+            </div>
+          </section>
+
+          <section class="competitiveAnalysis">
+            <div className="flex flex-col gap-3 lg:gap-5 ms-padding">
+              <h2 className="phc-heading2">Competitive Analysis</h2>
+              <p className="phc-bodyp max-w-[853px]">
+                <span>
+                  I was able to determine what innovative solutions may be built
+                  and enhanced for our product by understanding how our
+                  competitors address similar customer needs.
+                </span>
+              </p>
+            </div>
+            <div className="phc-bcont-subcont ms-padding">
+              <div className="pbsc">
+                <div className="pbsc-text">
+                  <h3>PayStack</h3>
+                  <p className="phc-bodyp max-w-[752px]">
+                    <span className="text-[#989999]">
+                      <span className="pbsc-bold">Overview:</span> Paystack is a
+                      technology company solving payments problems for ambitious
+                      businesses. Our mission is to help businesses in Africa
+                      become profitable, envied and loved.By providing global
+                      and local payments for businesses.
+                    </span>
+                    <span className="pbsc-ul">
+                      <span className="pbsc-bold">Key Objectives:</span>
+                      <span> - Providing worldwide payment services</span>
+                      <span>
+                        - Enabling the integration of payment methods with all
+                        commerce services
+                      </span>
+                    </span>
+                    <span>
+                      <span className="pbsc-bold">Market Advantage:</span>{" "}
+                      Skillfully positioned themselves as a solution where you
+                      can receive payments from customers anywhere in the world
+                    </span>
+                  </p>
+                </div>
+                <div className="pbsc-image">
+                  <div>
+                    <Image src={brain1} alt="Strengths" />
+                  </div>
+                  <div>
+                    <Image src={brain2} alt="Weaknesses" />
+                  </div>
+                  <div>
+                    <Image src={brain3} alt="Oppurtunities" />
+                  </div>
+                  <div>
+                    <Image src={brain4} alt="Threats" />
+                  </div>
+                </div>
+              </div>
+              <div className="pbsc">
+                <div className="pbsc-text">
+                  <h3>Stripe</h3>
+                  <p className="phc-bodyp max-w-[752px]">
+                    <span className="text-[#989999]">
+                      <span className="pbsc-bold">Overview:</span> Everything
+                      needed to create websites and apps that accept payments
+                      and send payouts internationally is included in Stripe.
+                      The tools from Stripe enable payments for every type of
+                      business, including online and in-person retailers,
+                      marketplaces, software platforms and subscription
+                      services.
+                    </span>
+                    <span className="pbsc-ul">
+                      <span className="pbsc-bold">Key Objectives:</span>
+                      <span>
+                        - Providing payment gateway for eCommerce platforms
+                      </span>
+                      <span>
+                        - Providing billing and payments for SaaS businesses
+                      </span>
+                      <span>
+                        - Help marketplaces receive payments using their
+                        custom-built API
+                      </span>
+                      <span>- Provide financial reporting</span>
+                    </span>
+                    <span>
+                      <span className="pbsc-bold">Market Advantage:</span>
+                      <span>
+                        - Structured themselves as a solution where you can get
+                        paid by customers from anywhere in the world.
+                      </span>
+                      <span>
+                        - Strengthening brand recognition and customer loyalty
+                        with their blog and posts.
+                      </span>
+                    </span>
+                  </p>
+                </div>
+                <div className="pbsc-image">
+                  <div>
+                    <Image src={brain5} alt="Strengths" />
+                  </div>
+                  <div>
+                    <Image src={brain6} alt="Strengths" />
+                  </div>
+                  <div>
+                    <Image src={brain7} alt="Strengths" />
+                  </div>
+                  <div>
+                    <Image src={brain8} alt="Strengths" />
+                  </div>
+                </div>
               </div>
             </div>
           </section>

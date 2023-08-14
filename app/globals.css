@@ -329,7 +329,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 150%; /* 24px */
-  letter-spacing: .012em;
+  letter-spacing: 0.012em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -357,7 +357,8 @@ body {
   align-items: center;
 }
 
-.theChallenge {
+.theChallenge,
+.brainstorming {
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -371,12 +372,80 @@ body {
 .designProcess {
   display: flex;
   flex-direction: column;
-  gap:24px;
+  gap: 24px;
 }
 
 .nopad {
-  padding-left: 0!important;
-  padding-right: 0!important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.phc-bodyp-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.competitiveAnalysis {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.pbsc-text {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.pbsc-bold {
+  color: #fafafa;
+}
+
+.pbsc-text h3 {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 119%; /* 23.8px */
+  letter-spacing: 0.4px;
+}
+
+.pbsc-ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: disc;
+  gap: 12px;
+}
+
+.pbsc-image {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 20px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  height: 155px;
+}
+
+.pbsc-image > div {
+  width: 235px;
+  height: 155px;
+  flex-shrink: 0;
+}
+
+.pbsc {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.phc-bcont-subcont {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -385,15 +454,55 @@ body {
 @media only screen and (min-width: 1024px) {
   /* For collect Africa */
 
-.ms-padding, .nopad {
-  padding-left: 238px!important;
-  padding-right: 244px!important;
-}
+  .pbsc-ul {
+    gap: 0;
+  }
+  .phc-bcont-subcont {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+  }
+  .pbsc {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+  }
+  .competitiveAnalysis {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+  }
 
-.designProcess {
-  gap:40px;
-}
-  .theChallenge {
+  .pbsc-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .pbsc-text h3 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 590;
+    line-height: 48px; /* 150% */
+    letter-spacing: 0.64px;
+  }
+
+  .phc-bodyp-ul {
+    gap: 0px;
+    padding-left: 24px;
+  }
+
+  .ms-padding,
+  .nopad {
+    padding-left: 238px !important;
+    padding-right: 0;
+  }
+
+  .designProcess {
+    gap: 40px;
+  }
+  .theChallenge,
+  .brainstorming {
     gap: 72px;
   }
 
