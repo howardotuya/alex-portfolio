@@ -15,6 +15,11 @@ import brain6 from "@/public/images/collect-africa/weakness2.svg";
 import brain7 from "@/public/images/collect-africa/oppurtunity2.svg";
 import brain8 from "@/public/images/collect-africa/threat2.svg";
 import munachi from "@/public/images/collect-africa/munachi.png";
+import phonehub from "@/public/images/collect-africa/phonehub.png";
+import vpcustomers from "@/public/images/collect-africa/vp-customers.svg";
+import vpbusiness from "@/public/images/collect-africa/vp-business.svg";
+import userflow from "@/public/images/collect-africa/userflow.png";
+import sitemap from "@/public/images/collect-africa/sitemap.png";
 
 function Collect() {
   return (
@@ -102,7 +107,7 @@ function Collect() {
               </p>
             </div>
             <div className="phc-bimage nopad">
-              <div className="max-w-[957px] self-start">
+              <div className="xl:max-w-[957px] self-start">
                 <Image
                   className="w-full h-auto"
                   src={challenge}
@@ -185,7 +190,7 @@ function Collect() {
           <section class="examiningThePainPoints ms-padding">
             <div className="phc-bcont max-w-[733px]">
               <h2 className="phc-heading2">Examining the pain points</h2>
-              <p className="phc-bodyp">
+              <p className="phc-bodyp-alt">
                 <span className="text-[#989999]">
                   Here are some of the paint points I highlighted during
                   research:
@@ -223,7 +228,7 @@ function Collect() {
           <section class="brainstorming">
             <div className="phc-bcont ms-padding">
               <h2 className="phc-heading2">Brainstorming</h2>
-              <p className="phc-bodyp max-w-[871px]">
+              <p className="phc-bodyp-alt max-w-[871px]">
                 <span>
                   We got together at this point to come up with the best
                   strategy. In order to distill the sown ideas and input
@@ -247,8 +252,8 @@ function Collect() {
 
           <section class="competitiveAnalysis">
             <div className="phc-bcont-alt ms-padding">
-              <h2 className="phc-heading2">Competitive Analysis</h2>
-              <p className="phc-bodyp max-w-[853px]">
+              <h2 className="phc-heading2-alt">Competitive Analysis</h2>
+              <p className="phc-bodyp-alt max-w-[853px]">
                 <span>
                   I was able to determine what innovative solutions may be built
                   and enhanced for our product by understanding how our
@@ -260,7 +265,7 @@ function Collect() {
               <div className="pbsc">
                 <div className="pbsc-text">
                   <h3>PayStack</h3>
-                  <p className="phc-bodyp max-w-[752px]">
+                  <p className="phc-bodyp-alt gap-[12px] lg:gap-[30px] max-w-[752px]">
                     <span className="text-[#989999]">
                       <span className="pbsc-bold">Overview:</span> Paystack is a
                       technology company solving payments problems for ambitious
@@ -301,7 +306,7 @@ function Collect() {
               <div className="pbsc">
                 <div className="pbsc-text">
                   <h3>Stripe</h3>
-                  <p className="phc-bodyp max-w-[752px]">
+                  <p className="phc-bodyp-alt gap-[12px] lg:gap-[30px] max-w-[752px]">
                     <span className="text-[#989999]">
                       <span className="pbsc-bold">Overview:</span> Everything
                       needed to create websites and apps that accept payments
@@ -358,8 +363,8 @@ function Collect() {
 
           <section class="WhoAmIDesigningFor">
             <div className="phc-bcont-alt ms-padding">
-              <h2 className="phc-heading2">Who am I designing for?</h2>
-              <p className="phc-bodyp max-w-[682px]">
+              <h2 className="phc-heading2-alt">Who am I designing for?</h2>
+              <p className="phc-bodyp-alt max-w-[682px]">
                 <span>
                   Based on the research I conducted, I was able to come up with
                   two personas for the project as seen below.
@@ -367,10 +372,10 @@ function Collect() {
               </p>
             </div>
 
-            <div className="waidf-subcont ms-padding">
+            <div className="waidf-subcont flex flex-col gap-6 ms-padding">
               <div className="muna">
                 <div className="ws-sub-left flex flex-col gap-[14px]">
-                  <div className="w-[256px] h-auto overflow-hidden rounded-[20px]">
+                  <div className=" w-full max-w-[144.5px] lg:w-[256px] lg:max-w-[256px] h-auto overflow-hidden rounded-lg lg:rounded-[20px]">
                     <Image
                       className=" w-full h-auto"
                       src={munachi}
@@ -386,7 +391,7 @@ function Collect() {
                       </div>
                       <div>
                         <h6>Location</h6>
-                        <p>Lagos, Nigeria</p>
+                        <p>Lagos, NG</p>
                       </div>
                       <div>
                         <h6>Tech Literacy</h6>
@@ -410,7 +415,7 @@ function Collect() {
                   <div>
                     <h6>Core needs</h6>
                     <p>
-                      <ul>
+                      <ul className="max-w-[283px]">
                         <li>
                           needs a medium to receive payments from his customers
                           all over the country who order his watches
@@ -464,7 +469,223 @@ function Collect() {
                   </div>
                 </div>
               </div>
-              <div className="phonehub"></div>
+              <div className="muna">
+                <div className="ws-sub-left flex flex-col gap-[14px]">
+                  <div className=" w-full max-w-[144.5px] lg:w-[256px] lg:max-w-[256px] h-auto overflow-hidden rounded-lg lg:rounded-[20px]">
+                    <Image
+                      className=" w-full h-auto"
+                      src={phonehub}
+                      alt="Phonehub"
+                    />
+                  </div>
+                  <div className="muna-cont">
+                    <h6>Phonehub</h6>
+                    <div>
+                      <div>
+                        <h6 className=" self-start">Location</h6>
+                        <p className="lg:max-w-[115px]">
+                          Lagos, Abuja, Portharcourt, Ibadan
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="ws-sub-right">
+                  <div>
+                    <h6>Background</h6>
+                    <p>
+                      <span className="">
+                        Phonehub is an electronics company that deals in selling
+                        and repairs of all phones ranging from android to ios,
+                        they have over 50 staff and 20 outlets all over the
+                        country
+                      </span>
+                    </p>
+                  </div>
+                  <div>
+                    <h6>Core needs</h6>
+                    <p>
+                      <ul className="">
+                        <li>
+                          needs a medium to receive payments from customers all
+                          over the country who do business with them
+                        </li>
+                        <li>
+                          looking for a way to easily balance their accounts and
+                          reconcile payments in one place despite having stores
+                          all over the country
+                        </li>
+                        <li>Create invoices for services rendered</li>
+                        <li>Manage users roles</li>
+                      </ul>
+                    </p>
+                  </div>
+                  <div>
+                    <h6>Frustrations</h6>
+                    <p>
+                      <ul>
+                        <li>
+                          Customers can't purchase from his business website
+                          easily without the agents always having to send the
+                          account details for each payment
+                        </li>
+                        <li>
+                          Inability to manage financial accounts, leading to
+                          unbalanced records
+                        </li>
+                        <li>
+                          Finds it difficult to manage customers and maintain
+                          relationships
+                        </li>
+                      </ul>
+                    </p>
+                  </div>
+                  <div>
+                    <h6>Behaviours</h6>
+                    <p>
+                      <ul>
+                        <li>
+                          Phonehub staff usually just receive payments and
+                          because they need to receive alerts and not all can
+                          have company emails or phones to do so, each branch
+                          has an account where they control and receive alerts
+                          to confirm payments, and at the end of a period remit
+                          to the main company account.
+                        </li>
+                      </ul>
+                      <span></span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div className="flex flex-col gap-20 pt-20 ms-padding lg:pt-[46px]">
+          <section className="value-proposition max-w-[962px]">
+            <div>
+              <h2>Value Proposition- Customers</h2>
+              <p>
+                In the customer profile,{" "}
+                <span className="text-[#fafafa]">
+                  you explain the work your client is attempting to do by
+                  emphasizing their pains and gains; it is used to track users'
+                  demands and position the organization to learn more about the
+                  customers' wants in order to correctly generate value.
+                </span>
+              </p>
+            </div>
+            <div>
+              <Image src={vpcustomers} alt="Value Proposition for Customers" />
+            </div>
+          </section>
+
+          <section className="value-proposition max-w-[962px]">
+            <div>
+              <h2>Value Proposition- Business</h2>
+              <p>
+                Here, you list the items and services on which your value
+                proposition is based, describing how the product features and
+                services relieve pain and outline how they create gain.
+              </p>
+            </div>
+            <div>
+              <Image src={vpbusiness} alt="Value Proposition for Businesses" />
+            </div>
+          </section>
+
+          <section class="userStories examiningThePainPoints -template">
+            <div className="phc-bcont max-w-[945px]">
+              <h2 className="phc-heading2">User Stories</h2>
+              <p className="phc-bodyp-alt lg:gap-[0!important]">
+                <span className="text-[#989999]">
+                  Two of the major painpoints that some users faced are stated
+                  below
+                </span>
+                <span>
+                  <ul className="phc-bodyp-ul">
+                    <li>
+                      As a user I want to be able to accept payments from
+                      clients so that I can be compensated for the services I
+                      provide.
+                    </li>
+                    <li>
+                      As a user I want to be able to allow my customers to set
+                      recurring payments.
+                    </li>
+                    <li>
+                      As a user I want to be able to generate paylinks that my
+                      clients may use to make payments.
+                    </li>
+                    <li>
+                      As a user I want to be able to add money to my wallet so
+                      that I can complete transactions.
+                    </li>
+                    <li>
+                      As a user I want to be able to manage and add customers to
+                      my business so that we can keep a nice working
+                      relationship.
+                    </li>
+                    <li>
+                      As a user I need to be able to accept payments in other
+                      currencies so that I can conduct business abroad.
+                    </li>
+
+                    <li>
+                      As a user I want to be able to add my employees to my
+                      business so that the team can handle activities
+                      effectively.
+                    </li>
+                    <li>
+                      As a user I need the ability to send payments from my
+                      dashboard so that I may pay for any services that we might
+                      require.
+                    </li>
+                    <li>
+                      As a user I need to be able to reconcile my accounts so
+                      that I can keep accurate records.
+                    </li>
+                    <li>
+                      As a user I want to be able to send invoices to my
+                      customers for payment.
+                    </li>
+                    <li>
+                      As a user I want to be able to accept payments via
+                      numerous payment methods so that users always have a way
+                      to pay.
+                    </li>
+                    <li>
+                      As a user I want to be able to issue refunds whenever a
+                      customer complains about a service and demands one.
+                    </li>
+                  </ul>
+                </span>
+              </p>
+            </div>
+          </section>
+        </div>
+        
+        <div className="userflow ms-padding pt-20 lg:pt-[72px]">
+          <section className=" max-w-[790px] flex flex-col gap-6 lg:gap-16">
+            <div className="phc-bcont-alt">
+              <h6 className="phc-heading2-alt">User Flows</h6>
+              <p className="phc-bodyp-alt">User flows assisted me in patterning the flow of the user's activities in the product from the entry point to the user's decisions and the resulting actions in order to account for each phase of the user's journey.</p>
+            </div>
+            <div className="flex flex-col justify-center items-center max-w-[755px]">
+              <Image className="self-center w-full h-auto" src={userflow} alt="Userflow" />
+            </div>
+          </section>
+        </div>
+        
+        <div className="sitemap ms-padding pt-20 lg:pt-[72px]">
+          <section className="max-w-[891px] flex flex-col gap-6 lg:gap-[72px]">
+            <div className="phc-bcont-alt">
+              <h6 className="phc-heading2-alt">Sitemap</h6>
+              <p className="phc-bodyp-alt">After reviewing my personas and user journeys and keeping key features in mind, I began to consider the app's structure. I had a basic notion of keeping the structure simple with coexisting tiers because there is a lot of overlapping content and I wanted my visitors to be able to go easily from one page to the next.</p>
+            </div>
+            <div className="flex flex-col justify-center items-center max-w-[637px]">
+              <Image className="self-center w-full h-auto" src={sitemap} alt="sitemap" />
             </div>
           </section>
         </div>
