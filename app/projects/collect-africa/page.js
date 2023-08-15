@@ -21,9 +21,44 @@ import vpbusiness from "@/public/images/collect-africa/vp-business.svg";
 import userflow from "@/public/images/collect-africa/userflow.png";
 import sitemap from "@/public/images/collect-africa/sitemap.png";
 
+import one1 from "@/public/images/collect-africa/1-1.png";
+import one2 from "@/public/images/collect-africa/1-2.png";
+import one3 from "@/public/images/collect-africa/1-3.png";
+import one4 from "@/public/images/collect-africa/1-4.png";
+import one5 from "@/public/images/collect-africa/1-5.png";
+import one6 from "@/public/images/collect-africa/1-6.png";
+import one7 from "@/public/images/collect-africa/1-7.png";
+import two1 from "@/public/images/collect-africa/dashboard.png";
+import three1 from "@/public/images/collect-africa/3-1.png";
+import three2 from "@/public/images/collect-africa/3-2.png";
+import three3 from "@/public/images/collect-africa/3-3.png";
+import three4 from "@/public/images/collect-africa/3-4.png";
+import three5 from "@/public/images/collect-africa/3-5.png";
+import four from "@/public/images/collect-africa/4-1.svg";
+import five1 from "@/public/images/collect-africa/5-1.png";
+import five2 from "@/public/images/collect-africa/5-2.png";
+import five3 from "@/public/images/collect-africa/5-3.png";
+import six1 from "@/public/images/collect-africa/6-1.png";
+import six2 from "@/public/images/collect-africa/6-2.png";
+import six3 from "@/public/images/collect-africa/6-3.png";
+import six4 from "@/public/images/collect-africa/6-4.png";
+import six5 from "@/public/images/collect-africa/6-5.png";
+import six6 from "@/public/images/collect-africa/6-6.png";
+import six7 from "@/public/images/collect-africa/6-7.png";
+import seven1 from "@/public/images/collect-africa/7-1.png";
+import seven2 from "@/public/images/collect-africa/7-2.png";
+import seven3 from "@/public/images/collect-africa/7-3.png";
+import seven4 from "@/public/images/collect-africa/7-4.png";
+import eight1 from "@/public/images/collect-africa/8-1.png";
+import eight2 from "@/public/images/collect-africa/8-2.png";
+import eight3 from "@/public/images/collect-africa/8-3.png";
+import eight4 from "@/public/images/collect-africa/8-4.png";
+import eight5 from "@/public/images/collect-africa/8-5.png";
+import arrow from "@/public/images/cta-arrow.png";
+
 function Collect() {
   return (
-    <>
+    <div className="bg-[#252627]">
       <NavbarDark className="fixed" />
       <header className="bg-[#161718] phc pt-20 lg:pt-[135px]">
         <div className="phc-content">
@@ -66,7 +101,7 @@ function Collect() {
         </div>
       </header>
 
-      <main className="minusSect bg-[#252627] setbody">
+      <main className="minusSect setbody">
         <div className="flex flex-col gap-20 lg:gap-[120px] pt-20 lg:pt-[120px]">
           <section class="highlights ms-padding">
             <h2 class="phc-heading2">Highlights</h2>
@@ -162,68 +197,70 @@ function Collect() {
             </div>
           </section>
 
-          <section class="research ms-padding">
-            <div className="phc-bcont">
-              <h2 className="phc-heading2">Research</h2>
-              <p className="phc-bodyp max-w-[913px]">
-                <span className="text-[#989999]">
-                  Despite having been given a brief, the product manager and we
-                  on the design team did some research to figure out what we
-                  were creating. We did this to test our assumptions, gain a
-                  deeper understanding of the users' problems and connect it to
-                  the company's objectives. The UX phase started with getting to
-                  know the consumers and their habits.
-                </span>
-                <span>
-                  The goal of the research was to gain a comprehensive
-                  understanding of the issue as it directly impacts the users,
-                  discovering their requirements and frustrations and improving
-                  their experience. As a result, I was better able to relate to
-                  and comprehend the problems that our users were experiencing.
-                  Interviews were conducted as part of the research to obtain
-                  some qualitative data.
-                </span>
-              </p>
-            </div>
-          </section>
+          <div className="flex flex-col gap-20 lg:gap-[84px]">
+            <section class="research ms-padding">
+              <div className="phc-bcont">
+                <h2 className="phc-heading2">Research</h2>
+                <p className="phc-bodyp max-w-[913px]">
+                  <span className="text-[#989999]">
+                    Despite having been given a brief, the product manager and
+                    we on the design team did some research to figure out what
+                    we were creating. We did this to test our assumptions, gain
+                    a deeper understanding of the users' problems and connect it
+                    to the company's objectives. The UX phase started with
+                    getting to know the consumers and their habits.
+                  </span>
+                  <span>
+                    The goal of the research was to gain a comprehensive
+                    understanding of the issue as it directly impacts the users,
+                    discovering their requirements and frustrations and
+                    improving their experience. As a result, I was better able
+                    to relate to and comprehend the problems that our users were
+                    experiencing. Interviews were conducted as part of the
+                    research to obtain some qualitative data.
+                  </span>
+                </p>
+              </div>
+            </section>
 
-          <section class="examiningThePainPoints ms-padding">
-            <div className="phc-bcont max-w-[733px]">
-              <h2 className="phc-heading2">Examining the pain points</h2>
-              <p className="phc-bodyp-alt">
-                <span className="text-[#989999]">
-                  Here are some of the paint points I highlighted during
-                  research:
-                </span>
-                <span>
-                  <ul className="phc-bodyp-ul">
-                    <li>
-                      Having trouble confirming customer payments when banks
-                      take too long to provide the notice, especially with
-                      international transfers.
-                    </li>
-                    <li>
-                      Accepting payments from customers to businesses that do
-                      e-commerce activity can be difficult.
-                    </li>
-                    <li>
-                      Having trouble keeping business books in order and
-                      maintaining accessible records.
-                    </li>
-                    <li>
-                      Having trouble managing business clients and preserving a
-                      relationship.
-                    </li>
-                    <li>
-                      Having trouble maintaining a single company account across
-                      many branches of the same firm.
-                    </li>
-                    <li>Having trouble collecting funds from abroad.</li>
-                  </ul>
-                </span>
-              </p>
-            </div>
-          </section>
+            <section class="examiningThePainPoints ms-padding">
+              <div className="phc-bcont max-w-[733px]">
+                <h2 className="phc-heading2">Examining the pain points</h2>
+                <p className="phc-bodyp-alt">
+                  <span className="text-[#989999]">
+                    Here are some of the paint points I highlighted during
+                    research:
+                  </span>
+                  <span>
+                    <ul className="phc-bodyp-ul">
+                      <li>
+                        Having trouble confirming customer payments when banks
+                        take too long to provide the notice, especially with
+                        international transfers.
+                      </li>
+                      <li>
+                        Accepting payments from customers to businesses that do
+                        e-commerce activity can be difficult.
+                      </li>
+                      <li>
+                        Having trouble keeping business books in order and
+                        maintaining accessible records.
+                      </li>
+                      <li>
+                        Having trouble managing business clients and preserving
+                        a relationship.
+                      </li>
+                      <li>
+                        Having trouble maintaining a single company account
+                        across many branches of the same firm.
+                      </li>
+                      <li>Having trouble collecting funds from abroad.</li>
+                    </ul>
+                  </span>
+                </p>
+              </div>
+            </section>
+          </div>
 
           <section class="brainstorming">
             <div className="phc-bcont ms-padding">
@@ -665,32 +702,494 @@ function Collect() {
             </div>
           </section>
         </div>
-        
+
         <div className="userflow ms-padding pt-20 lg:pt-[72px]">
           <section className=" max-w-[790px] flex flex-col gap-6 lg:gap-16">
             <div className="phc-bcont-alt">
               <h6 className="phc-heading2-alt">User Flows</h6>
-              <p className="phc-bodyp-alt">User flows assisted me in patterning the flow of the user's activities in the product from the entry point to the user's decisions and the resulting actions in order to account for each phase of the user's journey.</p>
+              <p className="phc-bodyp-alt">
+                User flows assisted me in patterning the flow of the user's
+                activities in the product from the entry point to the user's
+                decisions and the resulting actions in order to account for each
+                phase of the user's journey.
+              </p>
             </div>
             <div className="flex flex-col justify-center items-center max-w-[755px]">
-              <Image className="self-center w-full h-auto" src={userflow} alt="Userflow" />
+              <Image
+                className="self-center w-full h-auto"
+                src={userflow}
+                alt="Userflow"
+              />
             </div>
           </section>
         </div>
-        
-        <div className="sitemap ms-padding pt-20 lg:pt-[72px]">
+
+        <div className="sitemap ms-padding pt-20 lg:pt-[93px]">
           <section className="max-w-[891px] flex flex-col gap-6 lg:gap-[72px]">
             <div className="phc-bcont-alt">
               <h6 className="phc-heading2-alt">Sitemap</h6>
-              <p className="phc-bodyp-alt">After reviewing my personas and user journeys and keeping key features in mind, I began to consider the app's structure. I had a basic notion of keeping the structure simple with coexisting tiers because there is a lot of overlapping content and I wanted my visitors to be able to go easily from one page to the next.</p>
+              <p className="phc-bodyp-alt ">
+                After reviewing my personas and user journeys and keeping key
+                features in mind, I began to consider the app's structure. I had
+                a basic notion of keeping the structure simple with coexisting
+                tiers because there is a lot of overlapping content and I wanted
+                my visitors to be able to go easily from one page to the next.
+              </p>
             </div>
             <div className="flex flex-col justify-center items-center max-w-[637px]">
-              <Image className="self-center w-full h-auto" src={sitemap} alt="sitemap" />
+              <Image
+                className="self-center w-full h-auto"
+                src={sitemap}
+                alt="sitemap"
+              />
             </div>
           </section>
         </div>
+
+        <div className="solution ms-padding pt-20 lg:pt-[93px]">
+          <section className="flex flex-col gap-8 lg:gap-[72px]">
+            <div className="phc-bcont-alt max-w-[790px]">
+              <h2 className="phc-heading2-alt">Solution</h2>
+              <p className="phc-bodyp-alt2">
+                The solution had to include a mobile app and a dashboard; they
+                both give comparable solutions but with minor differences based
+                on the target audience and what they have available to work with
+                in order to better meet their demands.
+              </p>
+            </div>
+
+            <div className="list-of-solutions flex flex-col gap-14 lg:gap-[184px]">
+              <div className="flex flex-col gap-14 lg:gap-[120px]">
+                <div className="ls-cover-cont solution-1">
+                  <div className="ls-cont">
+                    <h3>1. Onboarding Screens</h3>
+                    <p className="max-w-[790px]">
+                      The onboarding process is designed to be quick and easy in
+                      order to improve the user experience by accounting for
+                      various business categories, including small, large, and
+                      freelancers. All extraneous steps were deleted to lower
+                      the rate of drop-off by clients who did not have the
+                      requisite documentation to complete the procedure. So,
+                      after signing up, you have restrictions on certain
+                      transaction actions until you have submitted the proper
+                      paperwork, so we always give you value.
+                    </p>
+                  </div>
+                  <div className="one-image">
+                    <div className="">
+                      <Image
+                        placeholder="blur"
+                        quality={100}
+                        src={one4}
+                        alt=""
+                      />
+                    </div>
+                    <div className="">
+                      <Image
+                        placeholder="blur"
+                        quality={100}
+                        src={one1}
+                        alt=""
+                      />
+                    </div>
+                    <div className="">
+                      <Image
+                        placeholder="blur"
+                        quality={100}
+                        src={one3}
+                        alt=""
+                      />
+                    </div>
+                    <div className="">
+                      <Image
+                        placeholder="blur"
+                        quality={100}
+                        src={one2}
+                        alt=""
+                      />
+                    </div>
+                    <div className="">
+                      <Image
+                        placeholder="blur"
+                        quality={100}
+                        src={one7}
+                        alt=""
+                      />
+                    </div>
+                    <div className="">
+                      <Image
+                        placeholder="blur"
+                        quality={100}
+                        src={one6}
+                        alt=""
+                      />
+                    </div>
+                    <div className="">
+                      <Image
+                        placeholder="blur"
+                        quality={100}
+                        src={one5}
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className="lscc-alt solution-2">
+                  <div className="max-w-[153px] order-2 lg:order-1 flex flex-col justify-center items-center">
+                    <Image
+                      className="w-full h-auto"
+                      placeholder="blur"
+                      quality={100}
+                      src={two1}
+                      alt=""
+                    />
+                  </div>
+                  <div className="ls-cont  order-1 lg:order-2">
+                    <h3>2. Simplified Dashboard</h3>
+                    <p className="max-w-[500px]">
+                      As a user, your first daily interaction is with the
+                      dashboard where you receive a summary of reports and
+                      latest activities that have happened in your company as
+                      regards financial activities, hence the design of the
+                      dashboard had to be optimized to be easy to read,
+                      prioritize the data visualization to display info from the
+                      highest priority to the least and still give room to take
+                      major actions in the product.
+                    </p>
+                  </div>
+                </div>
+                <div className="ls-cover-cont solution-3">
+                  <div className="ls-cont">
+                    <h3>3. My Business</h3>
+                    <p className="max-w-[790px]">
+                      During design iteration, one of the solutions we came up
+                      with was this section that would house features that
+                      businesses would require. It would also be a place for
+                      upcoming features for businesses as the navigation was
+                      already full. This section is where businesses access
+                      revenue, customers, invoice, paylinks and POS.
+                    </p>
+                  </div>
+                  <div className="one-image">
+                    <div className="">
+                      <Image
+                        placeholder="blur"
+                        quality={100}
+                        src={three1}
+                        alt=""
+                      />
+                    </div>
+                    <div className="">
+                      <Image
+                        placeholder="blur"
+                        quality={100}
+                        src={three2}
+                        alt=""
+                      />
+                    </div>
+                    <div className="w-[181px!important]">
+                      <Image
+                        placeholder="blur"
+                        quality={100}
+                        src={three3}
+                        alt=""
+                      />
+                    </div>
+                    <div className="">
+                      <Image
+                        placeholder="blur"
+                        quality={100}
+                        src={three4}
+                        alt=""
+                      />
+                    </div>
+                    <div className="">
+                      <Image
+                        placeholder="blur"
+                        quality={100}
+                        src={three5}
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="solution-4">
+                <div className="order-2 lg:order-1 flex flex-col justify-center items-center">
+                  <Image
+                    className="w-full h-auto"
+                    quality={100}
+                    src={four}
+                    alt=""
+                  />
+                </div>
+                <div className="ls-cont order-1 lg:order-2">
+                  <h3> 4. Collect Call - To -Action</h3>
+                  <p className="max-w-[487px]">
+                    The Collect CTA button is a quick action button that opens a
+                    modal with actions that any business would most likely want
+                    to perform quickly on the go. There is no need to dig deeper
+                    into the app to find the necessary actions. We discovered
+                    what users would most likely want to do during research and
+                    curated them here.
+                  </p>
+                </div>
+              </div>
+              <div className="solution-5">
+                <div className="ls-cont">
+                  <h3>5. Customer Management</h3>
+                  <p className="max-w-[506px]">
+                    <span>
+                      A good customer and business relationship strengthens the
+                      bonds that customers have with businesses, causing them to
+                      stay longer with a business that relates to them better,
+                      and the business would know how best to serve the
+                      customers because you can directly message the customers
+                      and they receive the messages in the mails and SMS, and
+                      every reply you receive in the customer's thread on your
+                      dashboard.
+                    </span>
+                    <span>
+                      You may add new clients, delete customers, place them on
+                      services, and even send them messages on special occasions
+                      such as popular holidays and birthdays to strengthen your
+                      bond even further.
+                    </span>
+                  </p>
+                </div>
+                <div className="five-image">
+                  <div className="">
+                    <Image
+                      placeholder="blur"
+                      quality={100}
+                      src={five1}
+                      alt=""
+                    />
+                  </div>
+                  <div className="">
+                    <Image
+                      placeholder="blur"
+                      quality={100}
+                      src={five2}
+                      alt=""
+                    />
+                  </div>
+                  <div className="">
+                    <Image
+                      placeholder="blur"
+                      quality={100}
+                      src={five3}
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="ls-cover-cont solution-6">
+                <div className="ls-cont">
+                  <h3> 6. Bank Transfer (Receiving & Sending)</h3>
+                  <p className="max-w-[790px]">
+                    Every business, even freelancers, must make payments as well
+                    as receive them. To accomplish this, we provide you with the
+                    ability to receive and transfer funds from your dashboard to
+                    any bank account in Africa and beyond for any of your
+                    business branches. For example, a branch in Abuja and
+                    another in New York can both initiate a business transaction
+                    from the same business account for a service required by the
+                    company, and if an approval chain is established, necessary
+                    parties would approve before payment is sent to anywhere in
+                    the world, and you would be able to both monitor the status
+                    of the transaction.
+                  </p>
+                </div>
+                <div className="one-image">
+                  <div className="">
+                    <Image placeholder="blur" quality={100} src={six1} alt="" />
+                  </div>
+                  <div className="">
+                    <Image placeholder="blur" quality={100} src={six2} alt="" />
+                  </div>
+                  <div className="">
+                    <Image placeholder="blur" quality={100} src={six3} alt="" />
+                  </div>
+                  <div className="">
+                    <Image placeholder="blur" quality={100} src={six4} alt="" />
+                  </div>
+                  <div className="">
+                    <Image placeholder="blur" quality={100} src={six5} alt="" />
+                  </div>
+                  {/* <div className="">
+                    <Image placeholder="blur" quality={100} src={six6} alt="" />
+                  </div> */}
+                  <div className="">
+                    <Image placeholder="blur" quality={100} src={six7} alt="" />
+                  </div>
+                </div>
+              </div>
+              <div className="ls-cover-cont solution-7">
+                <div className="ls-cont">
+                  <h3> 7. Payment Link</h3>
+                  <p className="max-w-[790px]">
+                    <span>
+                      A pay link is a one-time link produced by an organization
+                      that customers can use to make payments repeatedly or that
+                      can be shared with several customers to make payments
+                      using several payment methods that the customer(s) feels
+                      comfortable with, saving the business time and hassle. The
+                      amount to be paid can be specified by the company, or it
+                      can be left up to the client.
+                    </span>
+                    <span>
+                      This is also widely utilized and integrated with
+                      e-commerce systems, where it is used as a payment portal
+                      for purchased goods that is integrated into the eCommerce
+                      platforms.
+                    </span>
+                  </p>
+                </div>
+                <div className="one-image">
+                  <div className="w-[138px!important]">
+                    <Image
+                      placeholder="blur"
+                      quality={100}
+                      src={seven1}
+                      alt=""
+                    />
+                  </div>
+                  <div className="w-[138px!important]">
+                    <Image
+                      placeholder="blur"
+                      quality={100}
+                      src={seven2}
+                      alt=""
+                    />
+                  </div>
+                  <div className="w-[138px!important]">
+                    <Image
+                      placeholder="blur"
+                      quality={100}
+                      src={seven3}
+                      alt=""
+                    />
+                  </div>
+                  <div className="w-[138px!important]">
+                    <Image
+                      placeholder="blur"
+                      quality={100}
+                      src={seven4}
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="ls-cover-cont solution-8">
+                <div className="ls-cont">
+                  <h3> 8. Rewards & Referrals</h3>
+                  <p className="max-w-[790px]">
+                    We wanted to find a way to reward users for performing
+                    several actions within the app. It was also a way to keep
+                    users constantly engaged with our app. The result was this
+                    rewards and referrals feature. Users can see their points
+                    and badges on the dashboard, clicking on it will take them
+                    to the rewards & referrals page.
+                  </p>
+                </div>
+                <div className="one-image">
+                  <div className="w-[156px!important]">
+                    <Image
+                      placeholder="blur"
+                      quality={100}
+                      src={eight1}
+                      alt=""
+                    />
+                  </div>
+                  <div className="w-[156px!important]">
+                    <Image
+                      placeholder="blur"
+                      quality={100}
+                      src={eight2}
+                      alt=""
+                    />
+                  </div>
+                  <div className="w-[156px!important]">
+                    <Image
+                      placeholder="blur"
+                      quality={100}
+                      src={eight3}
+                      alt=""
+                    />
+                  </div>
+                  <div className="w-[156px!important]">
+                    <Image
+                      placeholder="blur"
+                      quality={100}
+                      src={eight4}
+                      alt=""
+                    />
+                  </div>
+                  <div className="w-[156px!important]">
+                    <Image
+                      placeholder="blur"
+                      quality={100}
+                      src={eight5}
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div className="ms-padding">
+          <section className="conclusion">
+            <h5>Conclusion</h5>
+            <p>
+              <span>
+                It's difficult enough to get the trust of a single person or
+                business to help manage their funds when dealing with businesses
+                and financial operations. I've noticed that transparency and
+                ease of use are the most important factors in achieving the best
+                results and retaining users. Also, understanding business goals
+                to ensure the business generates a profit must be prioritized,
+                which necessitates numerous calls with stakeholders and the
+                alignment of design and business goals from the outset.
+              </span>
+              <span>
+                I appreciated working on this project since it helped me
+                understand how we might assist business owners because doing so
+                will give them more time and energy to concentrate on growing
+                their company.
+              </span>
+            </p>
+          </section>
+        </div>
+
+        <div className="flex px-5 lg:justify-center lg:items-center pb-20 lg:pb-[243px]">
+          <div className="project-ctas">
+            <span>Next Project</span>
+            <Image className="w-4 h-4" src={arrow} alt="Arrow Right" />
+          </div>
+        </div>
       </main>
-    </>
+
+      <footer className="setbody d-140">
+        <div>
+          <div id="actual-footer">
+            <div className="">Alex Oyebade</div>
+            <div>
+              <ul className="">
+                <li>Contact me</li>
+                <li>resumé</li>
+                <li>Linkedin</li>
+                <li>TWitter</li>
+                <li>dribble</li>
+              </ul>
+              <span className="d-150">copyright 2023 alex oyebade</span>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
   );
 }
 
