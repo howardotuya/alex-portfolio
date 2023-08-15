@@ -206,8 +206,8 @@ function Collect() {
                     Despite having been given a brief, the product manager and
                     we on the design team did some research to figure out what
                     we were creating. We did this to test our assumptions, gain
-                    a deeper understanding of the users' problems and connect it
-                    to the company's objectives. The UX phase started with
+                    a deeper understanding of the users&apos; problems and connect it
+                    to the company&apos;s objectives. The UX phase started with
                     getting to know the consumers and their habits.
                   </span>
                   <span>
@@ -476,7 +476,7 @@ function Collect() {
                       <ul>
                         <li>
                           Customers who come to the shop to pay, sometimes bank
-                          doesn't show the credit alert, thereby delaying the
+                          doesn&apos;t show the credit alert, thereby delaying the
                           customer from leaving
                         </li>
                         <li>
@@ -562,7 +562,7 @@ function Collect() {
                     <p>
                       <ul>
                         <li>
-                          Customers can't purchase from his business website
+                          Customers can&apos;t purchase from his business website
                           easily without the agents always having to send the
                           account details for each payment
                         </li>
@@ -607,9 +607,9 @@ function Collect() {
                 In the customer profile,{" "}
                 <span className="text-[#fafafa]">
                   you explain the work your client is attempting to do by
-                  emphasizing their pains and gains; it is used to track users'
+                  emphasizing their pains and gains; it is used to track users&apos;
                   demands and position the organization to learn more about the
-                  customers' wants in order to correctly generate value.
+                  customers&apos; wants in order to correctly generate value.
                 </span>
               </p>
             </div>
@@ -708,10 +708,10 @@ function Collect() {
             <div className="phc-bcont-alt">
               <h6 className="phc-heading2-alt">User Flows</h6>
               <p className="phc-bodyp-alt">
-                User flows assisted me in patterning the flow of the user's
-                activities in the product from the entry point to the user's
+                User flows assisted me in patterning the flow of the user&apos;s
+                activities in the product from the entry point to the user&apos;s
                 decisions and the resulting actions in order to account for each
-                phase of the user's journey.
+                phase of the user&apos;s journey.
               </p>
             </div>
             <div className="flex flex-col justify-center items-center max-w-[755px]">
@@ -730,7 +730,7 @@ function Collect() {
               <h6 className="phc-heading2-alt">Sitemap</h6>
               <p className="phc-bodyp-alt ">
                 After reviewing my personas and user journeys and keeping key
-                features in mind, I began to consider the app's structure. I had
+                features in mind, I began to consider the app&apos;s structure. I had
                 a basic notion of keeping the structure simple with coexisting
                 tiers because there is a lot of overlapping content and I wanted
                 my visitors to be able to go easily from one page to the next.
@@ -946,7 +946,7 @@ function Collect() {
                       and the business would know how best to serve the
                       customers because you can directly message the customers
                       and they receive the messages in the mails and SMS, and
-                      every reply you receive in the customer's thread on your
+                      every reply you receive in the customer&apos;s thread on your
                       dashboard.
                     </span>
                     <span>
@@ -1145,9 +1145,9 @@ function Collect() {
             <h5>Conclusion</h5>
             <p>
               <span>
-                It's difficult enough to get the trust of a single person or
+                It&apos;s difficult enough to get the trust of a single person or
                 business to help manage their funds when dealing with businesses
-                and financial operations. I've noticed that transparency and
+                and financial operations. I&apos;ve noticed that transparency and
                 ease of use are the most important factors in achieving the best
                 results and retaining users. Also, understanding business goals
                 to ensure the business generates a profit must be prioritized,
