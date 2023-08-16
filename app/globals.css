@@ -145,7 +145,15 @@ body {
   gap: 32px;
 }
 
-#actual-footer > div:nth-child(2) {
+.sidebar-bttm-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+#actual-footer > div:nth-child(2),
+.sidebar-bttm {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -186,7 +194,7 @@ body {
   text-transform: uppercase;
 }
 
-#actual-footer ul {
+#actual-footer ul, .sidebar-bttm ul {
   display: flex;
   text-decoration-line: underline;
   gap: 20px;
