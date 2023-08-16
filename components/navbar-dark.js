@@ -16,7 +16,7 @@ function NavbarDark() {
     } else {
       popup.style.display = "none";
     }
-  }; 
+  };
   return (
     <>
       <div className="g20 xpopup fixed hidden flex-col gap-20 justify-between px-5 pt-8 pb-14 top-0 bottom-0 left-0 right-0 z-[999999999]">
@@ -38,8 +38,12 @@ function NavbarDark() {
           </nav>
           <nav>
             <ul className="text-[#6C6D6D] flex flex-col gap-8 text-xs font-semibold uppercase leading-4">
-             <Link href="mailto:ao.dsgnr@gmail.com"><li className="underline">Contact me</li></Link>
-              <li>works</li>
+              <Link href="mailto:ao.dsgnr@gmail.com">
+                <li className="underline">Contact me</li>
+              </Link>
+              <Link href="/all-projects">
+                <li>works</li>
+              </Link>
               <li>articles</li>
             </ul>
           </nav>
@@ -48,10 +52,18 @@ function NavbarDark() {
         <div className="sidebar-bttm-top">
           <div className="sidebar-bttm">
             <ul className="d-120">
-            <Link href="https://read.cv/join/alexoyebade"><li>resumé</li></Link>
-            <Link href="https://www.linkedin.com/in/iamalexoyebade/"><li>Linkedin</li></Link>
-            <Link href="https://twitter.com/iamalexoyebade"><li>TWitter</li></Link>
-            <Link href="https://dribbble.com/AlexOye"><li>dribble</li></Link>
+              <Link href="https://read.cv/join/alexoyebade">
+                <li>resumé</li>
+              </Link>
+              <Link href="https://www.linkedin.com/in/iamalexoyebade/">
+                <li>Linkedin</li>
+              </Link>
+              <Link href="https://twitter.com/iamalexoyebade">
+                <li>TWitter</li>
+              </Link>
+              <Link href="https://dribbble.com/AlexOye">
+                <li>dribble</li>
+              </Link>
             </ul>
             <div className="d-130">copyright 2023 alex oyebade</div>
           </div>
@@ -68,7 +80,10 @@ function NavbarDark() {
               <Link href="mailto:ao.dsgnr@gmail.com">
                 <li className="underline">Contact me</li>
               </Link>
-              <li className=" g70">works</li>
+
+              <Link href="/all-projects">
+                <li className=" g70">works</li>
+              </Link>
               <li className=" g70">articles</li>
             </ul>
             <svg

@@ -367,9 +367,9 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="flex pt-10 lg:pt-[120px] w-full items-center justify-center">
+              <div className="flex pt-12 lg:pt-[120px] w-full items-center justify-center">
                 <div
-                  id="CTA"
+                  id="CTA" 
                   class="py-2 px-4 rounded-[20px] w-auto flex justify-center items-center gap-1 text-[14px] leading-[120%] g10 border border-[#fafafa]"
                 >
                   View All Projects

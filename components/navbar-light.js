@@ -43,7 +43,7 @@ function NavbarLight() {
               <Link href="mailto:ao.dsgnr@gmail.com">
                 <li className="underline">Contact me</li>
               </Link>
-              <li>works</li>
+             <Link href="/all-projects"><li>works</li></Link>
               <li>articles</li>
             </ul>
           </nav>
@@ -80,7 +80,7 @@ function NavbarLight() {
               <Link href="mailto:ao.dsgnr@gmail.com">
                 <li className="underline">Contact me</li>
               </Link>
-              <li>works</li>
+             <Link href="/all-projects"><li>works</li></Link>
               <li>articles</li>
             </ul>
             <div className="flex lg:hidden flex-col w-6 h-6">
