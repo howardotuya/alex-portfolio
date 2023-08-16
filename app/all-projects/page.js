@@ -530,15 +530,16 @@ export default function Home() {
                       />
                     </div>
                   </div>
-                  <div id="content-2" className="content-2 w-full">
+                  
+                  <div className="content-2 w-full">
                     <div className="">
                       <h6 className="g40 font-semibold">Contentionary, 2022</h6>
-                      <span className=" text-sm text-[hsl(24,71%,36%)] ">
-                        a proper category on Contentionary is needed
+                      <span className="g90 text-sm">
+                      UI Design (Web)
                       </span>
                     </div>
-                    <div className=" text-sm text-[hsl(24,71%,36%)] max-w-[422px!important]">
-                      a proper summary on Contentionary is needed
+                    <div className="g90 lg:max-w-[323px!important]">
+                    Share, Sell, Engage and Impact your students or subscribers on your terms.
                     </div>
                   </div>
                 </div>
