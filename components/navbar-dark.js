@@ -56,7 +56,7 @@ function NavbarDark() {
       </div>
     <div className="setbody bg-[#161718] sticky top-0 left-0 right-0 z-[99999]">
       <div className="grey-g20 text-[#F5F5F5]">
-        <nav className="px-5 lg:px-6 pt-8 lg:pt-12 pb-[22px] w-full text-xs font-bold uppercase flex flex-row justify-between items-center">
+        <nav className="px-5 lg:px-6 pt-8 lg:pt-12 pb-[22px] w-full text-xs font-bold uppercase flex flex-row justify-between items-baseline">
           <h6 className="">Alex Oyebade</h6>
           <ul className="hidden lg:flex items-center gap-6">
             <li className="underline">Contact me</li>
