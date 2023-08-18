@@ -807,8 +807,56 @@ body {
   gap: 80px;
 }
 
+.setbody3 h4 {
+  color: #252627;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 18px */
+}
+
+.setbody3 h5 {
+  color: #6c6d6d;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 119%; /* 11.9px */
+}
+
+.setbody3 h6 {
+  color: #898a8a;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 119%; /* 11.9px */
+}
+
 @media only screen and (min-width: 1024px) {
   /* For Flow-Finance */
+
+  .setbody3 h4 {
+    color: #252627;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 128.571% */
+  }
+
+  .setbody3 h5 {
+    color: #6c6d6d;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 590;
+    line-height: normal;
+  }
+
+  .setbody3 h6 {
+    color: #898a8a;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
 
   .grd-auto2 {
     display: grid;
@@ -1335,5 +1383,14 @@ body {
   .header-full {
     height: auto;
     padding-bottom: 337px;
+  }
+  .setbody3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .setbody3 > div {
+    max-width: 1440px;
   }
 }

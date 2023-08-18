@@ -2,6 +2,7 @@ import Image from "next/image";
 import NavbarLight from "@/components/navbar-light";
 import fheaderImg from "@/public/images/flow-finance/fheader-img.png";
 import Img2 from "@/public/images/flow-finance/img2.png";
+import Img3 from "@/public/images/flow-finance/img3.png";
 
 export default function Home() {
   return (
@@ -129,7 +130,54 @@ export default function Home() {
         <div>
           <div className=" grid justify-items-center items-center">
             <div className="w-full grid justify-items-center items-center max-w-[209px] lg:max-w-[551px] pt-20 lg:pt-[220px]">
-              <Image className="w-full h-auto" src={Img2} alt="Dashboard" />
+              <Image
+                className="w-full h-auto"
+                src={Img2}
+                placeholder="blur"
+                alt="Dashboard"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="setbody3">
+        <div>
+          <div className="relative">
+            <div className="w-full">
+              <Image
+                className="w-full h-auto"
+                src={Img3}
+                placeholder="blur"
+                alt="Business Woman Thinking"
+              />
+            </div>
+            <div className="max-w-[186px] lg:max-w-[428px] absolute bottom-5 lg:bottom-auto lg:top-[564px] right-6 p-3 lg:p-6 g20 rounded-[12px] lg:rounded-[20px] gap-3 grid">
+              <h4>
+                “It’s disheartening that I still get paid in a monthly cycle
+                when <span className="text-[#AA584D]">emergencies</span> don’t
+                care about that.”
+              </h4>
+              <div className="flex gap-1 flex-col">
+                <h5>Sola Adeoye</h5>
+                <h6>Product Manager</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="g20-alt setbody">
+        <div>
+          <div className="w-full max-w-[1039px] py-20 lg:pt-[216px] lg:pb-[249px]">
+            <div className="fheader-bottom">
+              <h6>Total Addressable Market</h6>
+              <p className="text-[#989999!important]">
+                As a result, earned wage access has huge potential within the
+                African labour market and the lack of liquidity in between
+                paychecks presents a <span className="text-[#252627]">$30B funding opportunity</span> across Africa
+                every month.
+              </p>
             </div>
           </div>
         </div>
