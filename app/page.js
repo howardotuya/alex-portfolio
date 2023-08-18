@@ -24,7 +24,9 @@ import NavbarLight from "@/components/navbar-light";
 export default function Home() {
   return (
     <div class="flex flex-col gap-4 lg:gap-6 bg-[#252627] justify-center items-center">
-      <NavbarLight />
+      <span className="g20 absolute">
+        <NavbarLight />
+      </span>
       <header className="g20 header-full setbody">
         <div>
           <div className="lg:pt-[245px] self-end items-end flex flex-col justify-center w-full h-full lg:h-auto pr-5 lg:pr-[21.53%]">
@@ -53,7 +55,9 @@ export default function Home() {
               <h6 className="lg:text-xl lg:font-bold font-semibold text-[16px] leading-[120%]">
                 Alex <span className="g100">Oyebade</span>{" "}
               </h6>
-              <p className="text-2xl font-normal leading-[120%]">/Oh-yay-BAH-day/</p>
+              <p className="text-2xl font-normal leading-[120%]">
+                /Oh-yay-BAH-day/
+              </p>
             </div>
             <div>
               <p className="lg:text-[80px] lg:leading-[104px] lg:font-bold font-semibold text-[16px] leading-[160%]">
@@ -369,7 +373,7 @@ export default function Home() {
               </div>
               <div className="flex pt-12 lg:pt-[120px] w-full items-center justify-center">
                 <div
-                  id="CTA" 
+                  id="CTA"
                   class="py-2 px-4 rounded-[20px] w-auto flex justify-center items-center gap-1 text-[14px] leading-[120%] g10 border border-[#fafafa]"
                 >
                   View All Projects

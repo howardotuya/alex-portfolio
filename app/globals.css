@@ -194,7 +194,8 @@ body {
   text-transform: uppercase;
 }
 
-#actual-footer ul, .sidebar-bttm ul {
+#actual-footer ul,
+.sidebar-bttm ul {
   display: flex;
   text-decoration-line: underline;
   gap: 20px;
@@ -719,7 +720,176 @@ body {
   line-height: 16px; /* 133.333% */
 }
 
+.grd-auto2 {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  column-gap: 8px;
+  width: max-content;
+}
+
+.fheader-h6 {
+  color: #161718;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 119%; /* 16.66px */
+  text-transform: uppercase;
+}
+
+.fheader-h1 {
+  color: #161718;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 119%; /* 28.56px */
+  letter-spacing: 0.48px;
+}
+
+.fheader-button {
+  border-radius: 20px;
+  border: 1px solid #363738;
+  display: grid;
+  width: max-content;
+  padding: 8px 16px;
+  grid-template-columns: repeat(2, auto);
+  column-gap: 8px;
+  align-items: center;
+}
+
+.fheader-button > span {
+  color: #363738;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.fheader-top1 {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-rows: auto;
+  gap: 24px;
+}
+
+.fheader-bottom {
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.fheader-bottom > h6 {
+  color: #424344;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 119%; /* 14.28px */
+  text-transform: uppercase;
+}
+
+.fheader-bottom > p {
+  color: #424344;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 24px */
+}
+
+.fheader-cont {
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 80px;
+}
+
 @media only screen and (min-width: 1024px) {
+  /* For Flow-Finance */
+
+  .grd-auto2 {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 12px;
+    width: max-content;
+  }
+
+  .fheader-h6 {
+    color: #161718;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+
+  .fheader-h1 {
+    color: #161718;
+    font-size: 180px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    line-height: normal;
+  }
+
+  .fheader-button {
+    border-radius: 20px;
+    border: 1px solid #363738;
+    display: grid;
+    width: max-content;
+    padding: 8px 16px;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 8px;
+    align-items: center;
+  }
+
+  .fheader-button > span {
+    color: #363738;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .fheader-top1 {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-rows: auto;
+    gap: 12px;
+  }
+
+  .fheader-bottom {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 24px;
+    padding-left: 24px;
+  }
+
+  .fheader-bottom > h6 {
+    color: #424344;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+
+  .fheader-bottom > p {
+    color: #424344;
+    max-width: 1215px;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px; /* 128.571% */
+  }
+
+  .fheader-cont {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 284px;
+  }
+
   /* For collect Africa */
 
   .project-ctas {

@@ -28,6 +28,7 @@ export default function Home() {
     <>
       <div className="bg-[#161718]">
         <NavbarDark />
+        
         <header className="grey-g20 setbody text-[#F5F5F5]">
           <div className="">
             <section className="px-5 pt-20 pb-24 lg:pl-6 lg:pt-[100px] lg:pb-[214px] g30 flex flex-col gap-8 lg:gap-16">
