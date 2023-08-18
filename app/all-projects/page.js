@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import memojimessage from "public/images/home-hero.png";
 import memojimessageS from "public/images/home-hero-sm.png";
 import menu from "public/images/menu.png";
@@ -73,7 +74,7 @@ export default function Home() {
                 className="pt-2 flex flex-col gap-[56px] lg:gap-[72px] lg:pt-3"
               >
                 <div id="first-row-projects" className="">
-                  <div id="flow-finance" className="flex flex-col gap-4">
+                <Link href="/projects/flow-finance" id="flow-finance" className="flex flex-col gap-4">
                     <div className="content-1 bg-[#363738]">
                       <div className="g10">
                         <h6 className="text-sm font-medium lg:font-semibold leading-[120%]">
@@ -82,7 +83,7 @@ export default function Home() {
                         <h2 className="xl:text-[80px] xl:leading-[95px] text-2xl font-bold">
                           Flow Finance
                         </h2>
-                        <div className="flex flex-row gap-[10px] items-center">
+                        <Link href="/projects/flow-finance" className="flex flex-row gap-[10px] items-center">
                           <span className="text-sm text-[#69A9E9] leading-[120%]">
                             Read More
                           </span>
@@ -94,7 +95,7 @@ export default function Home() {
                               alt="Arrow Right"
                             />
                           </span>
-                        </div>
+                        </Link>
                       </div>
                       <div className="flex flex-col w-full max-w-[233px] lg:max-w-[425px] h-auto">
                         <Image
@@ -127,8 +128,8 @@ export default function Home() {
                         for employees and employers.
                       </div>
                     </div>
-                  </div>
-                  <div id="Collect Africa" className="flex flex-col gap-4">
+                  </Link>
+                  <Link href="/projects/collect-africa" id="Collect Africa" className="flex flex-col gap-4">
                     <div className="content-1 bg-[#5285F2]">
                       <div className="g10">
                         <h6 className="text-sm font-medium lg:font-semibold leading-[120%]">
@@ -137,7 +138,7 @@ export default function Home() {
                         <h2 className="xl:text-[80px] xl:leading-[95px] text-2xl font-bold">
                           Collect Africa
                         </h2>
-                        <div className="flex flex-row gap-[10px] items-center">
+                        <Link href="/projects/collect-africa" className="flex flex-row gap-[10px] items-center">
                           <span className="text-sm text-[#252627] leading-[120%]">
                             Read More
                           </span>
@@ -149,7 +150,7 @@ export default function Home() {
                               alt="Arrow Right"
                             />
                           </span>
-                        </div>
+                        </Link>
                       </div>
                       <div className="flex flex-col w-full max-w-[233px] lg:max-w-[425px] h-auto">
                         <Image
@@ -181,7 +182,7 @@ export default function Home() {
                         Seamless payments for small and large businesses
                       </div>
                     </div>
-                  </div>
+                  </Link>
                 </div>
 
                 <div id="Zacrac" className="flex flex-col gap-4">
