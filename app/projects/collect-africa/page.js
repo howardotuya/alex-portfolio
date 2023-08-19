@@ -1,5 +1,6 @@
 import NavbarDark from "@/components/navbar-dark";
 import Image from "next/image";
+import Link from "next/link";
 import arrowleft from "@/public/images/arrow-left.png";
 import headerlg from "@/public/images/collect-africa/header-lg.png";
 import headersm from "@/public/images/collect-africa/header-sm.png";
@@ -62,7 +63,7 @@ function Collect() {
       <NavbarDark className="fixed" />
       <header className="bg-[#161718] phc pt-20 lg:pt-[135px]">
         <div className="phc-content">
-          <div className="phc-x1">
+          <Link href="/" className="phc-x1">
             <div>
               <Image
                 className="w-3 h-3"
@@ -72,7 +73,7 @@ function Collect() {
               />
             </div>
             <h6>Back to home</h6>
-          </div>
+          </Link>
           <div className="phc-x2">
             <h1 className="phc-h1">Collect Mobile App UX Case Study</h1>
             <p className="phc-p">
@@ -206,9 +207,9 @@ function Collect() {
                     Despite having been given a brief, the product manager and
                     we on the design team did some research to figure out what
                     we were creating. We did this to test our assumptions, gain
-                    a deeper understanding of the users&apos; problems and connect it
-                    to the company&apos;s objectives. The UX phase started with
-                    getting to know the consumers and their habits.
+                    a deeper understanding of the users&apos; problems and
+                    connect it to the company&apos;s objectives. The UX phase
+                    started with getting to know the consumers and their habits.
                   </span>
                   <span>
                     The goal of the research was to gain a comprehensive
@@ -476,8 +477,8 @@ function Collect() {
                       <ul>
                         <li>
                           Customers who come to the shop to pay, sometimes bank
-                          doesn&apos;t show the credit alert, thereby delaying the
-                          customer from leaving
+                          doesn&apos;t show the credit alert, thereby delaying
+                          the customer from leaving
                         </li>
                         <li>
                           Inability to fully organize and handle his account.
@@ -562,9 +563,9 @@ function Collect() {
                     <p>
                       <ul>
                         <li>
-                          Customers can&apos;t purchase from his business website
-                          easily without the agents always having to send the
-                          account details for each payment
+                          Customers can&apos;t purchase from his business
+                          website easily without the agents always having to
+                          send the account details for each payment
                         </li>
                         <li>
                           Inability to manage financial accounts, leading to
@@ -607,9 +608,10 @@ function Collect() {
                 In the customer profile,{" "}
                 <span className="text-[#fafafa]">
                   you explain the work your client is attempting to do by
-                  emphasizing their pains and gains; it is used to track users&apos;
-                  demands and position the organization to learn more about the
-                  customers&apos; wants in order to correctly generate value.
+                  emphasizing their pains and gains; it is used to track
+                  users&apos; demands and position the organization to learn
+                  more about the customers&apos; wants in order to correctly
+                  generate value.
                 </span>
               </p>
             </div>
@@ -709,9 +711,9 @@ function Collect() {
               <h6 className="phc-heading2-alt">User Flows</h6>
               <p className="phc-bodyp-alt">
                 User flows assisted me in patterning the flow of the user&apos;s
-                activities in the product from the entry point to the user&apos;s
-                decisions and the resulting actions in order to account for each
-                phase of the user&apos;s journey.
+                activities in the product from the entry point to the
+                user&apos;s decisions and the resulting actions in order to
+                account for each phase of the user&apos;s journey.
               </p>
             </div>
             <div className="flex flex-col justify-center items-center max-w-[755px]">
@@ -730,10 +732,11 @@ function Collect() {
               <h6 className="phc-heading2-alt">Sitemap</h6>
               <p className="phc-bodyp-alt ">
                 After reviewing my personas and user journeys and keeping key
-                features in mind, I began to consider the app&apos;s structure. I had
-                a basic notion of keeping the structure simple with coexisting
-                tiers because there is a lot of overlapping content and I wanted
-                my visitors to be able to go easily from one page to the next.
+                features in mind, I began to consider the app&apos;s structure.
+                I had a basic notion of keeping the structure simple with
+                coexisting tiers because there is a lot of overlapping content
+                and I wanted my visitors to be able to go easily from one page
+                to the next.
               </p>
             </div>
             <div className="flex flex-col justify-center items-center max-w-[637px]">
@@ -946,8 +949,8 @@ function Collect() {
                       and the business would know how best to serve the
                       customers because you can directly message the customers
                       and they receive the messages in the mails and SMS, and
-                      every reply you receive in the customer&apos;s thread on your
-                      dashboard.
+                      every reply you receive in the customer&apos;s thread on
+                      your dashboard.
                     </span>
                     <span>
                       You may add new clients, delete customers, place them on
@@ -1145,14 +1148,15 @@ function Collect() {
             <h5>Conclusion</h5>
             <p>
               <span>
-                It&apos;s difficult enough to get the trust of a single person or
-                business to help manage their funds when dealing with businesses
-                and financial operations. I&apos;ve noticed that transparency and
-                ease of use are the most important factors in achieving the best
-                results and retaining users. Also, understanding business goals
-                to ensure the business generates a profit must be prioritized,
-                which necessitates numerous calls with stakeholders and the
-                alignment of design and business goals from the outset.
+                It&apos;s difficult enough to get the trust of a single person
+                or business to help manage their funds when dealing with
+                businesses and financial operations. I&apos;ve noticed that
+                transparency and ease of use are the most important factors in
+                achieving the best results and retaining users. Also,
+                understanding business goals to ensure the business generates a
+                profit must be prioritized, which necessitates numerous calls
+                with stakeholders and the alignment of design and business goals
+                from the outset.
               </span>
               <span>
                 I appreciated working on this project since it helped me
@@ -1165,10 +1169,10 @@ function Collect() {
         </div>
 
         <div className="flex px-5 lg:justify-center lg:items-center pb-20 lg:pb-[243px]">
-          <div className="project-ctas">
+          <Link href="" className="project-ctas">
             <span>Next Project</span>
             <Image className="w-4 h-4" src={arrow} alt="Arrow Right" />
-          </div>
+          </Link>
         </div>
       </main>
 

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import NavbarLight from "@/components/navbar-light";
 import fheaderImg from "@/public/images/flow-finance/fheader-img.png";
 import Img2 from "@/public/images/flow-finance/img2.png";
@@ -13,6 +14,9 @@ import bills from "@/public/images/flow-finance/bills.png";
 import m1 from "@/public/images/flow-finance/m1.png";
 import m2 from "@/public/images/flow-finance/m2.png";
 import m3 from "@/public/images/flow-finance/m3.png";
+import Img6 from "@/public/images/flow-finance/Home.png"; 
+import Img7 from "@/public/images/flow-finance/Homepage.png";
+import arrow from "@/public/images/cta-arrow.png";
 
 export default function Home() {
   return (
@@ -26,7 +30,7 @@ export default function Home() {
           <div className="fheader-cont">
             <div className="fheader-top grid gap-8 lg:gap-[152px] justify-items-center items-center">
               <div className="fheader-top1">
-                <button className="fheader-button">
+                <Link href="/" className="fheader-button">
                   <div>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +46,7 @@ export default function Home() {
                     </svg>
                   </div>
                   <span>Back to home</span>
-                </button>
+                </Link>
                 <div className="grid gap-4 lg:gap-3 justify-items-center">
                   <h1 className="fheader-h1">Flow Finance</h1>
                   <div className="grd-auto2">
@@ -103,7 +107,12 @@ export default function Home() {
                 </div>
               </div>
               <div className="fheader-top2 max-w-[209px] lg:max-w-[425px] ">
-                <Image placeholder="blur" src={fheaderImg} alt="Mockup" />
+                <Image
+                  placeholder="blur"
+                  src={fheaderImg}
+                  quality={100}
+                  alt="Mockup"
+                />
               </div>
             </div>
             <div className="fheader-bottom">
@@ -144,6 +153,7 @@ export default function Home() {
                 className="w-full h-auto"
                 src={Img2}
                 placeholder="blur"
+                quality={100}
                 alt="Dashboard"
               />
             </div>
@@ -159,6 +169,7 @@ export default function Home() {
                 className="w-full h-auto"
                 src={Img3}
                 placeholder="blur"
+                quality={100}
                 alt="Business Woman Thinking"
               />
             </div>
@@ -199,7 +210,11 @@ export default function Home() {
           <div className="dcontainer">
             <div class="dcard">
               <div className="dcard-img">
-                <Image src={dashwithout} alt="Dashboard without Flow" />
+                <Image
+                  src={dashwithout}
+                  quality={100}
+                  alt="Dashboard without Flow"
+                />
               </div>
               <h6>
                 Dashboard <span className="text-[#AD6359]">without</span>{" "}
@@ -208,7 +223,7 @@ export default function Home() {
             </div>
             <div class="dcard">
               <div className="dcard-img">
-                <Image src={dashwith} alt="Dashboard with Flow" />
+                <Image src={dashwith} quality={100} alt="Dashboard with Flow" />
               </div>
               <h6>
                 <span class="text-[#898A8A]">Dashboard with</span>{" "}
@@ -258,12 +273,14 @@ export default function Home() {
                 <Image
                   className="lg:block hidden"
                   src={Img4}
+                  quality={100}
                   alt="Cards Mobile Page"
                   placeholder="blur"
                 />
                 <Image
                   className="block lg:hidden"
                   src={cards}
+                  quality={100}
                   alt="Cards Mobile Page"
                   placeholder="blur"
                 />
@@ -289,12 +306,14 @@ export default function Home() {
                 <Image
                   className="lg:block hidden"
                   src={Img5}
+                  quality={100}
                   alt="Savings Mobile Page"
                   placeholder="blur"
                 />
                 <Image
                   className="block lg:hidden"
                   src={savings}
+                  quality={100}
                   alt="Savings Mobile Page"
                   placeholder="blur"
                 />
@@ -317,7 +336,12 @@ export default function Home() {
               </p>
             </div>
             <div className="bills-image">
-              <Image className="w-full h-auto" src={bills} alt="Bills Mobile" />
+              <Image
+                className="w-full h-auto"
+                src={bills}
+                quality={100}
+                alt="Bills Mobile"
+              />
             </div>
           </div>
         </div>
@@ -327,55 +351,100 @@ export default function Home() {
         <div>
           <div className="photoG">
             <div>
-              <Image src={m1} placeholder="blur" alt="" />
+              <Image src={m1} placeholder="blur" quality={100} alt="" />
             </div>
             <div>
-              <Image src={m2} placeholder="blur" alt="" />
+              <Image src={m2} placeholder="blur" quality={100} alt="" />
             </div>
             <div>
-              <Image src={m3} placeholder="blur" alt="" />
+              <Image src={m3} placeholder="blur" quality={100} alt="" />
             </div>
           </div>
         </div>
       </section>
 
-      {/* <footer className="g20 setbody">
+      <section className="g20-alt setbody">
         <div>
-          <section className="px-5 py-24 lg:pl-6 lg:pt-[184px] lg:pb-[214px] g50 flex flex-col gap-4 lg:gap-6">
-            <h6 className="lg:text-xl lg:font-bold font-semibold text-base uppercase">
-              life outside design
-            </h6>
-            <div>
-              <p className="lg:text-[56px] lg:leading-[72px] lg:font-bold font-semibold text-base leading-[160%]">
-                <span className="block">
-                  I realised early that I am a people person. I love to help
-                  people see new perspectives and help them get unstuck. So when
-                  I’m not pushing impactful pixels, you’d find me in virtual and
-                  physical communities leading conversations on topics around
-                  emotional intelligence for tech talents.
-                </span>
-                <span className="g80 pt-3 lg:pt-[72px] block">
-                  Oh, and I take the best iPhone pictures too. Now pose! 😎 📸
-                </span>
+          <div className="w-full max-w-[1039px] py-20 lg:pt-[216px] lg:pb-[249px]">
+            <div className="fheader-bottom">
+              <h6>Website</h6>
+              <p>
+                To increase acquisition and ease of entry for users, a
+                responsive marketing landing page was designed to tell the brand
+                story, talk about the features and upcoming features.
               </p>
-            </div>
-          </section>
-
-          <div id="actual-footer">
-            <div className="d-110">Alex Oyebade</div>
-            <div>
-              <ul className="d-120">
-                <li>Contact me</li>
-                <li>resumé</li>
-                <li>Linkedin</li>
-                <li>TWitter</li>
-                <li>dribble</li>
-              </ul>
-              <div className="d-130">copyright 2023 alex oyebade</div>
             </div>
           </div>
         </div>
-      </footer> */}
+      </section>
+
+      <section className="g20-alt setbody">
+        <div>
+          <div className="flast-cont">
+            <div>
+              <Image
+                className=""
+                src={Img7}
+                quality={100}
+                placeholder="blur"
+                alt="Desktop"
+              />
+            </div>
+            <div>
+              <Image
+                className=""
+                src={Img6}
+                quality={100}
+                placeholder="blur"
+                alt="Mobile"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-[#161718] setbody">
+        <div>
+          <div className="w-full max-w-[1239px] pt-20 pb-8 lg:pt-[216px] lg:pb-[196px]">
+            <div className="fheader-bottom-alt">
+              <h6>Reflection</h6>
+              <p>
+                Since the inception of the idea, to assembling a team,
+                everyone’s energy and drive has been contagious.{" "}
+                <span className="text-[#989999]">
+                  I am fortunate to be part of the drivers of this project and
+                  watching it become a reality. I cannot wait to see how it
+                  improves the financial wellness of employees in Africa.
+                </span>
+              </p>
+            </div>
+          </div>
+          <div className="flex bg-[#161718] px-5 lg:justify-center lg:items-center pb-20 lg:pt-[61px] lg:pb-[182px]">
+            <Link href="/projects/collect-africa" className="project-ctas">
+              <span>Next Project</span>
+              <Image className="w-4 h-4" src={arrow} alt="Arrow Right" />
+            </Link>
+          </div>
+
+          <footer className="setbody bg-[#161718] d-140">
+            <div>
+              <div id="actual-footer">
+                <div className="">Alex Oyebade</div>
+                <div>
+                  <ul className="">
+                    <li>Contact me</li>
+                    <li>resumé</li>
+                    <li>Linkedin</li>
+                    <li>TWitter</li>
+                    <li>dribble</li>
+                  </ul>
+                  <span className="d-150">copyright 2023 alex oyebade</span>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </section>
     </div>
   );
 }
