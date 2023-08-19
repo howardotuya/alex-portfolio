@@ -831,8 +831,229 @@ body {
   line-height: 119%; /* 11.9px */
 }
 
+.ftwo-cont,
+.dcontainer {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  row-gap: 16px;
+  background-color: #fff;
+}
+
+.ftwo-cont-card {
+  background-color: #ebebec;
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 24px;
+  justify-items: center;
+  padding: 80px 20px;
+  overflow-x: hidden;
+}
+
+.ftwo-cont-ctop {
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 8px;
+  justify-items: start;
+}
+
+.ftwo-cont-ctop h2 {
+  color: #161718;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 119%; /* 28.56px */
+}
+
+.ftwo-cont-ctop p {
+  max-width: 547px;
+  color: #6c6d6d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+.ftwo-cont-cbottom,
+.dcard-img,
+.bills-image {
+  max-width: 209px;
+}
+
+.dcard {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  width: 100%;
+  row-gap: 24px;
+  justify-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #ebebec;
+}
+
+.dcard h6 {
+  font-family: "noteworthy";
+  color: #363738;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.067px;
+}
+
+.bills {
+  padding: 80px 20px;
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  row-gap: 24px;
+  justify-items: center;
+}
+
+.bills-text {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  row-gap: 16px;
+}
+
+.bills-text h2 {
+  color: #161718;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 119%; /* 28.56px */
+}
+
+.bills-text p {
+  max-width: 688px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  color: #424344;
+}
+
+.photoG {
+  display: grid;
+  grid-template-rows: repeat(3, max-content);
+  row-gap: 64px;
+  padding: 0 20px;
+  justify-items: center;
+}
+
+.photoG > div { 
+  max-width: 209px;
+}
+
+@media only screen and (min-width: 763px) {
+}
+
 @media only screen and (min-width: 1024px) {
   /* For Flow-Finance */
+
+
+  .photoG {
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    justify-content: space-between;
+    padding: 0 56px;
+    row-gap: 0;
+  }
+  
+  .photoG > div { 
+    max-width: 347px;
+  }
+  
+  .photoG > div:nth-of-type(2) {
+    max-width: 357px;
+    padding-top: 99px;
+    padding-bottom: 152px;
+  }
+  
+  .photoG > div:nth-of-type(3) {
+    align-self: self-end;
+  }
+
+  .bills {
+    padding: 182px 24px;
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    column-gap: 226px;
+    row-gap: 0;
+    justify-items: start;
+  }
+
+  .bills-text {
+    gap: 0;
+  }
+
+  .bills-text h2 {
+    color: #161718;
+    font-size: 164px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .bills-text p {
+    max-width: 688px;
+    color: #424344;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 150% */
+  }
+
+  .dcard h6 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .dcard {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    width: 100%;
+    row-gap: 104px;
+    column-gap: 0;
+    justify-items: center;
+    padding-top: 128px;
+    padding-bottom: 142px;
+    background-color: #ebebec;
+  }
+
+  .ftwo-cont,
+  .dcontainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 24px;
+    row-gap: 0;
+    background-color: #fff;
+    width: 100%;
+  }
+
+  .ftwo-cont-card {
+    background-color: #ebebec;
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 68px;
+    justify-items: center;
+    padding-top: 96px;
+    padding-bottom: 0;
+    overflow-x: hidden;
+  }
+
+  .ftwo-cont-ctop {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 8px;
+    justify-items: center;
+  }
+
+  .ftwo-cont-cbottom,
+  .dcard-img,
+  .bills-image {
+    max-width: 301px;
+  }
 
   .setbody3 h4 {
     color: #252627;
@@ -1367,6 +1588,22 @@ body {
 }
 
 @media only screen and (min-width: 1280px) {
+  .ftwo-cont-ctop h2 {
+    color: #161718;
+    font-size: 164px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .ftwo-cont-ctop p {
+    max-width: 547px;
+    color: #6c6d6d;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 510;
+    line-height: 28px; /* 140% */
+  }
   .ms-padding,
   .nopad {
     padding-left: 238px;

@@ -3,6 +3,16 @@ import NavbarLight from "@/components/navbar-light";
 import fheaderImg from "@/public/images/flow-finance/fheader-img.png";
 import Img2 from "@/public/images/flow-finance/img2.png";
 import Img3 from "@/public/images/flow-finance/img3.png";
+import Img4 from "@/public/images/flow-finance/img4.png";
+import Img5 from "@/public/images/flow-finance/img5.png";
+import cards from "@/public/images/flow-finance/cards.png";
+import savings from "@/public/images/flow-finance/savings.png";
+import dashwith from "@/public/images/flow-finance/dashwith.png";
+import dashwithout from "@/public/images/flow-finance/dashwithout.png";
+import bills from "@/public/images/flow-finance/bills.png";
+import m1 from "@/public/images/flow-finance/m1.png";
+import m2 from "@/public/images/flow-finance/m2.png";
+import m3 from "@/public/images/flow-finance/m3.png";
 
 export default function Home() {
   return (
@@ -152,7 +162,7 @@ export default function Home() {
                 alt="Business Woman Thinking"
               />
             </div>
-            <div className="max-w-[186px] lg:max-w-[428px] absolute bottom-5 lg:bottom-auto lg:top-[564px] right-6 p-3 lg:p-6 g20 rounded-[12px] lg:rounded-[20px] gap-3 grid">
+            <div className="max-w-[186px] lg:max-w-[428px] absolute bottom-5 lg:bottom-[155px] right-6 p-3 lg:p-6 g20 rounded-[12px] lg:rounded-[20px] gap-3 grid">
               <h4>
                 “It’s disheartening that I still get paid in a monthly cycle
                 when <span className="text-[#AA584D]">emergencies</span> don’t
@@ -175,9 +185,155 @@ export default function Home() {
               <p className="text-[#989999!important]">
                 As a result, earned wage access has huge potential within the
                 African labour market and the lack of liquidity in between
-                paychecks presents a <span className="text-[#252627]">$30B funding opportunity</span> across Africa
-                every month.
+                paychecks presents a{" "}
+                <span className="text-[#252627]">$30B funding opportunity</span>{" "}
+                across Africa every month.
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="g20-alt setbody">
+        <div>
+          <div className="dcontainer">
+            <div class="dcard">
+              <div className="dcard-img">
+                <Image src={dashwithout} alt="Dashboard without Flow" />
+              </div>
+              <h6>
+                Dashboard <span className="text-[#AD6359]">without</span>{" "}
+                FlowOn-Demand™
+              </h6>
+            </div>
+            <div class="dcard">
+              <div className="dcard-img">
+                <Image src={dashwith} alt="Dashboard with Flow" />
+              </div>
+              <h6>
+                <span class="text-[#898A8A]">Dashboard with</span>{" "}
+                FlowOn-Demand™
+              </h6>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="g20-alt setbody">
+        <div>
+          <div className="w-full max-w-[1039px] py-20 lg:pt-[216px] lg:pb-[249px]">
+            <div className="fheader-bottom">
+              <h6>added value</h6>
+              <p className="text-[#989999!important]">
+                Looking closely at the overall financial need of employees, it
+                was obvious that just providing On-Demand salary alone will not
+                be enough.{" "}
+                <span className="text-[#252627]">
+                  So I added some other features to make the product even more
+                  valuable to the employees.
+                </span>{" "}
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="setbody g20-alt">
+        <div>
+          <div className="ftwo-cont">
+            <div className="ftwo-cont-card">
+              <div className="ftwo-cont-ctop">
+                <h2>Cards</h2>
+                <p>
+                  To enable a wallet system, funds requests, bill payments,
+                  funds requests, and money transfers from their activated
+                  <span className="text-[#161718] font-semibold">
+                    {" "}
+                    FlowOn-Demand™
+                  </span>{" "}
+                  accounts, a card feature was included.
+                </p>
+              </div>
+              <div className="ftwo-cont-cbottom">
+                <Image
+                  className="lg:block hidden"
+                  src={Img4}
+                  alt="Cards Mobile Page"
+                  placeholder="blur"
+                />
+                <Image
+                  className="block lg:hidden"
+                  src={cards}
+                  alt="Cards Mobile Page"
+                  placeholder="blur"
+                />
+              </div>
+            </div>
+            <div className="ftwo-cont-card">
+              <div className="ftwo-cont-ctop">
+                <h2>Savings</h2>
+                <p>
+                  Research has it that employees would like to put some of their
+                  money away incrementally - daily, weekly, and monthly. We
+                  added two kinds of saving;{" "}
+                  <span className="text-[#161718] font-semibold">
+                    FlowOn-Demand™
+                  </span>{" "}
+                  &{" "}
+                  <span className="text-[#161718] font-semibold">
+                    FlowLock™
+                  </span>
+                </p>
+              </div>
+              <div className="ftwo-cont-cbottom">
+                <Image
+                  className="lg:block hidden"
+                  src={Img5}
+                  alt="Savings Mobile Page"
+                  placeholder="blur"
+                />
+                <Image
+                  className="block lg:hidden"
+                  src={savings}
+                  alt="Savings Mobile Page"
+                  placeholder="blur"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="setbody g20-alt">
+        <div>
+          <div className="bills">
+            <div className="bills-text">
+              <h2>Bills</h2>
+              <p>
+                People use mobile apps to pay their utilities bills all over the
+                world. African employees are no different. In fact, they need it
+                even more. This is why FLOW provides the feature with a clean
+                and intuitive UI.
+              </p>
+            </div>
+            <div className="bills-image">
+              <Image className="w-full h-auto" src={bills} alt="Bills Mobile" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="setbody g20-alt">
+        <div>
+          <div className="photoG">
+            <div>
+              <Image src={m1} placeholder="blur" alt="" />
+            </div>
+            <div>
+              <Image src={m2} placeholder="blur" alt="" />
+            </div>
+            <div>
+              <Image src={m3} placeholder="blur" alt="" />
             </div>
           </div>
         </div>
