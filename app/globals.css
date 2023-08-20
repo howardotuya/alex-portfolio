@@ -59,6 +59,9 @@ body {
   .g20-alt {
     background-color: #ebebec;
   }
+  .g30-alt {
+    background-color: #fafafa;
+  }
   .g40 {
     color: #dfdfdf;
   }
@@ -1007,6 +1010,42 @@ body {
   font-style: normal;
   font-weight: 600;
   line-height: 150%; /* 24px */
+}
+
+.zheader-top1 {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  justify-items: center;
+  row-gap: 56px;
+}
+
+.zheader-top1 > div:nth-of-type(2) {
+  display: grid;
+}
+
+.zheader-top2 {
+  color: #161718;
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  row-gap: 85px;
+}
+
+.zheader-top2 > h1 {
+  max-width: 1113px;
+  font-size: 172px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 190px; /* 110.465% */
+}
+
+.zheader-top2 > p {
+  max-width: 600px;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 150% */
+  justify-self: end;
+  margin-right: 84px;
 }
 
 @media only screen and (min-width: 763px) {
