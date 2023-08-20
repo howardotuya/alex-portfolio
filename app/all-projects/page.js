@@ -185,7 +185,7 @@ export default function Home() {
                   </Link>
                 </div>
 
-                <div id="Zacrac" className="flex flex-col gap-4">
+                <Link href="/projects/zacrac-learning" className="flex flex-col gap-4">
                   <div className="content-1 px-[0!important] bg-[#363738]">
                     <div className="g10">
                       <h6 className="text-sm font-medium lg:font-semibold leading-[120%]">
@@ -194,7 +194,7 @@ export default function Home() {
                       <h2 className="xl:text-[80px] xl:leading-[95px] text-2xl font-bold">
                         Zacrac Learning
                       </h2>
-                      <div className="flex flex-row gap-[10px] items-center">
+                      <Link href="/projects/zacrac-learning" className="flex flex-row gap-[10px] items-center">
                         <span className="text-sm text-[#69A9E9] leading-[120%]">
                           Read More
                         </span>
@@ -206,7 +206,7 @@ export default function Home() {
                             alt="Arrow Right"
                           />
                         </span>
-                      </div>
+                      </Link>
                     </div>
                     <div className="w-full relative h-auto max-w-[353px] md:max-w-none flex flex-col">
                       <Image
@@ -237,7 +237,7 @@ export default function Home() {
                       with world class courses in data science and analytics.
                     </div>
                   </div>
-                </div>
+                </Link>
 
                 <div id="second-row-projects" className="">
                   <div id="Pollen" className="flex flex-col gap-4">
