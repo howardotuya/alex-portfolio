@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import NavbarLight from "@/components/navbar-light";
-import Img1 from "@/public/images/zacrac-learning/Img1.png";
+import Img1 from "@/public/images/zacrac-learning/img1.png";
 import Img2 from "@/public/images/zacrac-learning/Img2.png";
 
 export default function Home() {
