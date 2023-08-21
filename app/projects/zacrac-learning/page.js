@@ -16,6 +16,7 @@ import arrow from "@/public/images/cta-arrow.png";
 
 export default function Home() {
   return (
+    <div className="g30-alt">
     <div class="flex flex-col gap-4 lg:gap-6 bg-[#fff] justify-center items-center">
       <span className="g30-alt absolute">
         <NavbarLight />
@@ -242,5 +243,6 @@ export default function Home() {
         </div>
       </section>
     </div>
+                  </div>
   );
 }
