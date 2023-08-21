@@ -3,6 +3,16 @@ import Link from "next/link";
 import NavbarLight from "@/components/navbar-light";
 import Img1 from "@/public/images/zacrac-learning/img1.png";
 import Img2 from "@/public/images/zacrac-learning/Img2.png";
+import Img3 from "@/public/images/zacrac-learning/Img3.png";
+import Img4 from "@/public/images/zacrac-learning/Img4.png";
+import Img5 from "@/public/images/zacrac-learning/Img5.png";
+import Img6 from "@/public/images/zacrac-learning/Img6.png";
+import Img7 from "@/public/images/zacrac-learning/Img7.png";
+import Img8 from "@/public/images/zacrac-learning/Img8.png";
+import Img9 from "@/public/images/zacrac-learning/Img9.svg";
+import Img10 from "@/public/images/zacrac-learning/Img10.png";
+import Img11 from "@/public/images/zacrac-learning/Img11.png";
+import arrow from "@/public/images/cta-arrow.png";
 
 export default function Home() {
   return (
@@ -76,7 +86,7 @@ export default function Home() {
         </div>
       </header>
 
-      <section className="g30-alt setbody">
+      <section className="g20-alt setbody">
         <div>
           <div className="w-full grid justify-items-center items-center">
             <div className="w-full grid justify-items-center items-center px-5 lg:px-[82px] pt-20 lg:pt-[144px]">
@@ -107,6 +117,128 @@ export default function Home() {
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="g30-alt setbody">
+        <div>
+          <div className="w-full grid gap-6 lg:gap-0 py-16 lg:pt-6 lg:pb-[178px]">
+            <h2 class="zHeader-h2">Course Page</h2>
+            <div className="lg:pt-[121px] px-5 lg:px-[82px]">
+              <Image src={Img3} alt="" placeholder="blur" quality={100} />
+            </div>
+            <p className="lg:py-28 px-5 lg:px-0 justify-self-end lg:mr-[197px] zBody-p">
+              We implemented a clean accordion element on the page to give the
+              users enough information to encourage them to make a decision as
+              they go through the Course Page.
+            </p>
+            <div class="zGrid-1">
+              <div>
+                <Image src={Img4} alt="" placeholder="blur" quality={100} />
+              </div>
+              <div>
+                <Image src={Img6} alt="" placeholder="blur" quality={100} />
+              </div>
+              <div>
+                <Image src={Img5} alt="" placeholder="blur" quality={100} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="g20-alt setbody">
+        <div>
+          <div className="w-full grid gap-6 lg:gap-0 pt-16 lg:pt-6 lg:pb-0">
+            <h2 class="zHeader-h2">Instructors Page</h2>
+            <div className="lg:pt-[120px] px-5 lg:px-[82px]">
+              <Image src={Img7} alt="" placeholder="blur" quality={100} />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="g20-alt setbody">
+        <div>
+          <div className="w-full grid gap-6 lg:gap-0 py-16 lg:pt-[160px] lg:pb-[100px]">
+            <h2 class="zHeader-h2">Products</h2>
+            <div className="lg:pt-16 px-5 lg:px-[82px]">
+              <Image src={Img8} alt="" placeholder="blur" quality={100} />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className=" setbody">
+        <div>
+          <div className="w-full grid gap-4 lg:gap-0 pt-16 lg:pt-[160px] lg:pb-[132px]">
+            <h2 class="zHeader-h2">Other Services</h2>
+            <div className="lg:pt-[88px] mt-2 lg:mt-0 grid justify-center items-center px-5 lg:px-[82px]">
+              <Image src={Img9} alt="" quality={100} />
+            </div>
+            <div className="lg:pt-[150px] px-5 lg:px-[82px]">
+              <Image src={Img10} alt="" placeholder="blur" quality={100} />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="g30-alt setbody">
+        <div>
+          <div className="w-full zdown px-5 pt-16 lg:pt-[117px] lg:pb-0">
+            <div className="max-w-[209px] lg:max-w-[301px] order-2 lg:order-1">
+              <div>
+                <Image className="" src={Img11} alt="" />
+              </div>
+            </div>
+            <h3 className="max-w-[628px] order-1 lg:order-2 zdown-h3">
+              I was pleasantly surprised to get on the project WhatsApp to find
+              accolades everywhere. My church mind collected the flowers
+              pleasantly. 🌹🌹
+            </h3>
+          </div>
+        </div>
+      </section>
+      <section className="bg-[#161718] setbody">
+        <div>
+          <div className="w-full pt-20 pb-8 lg:pt-[216px] lg:pb-[196px]">
+            <div className="fheader-bottom-alt">
+              <h6>Reflection</h6>
+              <p className=" max-w-[1300px!important]">
+                I definitely had fun working with this team as we gave their
+                platform a visual direction, bringing their ideas to life and
+                making their website easy to use.{" "}
+                <span className="text-[#989999]">
+                  My greatest pleasure came from the satisfaction my clients had
+                  when they saw the work.
+                </span>
+              </p>
+            </div>
+          </div>
+          <div className="flex bg-[#161718] px-5 lg:justify-center lg:items-center pb-20 lg:pt-[61px] lg:pb-[182px]">
+            <Link href="/projects/collect-africa" className="project-ctas">
+              <span>Next Project</span>
+              <Image className="w-4 h-4" src={arrow} alt="Arrow Right" />
+            </Link>
+          </div>
+
+          <footer className="setbody bg-[#161718] d-140">
+            <div>
+              <div id="actual-footer">
+                <div className="">Alex Oyebade</div>
+                <div>
+                  <ul className="">
+                    <li>Contact me</li>
+                    <li>resumé</li>
+                    <li>Linkedin</li>
+                    <li>TWitter</li>
+                    <li>dribble</li>
+                  </ul>
+                  <span className="d-150">copyright 2023 alex oyebade</span>
+                </div>
+              </div>
+            </div>
+          </footer>
         </div>
       </section>
     </div>

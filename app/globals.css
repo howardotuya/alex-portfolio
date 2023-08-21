@@ -1084,35 +1084,109 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+.zHeader-h2 {
+  color: #161718;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 119%; /* 28.56px */
+  text-align: center;
+}
+
+.zBody-p {
+  color: #898a8a;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 24px */
+}
+
+.zGrid-1 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.zGrid-1 > div {
+  padding: 0 20px;
+}
+
+.zdown-h3 {
+  color: #898a8a;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 24px */
+}
+
+.zdown {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  align-items: center;
+  justify-items: center;
+  gap: 32px;
+}
+
+.zdown > div {
+  display: grid;
+  justify-items: center;
+}
+
 @media only screen and (min-width: 763px) {
 }
 
 @media only screen and (min-width: 1024px) {
-  /* For Flow-Finance */
+  /* Zacrac Learning */
 
-  .fheader-bottom-alt {
+  .zdown-h3 {
+    color: #898a8a;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 150% */
+  }
+  
+  .zdown {
+    display: flex;
+    align-items: center;
+    gap: 132px;
+    padding-left: 201px;
+  }
+  
+  .zdown > div {
     display: grid;
-    grid-template-rows: auto auto;
-    gap: 12px;
-    padding-left: 20px;
-    padding-right: 20px;
+  }
+  
+  .zHeader-h2 {
+    color: #161718;
+    text-align: center;
+    font-size: 164px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
   }
 
-  .fheader-bottom-alt > h6 {
-    color: #dfdfdf;
-    font-size: 12px;
+  .zBody-p {
+    color: #898a8a;
+    font-size: 32px;
     font-style: normal;
-    font-weight: 600;
-    line-height: 119%; /* 14.28px */
-    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 48px; /* 150% */
+    max-width: 688px;
+    justify-items: end;
+    align-self: flex-end;
   }
 
-  .fheader-bottom-alt > p {
-    color: #fafafa;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 150%; /* 24px */
+  .zGrid-1 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .zGrid-1 > div {
+    padding: 0 82px;
   }
 
   .zheader-top1 {
@@ -1181,6 +1255,33 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+  }
+
+  /* For Flow-Finance */
+
+  .fheader-bottom-alt {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .fheader-bottom-alt > h6 {
+    color: #dfdfdf;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 119%; /* 14.28px */
+    text-transform: uppercase;
+  }
+
+  .fheader-bottom-alt > p {
+    color: #fafafa;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 24px */
   }
 
   .fheader-bottom-alt {
