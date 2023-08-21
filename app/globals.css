@@ -1133,10 +1133,95 @@ body {
   justify-items: center;
 }
 
+.pollenHeader {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.pollenHeader h1 {
+  color: #252627;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 119%; /* 28.56px */
+  letter-spacing: 0.48px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.pollen-sec2 {
+  display: grid;
+  gap: 12px;
+  padding: 80px 20px;
+}
+
+.pollen-sec2 h2 {
+  color: #252627;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 119%; /* 21.42px */
+}
+
+.pollen-sec2 > div {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  display: grid;
+  gap: 12px;
+  max-width: 610px;
+}
+
 @media only screen and (min-width: 763px) {
 }
 
 @media only screen and (min-width: 1024px) {
+  /* Pollen */
+
+  .pollen-sec2 {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 126px;
+    padding-top: 104px;
+    padding-bottom: 152px;
+  }
+
+  .pollen-sec2 h2 {
+    color: #252627;
+    max-width: 965px;
+    font-size: 136px;
+    font-style: normal;
+    font-weight: 860;
+    line-height: 140px; /* 102.941% */
+  }
+
+  .pollen-sec2 > div {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 150% */
+    display: grid;
+    gap: 48px;
+    max-width: 610px;
+  }
+
+  .pollenHeader h1 {
+    color: #252627;
+    text-align: center;
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: normal;
+    padding-top: 16px;
+    padding-bottom: 66px;
+  }
+
   /* Zacrac Learning */
 
   .zdown-h3 {
@@ -1146,18 +1231,18 @@ body {
     font-weight: 700;
     line-height: 48px; /* 150% */
   }
-  
+
   .zdown {
     display: flex;
     align-items: center;
     gap: 132px;
     padding-left: 201px;
   }
-  
+
   .zdown > div {
     display: grid;
   }
-  
+
   .zHeader-h2 {
     color: #161718;
     text-align: center;

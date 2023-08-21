@@ -87,7 +87,7 @@ export default function Home() {
         </div>
       </header>
 
-      <section className="g20-alt setbody">
+      <section className="g20 setbody">
         <div>
           <div className="w-full grid justify-items-center items-center">
             <div className="w-full grid justify-items-center items-center px-5 lg:px-[82px] pt-20 lg:pt-[144px]">
@@ -148,7 +148,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="g20-alt setbody">
+      <section className="g20 setbody">
         <div>
           <div className="w-full grid gap-6 lg:gap-0 pt-16 lg:pt-6 lg:pb-0">
             <h2 class="zHeader-h2">Instructors Page</h2>
@@ -159,7 +159,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="g20-alt setbody">
+      <section className="g20 setbody">
         <div>
           <div className="w-full grid gap-6 lg:gap-0 py-16 lg:pt-[160px] lg:pb-[100px]">
             <h2 class="zHeader-h2">Products</h2>
