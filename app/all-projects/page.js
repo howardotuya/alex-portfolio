@@ -29,7 +29,7 @@ export default function Home() {
     <>
       <div className="bg-[#161718]">
         <NavbarDark />
-        
+
         <header className="grey-g20 setbody text-[#F5F5F5]">
           <div className="">
             <section className="px-5 pt-20 pb-24 lg:pl-6 lg:pt-[100px] lg:pb-[214px] g30 flex flex-col gap-8 lg:gap-16">
@@ -74,7 +74,11 @@ export default function Home() {
                 className="pt-2 flex flex-col gap-[56px] lg:gap-[72px] lg:pt-3"
               >
                 <div id="first-row-projects" className="">
-                <Link href="/projects/flow-finance" id="flow-finance" className="flex flex-col gap-4">
+                  <Link
+                    href="/projects/flow-finance"
+                    id="flow-finance"
+                    className="flex flex-col gap-4"
+                  >
                     <div className="content-1 bg-[#363738]">
                       <div className="g10">
                         <h6 className="text-sm font-medium lg:font-semibold leading-[120%]">
@@ -83,7 +87,10 @@ export default function Home() {
                         <h2 className="xl:text-[80px] xl:leading-[95px] text-2xl font-bold">
                           Flow Finance
                         </h2>
-                        <Link href="/projects/flow-finance" className="flex flex-row gap-[10px] items-center">
+                        <Link
+                          href="/projects/flow-finance"
+                          className="flex flex-row gap-[10px] items-center"
+                        >
                           <span className="text-sm text-[#69A9E9] leading-[120%]">
                             Read More
                           </span>
@@ -129,7 +136,11 @@ export default function Home() {
                       </div>
                     </div>
                   </Link>
-                  <Link href="/projects/collect-africa" id="Collect Africa" className="flex flex-col gap-4">
+                  <Link
+                    href="/projects/collect-africa"
+                    id="Collect Africa"
+                    className="flex flex-col gap-4"
+                  >
                     <div className="content-1 bg-[#5285F2]">
                       <div className="g10">
                         <h6 className="text-sm font-medium lg:font-semibold leading-[120%]">
@@ -138,7 +149,10 @@ export default function Home() {
                         <h2 className="xl:text-[80px] xl:leading-[95px] text-2xl font-bold">
                           Collect Africa
                         </h2>
-                        <Link href="/projects/collect-africa" className="flex flex-row gap-[10px] items-center">
+                        <Link
+                          href="/projects/collect-africa"
+                          className="flex flex-row gap-[10px] items-center"
+                        >
                           <span className="text-sm text-[#252627] leading-[120%]">
                             Read More
                           </span>
@@ -185,7 +199,10 @@ export default function Home() {
                   </Link>
                 </div>
 
-                <Link href="/projects/zacrac-learning" className="flex flex-col gap-4">
+                <Link
+                  href="/projects/zacrac-learning"
+                  className="flex flex-col gap-4"
+                >
                   <div className="content-1 px-[0!important] bg-[#363738]">
                     <div className="g10">
                       <h6 className="text-sm font-medium lg:font-semibold leading-[120%]">
@@ -194,7 +211,10 @@ export default function Home() {
                       <h2 className="xl:text-[80px] xl:leading-[95px] text-2xl font-bold">
                         Zacrac Learning
                       </h2>
-                      <Link href="/projects/zacrac-learning" className="flex flex-row gap-[10px] items-center">
+                      <Link
+                        href="/projects/zacrac-learning"
+                        className="flex flex-row gap-[10px] items-center"
+                      >
                         <span className="text-sm text-[#69A9E9] leading-[120%]">
                           Read More
                         </span>
@@ -240,7 +260,11 @@ export default function Home() {
                 </Link>
 
                 <div id="second-row-projects" className="">
-                  <div id="Pollen" className="flex flex-col gap-4">
+                  <Link
+                    href="/projects/pollen"
+                    id="Pollen"
+                    className="flex flex-col gap-4"
+                  >
                     <div className="content-1 relative overflow-hidden bg-[#363738]">
                       <div className="g10">
                         <h6 className="text-sm font-medium lg:font-semibold leading-[120%]">
@@ -299,7 +323,7 @@ export default function Home() {
                         adults.
                       </div>
                     </div>
-                  </div>
+                  </Link>
                   <div id="Surolingo" className="flex flex-col gap-4">
                     <div className="content-1 bg-[#363738]">
                       <div className="g10">
@@ -532,16 +556,15 @@ export default function Home() {
                       />
                     </div>
                   </div>
-                  
+
                   <div className="content-2 w-full">
                     <div className="">
                       <h6 className="g40 font-semibold">Contentionary, 2022</h6>
-                      <span className="g90 text-sm">
-                      UI Design (Web)
-                      </span>
+                      <span className="g90 text-sm">UI Design (Web)</span>
                     </div>
                     <div className="g90 lg:max-w-[323px!important]">
-                    Share, Sell, Engage and Impact your students or subscribers on your terms.
+                      Share, Sell, Engage and Impact your students or
+                      subscribers on your terms.
                     </div>
                   </div>
                 </div>
