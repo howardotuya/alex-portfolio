@@ -8,6 +8,22 @@ import Img4 from "@/public/images/pollen/Img5.png";
 import Img5 from "@/public/images/pollen/Img4.png";
 import Img6 from "@/public/images/pollen/Img6.png";
 import arrow from "@/public/images/cta-arrow.png";
+import onb1 from "@/public/images/pollen/onb1.png";
+import onb2 from "@/public/images/pollen/onb2.png";
+import onb3 from "@/public/images/pollen/onb3.png";
+import onb4 from "@/public/images/pollen/onb4.png";
+import onb5 from "@/public/images/pollen/onb5.png";
+import ac1 from "@/public/images/pollen/ac1.png";
+import ac2 from "@/public/images/pollen/ac2.png";
+import ac3 from "@/public/images/pollen/ac3.png";
+import ac4 from "@/public/images/pollen/ac4.png";
+import ac5 from "@/public/images/pollen/ac5.png";
+import dashboard from "@/public/images/pollen/dashboard.png";
+import t1 from "@/public/images/pollen/t1.png";
+import t2 from "@/public/images/pollen/t2.png";
+import t3 from "@/public/images/pollen/t3.png";
+import t4 from "@/public/images/pollen/t4.png";
+import next from "@/public/images/pollen/next.png";
 
 export default function Home() {
   return (
@@ -187,42 +203,276 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="bg-[#161718] setbody">
-        <div>
-          <div className="w-full max-w-[1239px] pt-20 pb-8 lg:pt-[216px] lg:pb-[196px]">
-            <div className="fheader-bottom-alt">
-              <h6>Reflection</h6>
-              <p>
-              The project is literally me using my skill for the economic growth of my country. I’m glad I was able to work on the project with the owners. It’s currently is production. I can’t wait for the disruption that will happen in that space in the coming months.
-              </p>
-            </div>
-          </div>
-          <div className="flex bg-[#161718] px-5 lg:justify-center lg:items-center pb-20 lg:pt-[61px] lg:pb-[182px]">
-            <Link href="" className="project-ctas">
-              <span>Next Project</span>
-              <Image className="w-4 h-4" src={arrow} alt="Arrow Right" />
-            </Link>
-          </div>
-
-          <footer className="setbody bg-[#161718] d-140">
-            <div>
-              <div id="actual-footer">
-                <div className="">Alex Oyebade</div>
-                <div>
-                  <ul className="">
-                    <li>Contact me</li>
-                    <li>resumé</li>
-                    <li>Linkedin</li>
-                    <li>TWitter</li>
-                    <li>dribble</li>
-                  </ul>
-                  <span className="d-150">copyright 2023 alex oyebade</span>
+        <section className="setbody g20">
+          <div>
+            <div class="onb-cont">
+              <h2 className="text-center">Onboarding</h2>
+              <div className="onbImg-cont">
+                <div className=" inline-flex justify-center items-start w-[209px] lg:pt-[60px] lg:w-[315px]">
+                  <Image
+                    className="w-full h-auto"
+                    src={onb1}
+                    alt="onboarding 1"
+                    placeholder="blur"
+                    quality={100}
+                  />
+                </div>
+                <div className=" inline-flex justify-center items-start w-[209px] lg:pt-[] lg:w-[278px]">
+                  <Image
+                    className="w-full h-auto"
+                    src={onb2}
+                    alt="onboarding 2"
+                    placeholder="blur"
+                    quality={100}
+                  />
+                </div>
+                <div className=" inline-flex justify-center items-start w-[209px] lg:pt-[166px] lg:w-[250px]">
+                  <Image
+                    className="w-full h-auto"
+                    src={onb3}
+                    alt="onboarding 3"
+                    placeholder="blur"
+                    quality={100}
+                  />
+                </div>
+                <div className=" inline-flex justify-center items-start w-[209px] lg:pt-[286px] lg:w-[250px]">
+                  <Image
+                    className="w-full h-auto"
+                    src={onb4}
+                    alt="onboarding 4"
+                    placeholder="blur"
+                    quality={100}
+                  />
+                </div>
+                <div className=" inline-flex justify-center items-start w-[209px] lg:pt-[27px] lg:w-[334px]">
+                  <Image
+                    className="w-full h-auto"
+                    src={onb5}
+                    alt="onboarding 5"
+                    placeholder="blur"
+                    quality={100}
+                  />
                 </div>
               </div>
             </div>
-          </footer>
-        </div>
-      </section>
+          </div>
+        </section>
+
+        <section className="setbody g20">
+          <div>
+            <div class="pdash-cont">
+              <h2 className="text-center">Dashboard</h2>
+              <div className="pd-cont">
+                <div className=" inline-flex justify-center items-center w-auto max-w-[309px] lg:w-[420px]">
+                  <Image
+                    src={dashboard}
+                    alt="Pollen Dashboard"
+                    placeholder="blur"
+                    quality={100}
+                  />
+                </div>
+                <div className="w-[13px] shrink-0 lg:w-[46px]">
+                  <Image
+                    src={next}
+                    alt="pointer"
+                    placeholder="blur"
+                    quality={100}
+                  />
+                </div>
+                <div className="right-point">
+                  <div class="pdrp-cont">
+                    <span className="pdrp">1</span>
+                    <p>
+                      The user is able to see a snapshot of the total amount he
+                      has earned on the app so far from quizzes and tasks
+                      completed.
+                    </p>
+                  </div>
+                  <div class="pdrp-cont">
+                    <span className="pdrp">2</span>
+                    <p>
+                      A list of featured courses are shown on the dashboard in a
+                      horizontal scroll for ease of use.
+                    </p>
+                  </div>
+                  <div class="pdrp-cont">
+                    <span className="pdrp">3</span>
+                    <p>
+                      This card shows the courses the user is currently taking,
+                      how many other people are taking the course too. Simply
+                      tapping on it gives the user access to the course.
+                    </p>
+                  </div>
+                  <div class="pdrp-cont">
+                    <span className="pdrp">4</span>
+                    <p>
+                      These set of cards gives the user an overview of the
+                      modules available for the week.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="setbody g20">
+          <div>
+            <div class="onb-cont">
+              <div className="grid justify-center items-center px-5 lg:px-0">
+                <h2 className="text-[left!important] lg:text-center">
+                  All Courses
+                </h2>
+                <p className="allc-p">
+                  The courses and modules were set to appeal to every kind of
+                  learner - there are audio, video, and textual form of content
+                  just so everyone is carried along.
+                </p>
+              </div>
+              <div className="onbImg-cont">
+                <div className="w-[209px] inline-flex justify-center items-start lg:pt-[48px] lg:w-[315px]">
+                  <Image
+                    className="w-full h-auto"
+                    src={ac1}
+                    alt="onboarding 1"
+                    placeholder="blur"
+                    quality={100}
+                  />
+                </div>
+                <div className="w-[209px] inline-flex justify-center items-start lg:pt-[158px] lg:w-[278px]">
+                  <Image
+                    className="w-full h-auto"
+                    src={ac2}
+                    alt="onboarding 2"
+                    placeholder="blur"
+                    quality={100}
+                  />
+                </div>
+                <div className="w-[209px] inline-flex justify-center items-start lg:w-[250px]">
+                  <Image
+                    className="w-full h-auto"
+                    src={ac3}
+                    alt="onboarding 3"
+                    placeholder="blur"
+                    quality={100}
+                  />
+                </div>
+                <div className="w-[209px] inline-flex justify-center items-start lg:pt-[114px] lg:w-[250px]">
+                  <Image
+                    className="w-full h-auto"
+                    src={ac4}
+                    alt="onboarding 4"
+                    placeholder="blur"
+                    quality={100}
+                  />
+                </div>
+                <div className="w-[209px] inline-flex justify-center items-start lg:pt-[131px] lg:w-[334px]">
+                  <Image
+                    className="w-full h-auto"
+                    src={ac5}
+                    alt="onboarding 5"
+                    placeholder="blur"
+                    quality={100}
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="setbody g20">
+          <div>
+            <div class="onb-cont2">
+              <div className="grid justify-center items-center px-5 lg:px-0">
+                <h2 className="text-[left!important] lg:text-center">
+                Tasks
+                </h2>
+                <p className="allc-p max-w-[796px!important]">
+                The task feature is a gamification technique where the teenager can request for loans that will be approved by the parents. The catch is that the parent must set some paid tasks for them to do.
+                </p>
+              </div>
+              <div className="onbImg-cont">
+                <div className="w-[209px] inline-flex justify-center items-start lg:pt-[60px] lg:w-[315px]">
+                  <Image
+                    className="w-full h-auto"
+                    src={t1}
+                    alt="onboarding 1"
+                    placeholder="blur"
+                    quality={100}
+                  />
+                </div>
+                <div className="w-[209px] inline-flex justify-center items-start lg:w-[406px]">
+                  <Image
+                    className="w-full h-auto"
+                    src={t2}
+                    alt="onboarding 2"
+                    placeholder="blur"
+                    quality={100}
+                  />
+                </div>
+                <div className="w-[209px] inline-flex justify-center items-start lg:pt-[100px] lg:w-[386px]">
+                  <Image
+                    className="w-full h-auto"
+                    src={t3}
+                    alt="onboarding 3"
+                    placeholder="blur"
+                    quality={100}
+                  />
+                </div>
+                <div className="w-[209px] inline-flex justify-center items-start lg:pt-[27px] lg:w-[333px]">
+                  <Image
+                    className="w-full h-auto"
+                    src={t4}
+                    alt="onboarding 4"
+                    placeholder="blur"
+                    quality={100}
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="bg-[#161718] setbody">
+          <div>
+            <div className="w-full max-w-[1239px] pt-20 pb-8 lg:pt-[216px] lg:pb-[196px]">
+              <div className="fheader-bottom-alt">
+                <h6>Reflection</h6>
+                <p>
+                  The project is literally me using my skill for the economic
+                  growth of my country. I’m glad I was able to work on the
+                  project with the owners. It’s currently is production. I can’t
+                  wait for the disruption that will happen in that space in the
+                  coming months.
+                </p>
+              </div>
+            </div>
+            <div className="flex bg-[#161718] px-5 lg:justify-center lg:items-center pb-20 lg:pt-[61px] lg:pb-[182px]">
+              <Link href="" className="project-ctas">
+                <span>Next Project</span>
+                <Image className="w-4 h-4" src={arrow} alt="Arrow Right" />
+              </Link>
+            </div>
+
+            <footer className="setbody bg-[#161718] d-140">
+              <div>
+                <div id="actual-footer">
+                  <div className="">Alex Oyebade</div>
+                  <div>
+                    <ul className="">
+                      <li>Contact me</li>
+                      <li>resumé</li>
+                      <li>Linkedin</li>
+                      <li>TWitter</li>
+                      <li>dribble</li>
+                    </ul>
+                    <span className="d-150">copyright 2023 alex oyebade</span>
+                  </div>
+                </div>
+              </div>
+            </footer>
+          </div>
+        </section>
       </div>
     </div>
   );
