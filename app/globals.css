@@ -1225,7 +1225,8 @@ body {
   text-transform: uppercase;
 }
 
-.onb-cont, .onb-cont2 {
+.onb-cont,
+.onb-cont2 {
   display: grid;
   gap: 32px;
   padding: 80px 0;
@@ -1315,11 +1316,43 @@ body {
   padding-top: 12px;
 }
 
+.bg-notyet {
+  box-shadow: 36.37647px 36.37647px 130.95529px 0px rgba(0, 0, 0, 0.2);
+}
+
+.ca-cover {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 48px
+}
+
+.ca-lcont {
+  display: grid;
+  gap: 16px;
+  color: #898a8a;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 510;
+  line-height: 154%; /* 21.56px */
+}
 
 @media only screen and (min-width: 763px) {
 }
 
 @media only screen and (min-width: 1024px) {
+  /* Sorolingo */
+.ca-cover {
+  display: flex;
+  flex-direction: row;
+  gap: unset;
+  align-items: end;
+}
+  .ca-cover > div:nth-of-type(2) {
+    padding-left: 123px;
+    padding-right: 212px;
+  }
+
   /* Pollen */
 
   .allc-p {
@@ -1332,7 +1365,7 @@ body {
     max-width: 698px;
     align-self: center;
   }
-  
+
   .pdash-cont {
     padding-bottom: 142px;
     padding-top: 80px;

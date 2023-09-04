@@ -341,7 +341,8 @@ export default function Home() {
                       </div>
                     </div>
                   </Link>
-                  <div id="Surolingo" className="flex flex-col gap-4">
+                  <Link
+                    href="/projects/sorolingo" id="Surolingo" className="flex flex-col gap-4">
                     <div className="content-1 bg-[#363738]">
                       <div className="g10">
                         <h6 className="text-sm font-medium lg:font-semibold leading-[120%]">
@@ -393,7 +394,7 @@ export default function Home() {
                         African Language.
                       </div>
                     </div>
-                  </div>
+                  </Link>
                 </div>
               </div>
               <div className="flex pt-12 lg:pt-[120px] w-full items-center justify-center">
