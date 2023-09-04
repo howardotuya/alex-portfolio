@@ -26,6 +26,31 @@
   src: url("/fonts/sf-pro/SFProDisplay-Black.ttf") format("TrueType");
   font-weight: 900;
 }
+@font-face {
+  font-family: "Lexend";
+  src: url("/fonts/lexend/Lexend-Light.ttf") format("TrueType");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Lexend";
+  src: url("/fonts/lexend/Lexend-Regular.ttf") format("TrueType");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Lexend";
+  src: url("/fonts/lexend/Lexend-Medium.ttf") format("TrueType");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Lexend";
+  src: url("/fonts/lexend/Lexend-SemiBold.ttf") format("TrueType");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Lexend";
+  src: url("/fonts/lexend/Lexend-Bold.ttf") format("TrueType");
+  font-weight: 700;
+}
 
 body,
 html {
@@ -1301,6 +1326,7 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 1000px;
+  font-family: "Lexend";
   font-size: 10px;
   font-style: normal;
   font-weight: 500;
@@ -1324,7 +1350,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: end;
-  gap: 48px
+  gap: 48px;
 }
 
 .ca-lcont {
@@ -1337,17 +1363,26 @@ body {
   line-height: 154%; /* 21.56px */
 }
 
+.spointp {
+  color: #5b5b5b;
+  font-family: "Lexend";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 154%; /* 24.64px */
+}
+
 @media only screen and (min-width: 763px) {
 }
 
 @media only screen and (min-width: 1024px) {
   /* Sorolingo */
-.ca-cover {
-  display: flex;
-  flex-direction: row;
-  gap: unset;
-  align-items: end;
-}
+  .ca-cover {
+    display: flex;
+    flex-direction: row;
+    gap: unset;
+    align-items: end;
+  }
   .ca-cover > div:nth-of-type(2) {
     padding-left: 123px;
     padding-right: 212px;

@@ -57,7 +57,7 @@ export default function Home() {
               </div>
               <h1>Pollen</h1>
               <div className="max-w-[209px] lg:max-w-[773px]">
-                <Image src={Img1} alt="Pollen" />
+                <Image src={Img1} alt="Pollen" quality={100} placeholder="blur" />
               </div>
             </div>
           </div>

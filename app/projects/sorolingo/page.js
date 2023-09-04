@@ -6,6 +6,17 @@ import Img2 from "@/public/images/sorolingo/Img2.png";
 import Img4 from "@/public/images/sorolingo/Img4.png";
 import Img5 from "@/public/images/sorolingo/Img5.png";
 import Img6 from "@/public/images/sorolingo/Img6.png";
+import Img7 from "@/public/images/sorolingo/Img7.png";
+import Img8 from "@/public/images/sorolingo/Img8.png";
+import Img9 from "@/public/images/sorolingo/Img9.png";
+import Img10 from "@/public/images/sorolingo/Img10.png";
+import text from "@/public/images/sorolingo/text.svg";
+import onb1 from "@/public/images/sorolingo/onb1.png";
+import onb2 from "@/public/images/sorolingo/onb2.png";
+import onb3 from "@/public/images/sorolingo/onb3.png";
+import onb4 from "@/public/images/sorolingo/onb4.png";
+import pointer from "@/public/images/sorolingo/pointer.svg";
+import next from "@/public/images/pollen/next.png";
 
 export default function Sorolingo() {
   return (
@@ -39,7 +50,12 @@ export default function Sorolingo() {
               </div>
               <h1>Sorolingo</h1>
               <div className="max-w-[209px] lg:max-w-[773px]">
-                <Image src={Img1} alt="Sorolingo" />
+                <Image
+                  src={Img1}
+                  alt="Sorolingo"
+                  quality={100}
+                  placeholder="blur"
+                />
               </div>
             </div>
           </div>
@@ -162,7 +178,13 @@ export default function Sorolingo() {
               <div className="ca-cover px-5 lg:px-6">
                 <div className="ca-lcont">
                   <div className="w-[132px] lg:w-[223px]">
-                    <Image className="w-full h-auto" src={Img4} alt="" placeholder="blur" quality={100} />
+                    <Image
+                      className="w-full h-auto"
+                      src={Img4}
+                      alt=""
+                      placeholder="blur"
+                      quality={100}
+                    />
                   </div>
                   <p className="lg:max-w-[380px]">
                     The Mandla app is a black owned online language learning app
@@ -174,7 +196,13 @@ export default function Sorolingo() {
                 </div>
                 <div className="ca-lcont">
                   <div className="w-[74px] lg:w-[119px]">
-                    <Image className="w-full h-auto" src={Img5} alt="" placeholder="blur" quality={100} />
+                    <Image
+                      className="w-full h-auto"
+                      src={Img5}
+                      alt=""
+                      placeholder="blur"
+                      quality={100}
+                    />
                   </div>
                   <p className="lg:max-w-[291px]">
                     This is a game-like app targeted at kids in order to promote
@@ -185,7 +213,13 @@ export default function Sorolingo() {
                 </div>
                 <div className="ca-lcont">
                   <div className="w-[132px] lg:w-[218px]">
-                    <Image className="w-full h-auto" src={Img6} alt="" placeholder="blur" quality={100} />
+                    <Image
+                      className="w-full h-auto"
+                      src={Img6}
+                      alt=""
+                      placeholder="blur"
+                      quality={100}
+                    />
                   </div>
                   <p className="lg:max-w-[303px]">
                     Owned by Google, Duolingo is a major player in the language
@@ -193,6 +227,224 @@ export default function Sorolingo() {
                     their app. It is free but with ads. To take away the ads
                     mean paying for Duolingo Plus.
                   </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="setbody g20">
+          <div>
+            <div class="onb-cont2 lg:pb-[181px] lg:justify-center gap-[24px!important] lg:gap-[110px!important]">
+              <div className="grid lg:justify-items-center lg:justify-center items-center px-5 lg:px-0">
+                <h2 className="text-[left!important] lg:text-center">
+                  Storyboarding
+                </h2>
+                <p className="allc-p justify-items-center max-w-[776px!important]">
+                  In order to seamlessly achieve the business and design goals,
+                  the illustration below represents the process I went through;
+                </p>
+              </div>
+              <div className="max-w-[1040px] px-5 lg:px-0">
+                <Image src={Img7} alt="" quality={100} placeholder="blur" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="setbody g20">
+          <div>
+            <div class="onb-cont2 lg:pt-[120px!important] lg:pb-[196px!important] lg:justify-center gap-[24px!important] lg:gap-[88px!important]">
+              <div className="grid lg:justify-items-center lg:justify-center items-center px-5 lg:px-0">
+                <h2 className="text-[left!important] max-w-[1014px]">
+                  Who am I Designing For?
+                </h2>
+                <p className="allc-p justify-items-center max-w-[776px!important]">
+                  Based on the insights from the storyboarding above, I created
+                  two personas for the project as seen below;
+                </p>
+              </div>
+              <div className="max-w-[1040px] grid gap-4 lg:gap-6 px-5 lg:px-0">
+                <Image src={Img8} alt="" quality={100} placeholder="blur" />
+                <Image src={Img9} alt="" quality={100} placeholder="blur" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="setbody g20">
+          <div>
+            <div class="pdash-cont lg:gap-[120px!important] lg:pt-[104px] lg:pb-[192px]">
+              <h2 className="text-center">Iterations</h2>
+              <div className="grid gap-10 px-5 lg:px-[127px]">
+                <div className="">
+                  <Image src={text} alt="Hi-fi Wireframes" />
+                </div>
+                <div className="flex justify-center items-center">
+                  <Image src={Img10} alt="" placeholder="blur" quality={100} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="setbody g20">
+          <div>
+            <div class="pdash-cont lg:gap-[112px!important] lg:pt-[104px] lg:pb-[192px]">
+              <h2 className="text-center">Onboarding</h2>
+              <div className="hidden lg:grid justify-items-center w-full">
+                <div className="flex gap-6 lg:px-12 lg:flex-row items-start justify-between w-full">
+                  <div className="lg:max-w-[251px] inline-flex justify-start items-start">
+                    <Image
+                      className="w-full h-auto"
+                      src={onb1}
+                      alt=""
+                      quality={100}
+                      placeholder="blur"
+                    />
+                  </div>
+                  <div className="lg:max-w-[251px] inline-flex justify-start items-start">
+                    <Image
+                      className="w-full h-auto"
+                      src={onb2}
+                      alt=""
+                      quality={100}
+                      placeholder="blur"
+                    />
+                  </div>
+                  <div className="lg:max-w-[251px] inline-flex justify-start items-start">
+                    <Image
+                      className="w-full h-auto"
+                      src={onb3}
+                      alt=""
+                      quality={100}
+                      placeholder="blur"
+                    />
+                  </div>
+                  <div className="lg:max-w-[251px] inline-flex justify-start items-start">
+                    <Image
+                      className="w-full h-auto"
+                      src={onb4}
+                      alt=""
+                      quality={100}
+                      placeholder="blur"
+                    />
+                  </div>
+                </div>
+                <div className="pt-[90px] pb-[30px]">
+                  <Image src={pointer} alt="arrow" />
+                </div>
+                <div className="flex gap-24 ">
+                  <div class="spointp max-w-[225px]">
+                    <span className="pdrp">1</span>
+                    <p>
+                      I used an illustration that depicts Ayo - our 1st persona.
+                    </p>
+                  </div>
+                  <div class="spointp max-w-[326px]">
+                    <span className="pdrp">2</span>
+                    <p>
+                      Here’s a male illustration that represents the gender
+                      counterpart of our persona.
+                    </p>
+                  </div>
+                  <div class="spointp max-w-[431px]">
+                    <span className="pdrp">3</span>
+                    <p>
+                      Mr Fola’s son also needs to feel that this is made for
+                      him. So I used an illustration of a young superhero in a
+                      cape.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="grid gap-10 justify-center justify-items-center lg:hidden">
+                <div className="w-[209px]">
+                  <Image src={onb1} alt="" />
+                </div>
+                <div className="flex flex-col gap-10">
+                  <div className="pd-cont">
+                    <div className="inline-flex justify-center items-center w-auto max-w-[309px] lg:w-[420px]">
+                      <Image
+                        src={onb2}
+                        alt="Onboarding Flow 2"
+                        placeholder="blur"
+                        quality={100}
+                      />
+                    </div>
+                    <div className="w-[13px] shrink-0 lg:w-[46px]">
+                      <Image
+                        src={next}
+                        alt="pointer"
+                        placeholder="blur"
+                        quality={100}
+                      />
+                    </div>
+                    <div className="right-point">
+                      <div class="pdrp-cont gap-[8px!important]">
+                        <span className="pdrp">1</span>
+                        <p>
+                          I used an illustration that depicts Ayo - our 1st
+                          persona.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="pd-cont">
+                    <div className="inline-flex justify-center items-center w-auto max-w-[309px] lg:w-[420px]">
+                      <Image
+                        src={onb3}
+                        alt="Onboarding Flow 3"
+                        placeholder="blur"
+                        quality={100}
+                      />
+                    </div>
+                    <div className="w-[13px] shrink-0 lg:w-[46px]">
+                      <Image
+                        src={next}
+                        alt="pointer"
+                        placeholder="blur"
+                        quality={100}
+                      />
+                    </div>
+                    <div className="right-point">
+                      <div class="pdrp-cont gap-[8px!important]">
+                        <span className="pdrp">2</span>
+                        <p>
+                          Here’s a male illustration that represents the gender
+                          counterpart of our persona.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="pd-cont">
+                    <div className="inline-flex justify-center items-center w-auto max-w-[309px] lg:w-[420px]">
+                      <Image
+                        src={onb4}
+                        alt="Onboarding Flow 4"
+                        placeholder="blur"
+                        quality={100}
+                      />
+                    </div>
+                    <div className="w-[13px] shrink-0 lg:w-[46px]">
+                      <Image
+                        src={next}
+                        alt="pointer"
+                        placeholder="blur"
+                        quality={100}
+                      />
+                    </div>
+                    <div className="right-point">
+                      <div class="pdrp-cont gap-[8px!important]">
+                        <span className="pdrp">3</span>
+                        <p>
+                          Mr Fola’s son also needs to feel that this is made for
+                          him. So I used an illustration of a young superhero in
+                          a cape.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
