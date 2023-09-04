@@ -33,7 +33,7 @@ export default function Home() {
           <NavbarLight />
         </span>
 
-        <header className="setbody g20 pt-[184px] lg:pt-[246px]">
+        <header className="setbody g20 pt-[184px] lg:pt-[172px]">
           <div className="no-use">
             <div className="pollenHeader px-5 lg:px-6">
               <div className="">
@@ -140,7 +140,7 @@ export default function Home() {
 
         <section className="setbody g20-alt">
           <div>
-            <div className="grid lg:gap-[120px] gap-10 py-20 lg:pt-[216px]">
+            <div className="grid lg:gap-[120px] gap-10 py-20 lg:py-[216px]">
               <div className="w-full max-w-[1351px!important]">
                 <div className="fheader-bottom">
                   <h6>the problem</h6>
