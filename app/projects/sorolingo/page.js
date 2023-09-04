@@ -17,6 +17,13 @@ import onb3 from "@/public/images/sorolingo/onb3.png";
 import onb4 from "@/public/images/sorolingo/onb4.png";
 import pointer from "@/public/images/sorolingo/pointer.svg";
 import next from "@/public/images/pollen/next.png";
+import dash1 from "@/public/images/sorolingo/dash1.png";
+import dash2 from "@/public/images/sorolingo/dash2.png";
+import TT1 from "@/public/images/sorolingo/TT1.png";
+import TT2 from "@/public/images/sorolingo/TT2.png";
+import TT3 from "@/public/images/sorolingo/TT3.png";
+import TT4 from "@/public/images/sorolingo/TT4.png";
+import TT5 from "@/public/images/sorolingo/TT5.png";
 
 export default function Sorolingo() {
   return (
@@ -445,6 +452,169 @@ export default function Sorolingo() {
                       </div>
                     </div>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="setbody g20">
+          <div>
+            <div class="pdash-cont lg:gap-[112px!important] lg:pt-[104px] lg:pb-[192px]">
+              <h2 className="text-center">Dashboard</h2>
+              <div
+                id="3-cont"
+                className="flex gap-5 lg:gap-[46px] px-5 lg:px-0 justify-center flex-row items-center"
+              >
+                <div className="flex flex-col lg:flex-row gap-8">
+                  <div className="w-full h-auto max-w-[336px]">
+                    <Image
+                      className=""
+                      src={dash2}
+                      alt=""
+                      placeholder="blur"
+                      quality={100}
+                    />
+                  </div>
+                  <div className="w-full h-auto max-w-[336px]">
+                    <Image
+                      className=""
+                      src={dash1}
+                      alt=""
+                      placeholder="blur"
+                      quality={100}
+                    />
+                  </div>
+                </div>
+                <div className="w-[13px] shrink-0 lg:w-[46px]">
+                  <Image
+                    src={next}
+                    alt="pointer"
+                    placeholder="blur"
+                    quality={100}
+                  />
+                </div>
+                <div className="flex flex-col lg:flex-row items-center gap-6 lg:gap-[72px]">
+                  <div className="flex flex-col gap-6">
+                    <div class="pdrp-cont">
+                      <span className="pdrp">1</span>
+                      <p>
+                        Right from the dashboard, the user is able to choose
+                        other languages that they would like to learn.
+                      </p>
+                    </div>
+                    <div class="pdrp-cont">
+                      <span className="pdrp">2</span>
+                      <p>
+                        Shows the badges and achievements of the learner. It is
+                        shareable right from there.
+                      </p>
+                    </div>
+                    <div class="pdrp-cont">
+                      <span className="pdrp">3</span>
+                      <p>
+                        This card is for announcements on the app. There’s an
+                        icon to enable/disable audio.
+                      </p>
+                    </div>
+                    <div class="pdrp-cont">
+                      <span className="pdrp">4</span>
+                      <p>
+                        I also added a card that tracks the learner’s progress
+                        right on the dashboard.
+                      </p>
+                    </div>
+                    <div class="pdrp-cont">
+                      <span className="pdrp lg:max-w-[241px!important]">5</span>
+                      <p>
+                        Motivation is important for any worthwhile learning
+                        platform. I have included a streak recorder on the
+                        dashboard to make the learner motivated.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex flex-col gap-6">
+                    <div class="pdrp-cont">
+                      <span className="pdrp">6</span>
+                      <p>
+                        The user is able to see a snapshot of the total amount
+                        he has earned on the app so far from quizzes and tasks
+                        completed.
+                      </p>
+                    </div>
+                    <div class="pdrp-cont">
+                      <span className="pdrp">7</span>
+                      <p>
+                        A list of featured courses are shown on the dashboard in
+                        a horizontal scroll for ease of use.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="setbody g20">
+          <div>
+            <div class="pdash-cont lg:gap-[112px!important] lg:pt-[104px] lg:pb-[112px]">
+              <h2 className="text-center">Taking Tests</h2>
+              <div className="grid justify-items-center w-full">
+                <div className="flex flex-col gap-6 lg:px-12 lg:flex-row items-center lg:items-start justify-between w-full">
+                  <div className="max-w-[209px] lg:max-w-[251px] inline-flex justify-start items-start">
+                    <Image
+                      className="w-full h-auto"
+                      src={TT1}
+                      alt=""
+                      quality={100}
+                      placeholder="blur"
+                    />
+                  </div>
+                  <div className="max-w-[209px] lg:max-w-[251px] inline-flex justify-start items-start">
+                    <Image
+                      className="w-full h-auto"
+                      src={TT2}
+                      alt=""
+                      quality={100}
+                      placeholder="blur"
+                    />
+                  </div>
+                  <div className="max-w-[209px] lg:max-w-[251px] inline-flex justify-start items-start">
+                    <Image
+                      className="w-full h-auto"
+                      src={TT3}
+                      alt=""
+                      quality={100}
+                      placeholder="blur"
+                    />
+                  </div>
+                  <div className="max-w-[209px] lg:max-w-[251px] inline-flex justify-start items-start">
+                    <Image
+                      className="w-full h-auto"
+                      src={TT4}
+                      alt=""
+                      quality={100}
+                      placeholder="blur"
+                    />
+                  </div>
+                  <div className="max-w-[209px] lg:max-w-[251px] inline-flex justify-start items-start">
+                    <Image
+                      className="w-full h-auto"
+                      src={TT5}
+                      alt=""
+                      quality={100}
+                      placeholder="blur"
+                    />
+                  </div>
+                </div>
+                <div className="lg:pt-10 pt-6 w-4 lg:w-[58px] pb-4">
+                  <Image src={pointer} alt="arrow" />
+                </div>
+                <div className="tt-text">
+                  The course taking is in several categpories. Some are text
+                  alone, some are text and image, whoile some are text, image,
+                  and audio.
                 </div>
               </div>
             </div>

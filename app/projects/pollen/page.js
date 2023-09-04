@@ -57,7 +57,12 @@ export default function Home() {
               </div>
               <h1>Pollen</h1>
               <div className="max-w-[209px] lg:max-w-[773px]">
-                <Image src={Img1} alt="Pollen" quality={100} placeholder="blur" />
+                <Image
+                  src={Img1}
+                  alt="Pollen"
+                  quality={100}
+                  placeholder="blur"
+                />
               </div>
             </div>
           </div>
@@ -260,7 +265,7 @@ export default function Home() {
 
         <section className="setbody g20">
           <div>
-            <div class="pdash-cont">
+            <div class="pdash-cont py-[64px!important] lg:pt-[80px!important] lg:pb-[142px!important]">
               <h2 className="text-center">Dashboard</h2>
               <div className="pd-cont">
                 <div className=" inline-flex justify-center items-center w-auto max-w-[309px] lg:w-[420px]">
@@ -384,11 +389,12 @@ export default function Home() {
           <div>
             <div class="onb-cont2">
               <div className="grid justify-center items-center px-5 lg:px-0">
-                <h2 className="text-[left!important] lg:text-center">
-                Tasks
-                </h2>
+                <h2 className="text-[left!important] lg:text-center">Tasks</h2>
                 <p className="allc-p max-w-[796px!important]">
-                The task feature is a gamification technique where the teenager can request for loans that will be approved by the parents. The catch is that the parent must set some paid tasks for them to do.
+                  The task feature is a gamification technique where the
+                  teenager can request for loans that will be approved by the
+                  parents. The catch is that the parent must set some paid tasks
+                  for them to do.
                 </p>
               </div>
               <div className="onbImg-cont">

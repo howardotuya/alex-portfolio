@@ -52,6 +52,10 @@
   font-weight: 700;
 }
 
+.lexend {
+  font-family: "Lexend";
+}
+
 body,
 html {
   scroll-behavior: smooth;
@@ -1275,8 +1279,8 @@ body {
 }
 
 .pdash-cont {
-  padding-bottom: 64px;
-  padding-top: 64px;
+  padding-bottom: 80px;
+  padding-top: 80px;
   gap: 24px;
   display: grid;
 }
@@ -1372,11 +1376,32 @@ body {
   line-height: 154%; /* 24.64px */
 }
 
+.tt-text {
+  color: #5b5b5b;
+  font-family: "Lexend";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%; /* 24px */
+  padding: 0 20px;
+  max-width: 433px;
+}
+
 @media only screen and (min-width: 763px) {
 }
 
 @media only screen and (min-width: 1024px) {
   /* Sorolingo */
+
+  .tt-text {
+    color: #5B5B5B;
+font-family: "Lexend";
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 154%; /* 24.64px */
+  }
+
   .ca-cover {
     display: flex;
     flex-direction: row;
