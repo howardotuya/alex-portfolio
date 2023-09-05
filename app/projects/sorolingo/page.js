@@ -674,7 +674,7 @@ export default function Sorolingo() {
 
         <section className="g20-alt setbody">
           <div>
-            <div className="w-full py-20 lg:pt-[216px] lg:pb-[249px]">
+            <div className="w-full py-20 lg:pt-[204px] lg:pb-[134px]">
               <div className="fheader-bottom">
                 <h6>Constraints</h6>
                 <p className="max-w-[1310px!important]">

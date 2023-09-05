@@ -1401,7 +1401,6 @@ body {
   padding-top: 12px;
   padding-bottom: 24px;
   max-width: 578px;
-  align-self: flex-end;
   color: #363738;
   font-size: 16px;
   font-style: normal;
@@ -1515,6 +1514,7 @@ body {
 
   .admin > h5 {
     padding-top: 125px;
+    margin-right: 106px;
     padding-bottom: 216px;
     max-width: 578px;
     align-self: flex-end;
