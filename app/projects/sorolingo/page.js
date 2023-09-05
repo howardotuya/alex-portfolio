@@ -24,6 +24,9 @@ import TT2 from "@/public/images/sorolingo/TT2.png";
 import TT3 from "@/public/images/sorolingo/TT3.png";
 import TT4 from "@/public/images/sorolingo/TT4.png";
 import TT5 from "@/public/images/sorolingo/TT5.png";
+import end1 from "@/public/images/sorolingo/end1.png";
+import end2 from "@/public/images/sorolingo/end2.png";
+import arrow from "@/public/images/cta-arrow.png";
 
 export default function Sorolingo() {
   return (
@@ -367,7 +370,7 @@ export default function Sorolingo() {
               </div>
               <div className="grid gap-10 justify-center justify-items-center lg:hidden">
                 <div className="w-[209px]">
-                  <Image src={onb1} alt="" />
+                  <Image src={onb1} alt="" placeholder="blur" quality={100} />
                 </div>
                 <div className="flex flex-col gap-10">
                   <div className="pd-cont">
@@ -618,6 +621,121 @@ export default function Sorolingo() {
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+
+        <section className="setbody g20">
+          <div>
+            <div className="admin">
+              <h2>Admin Portal</h2>
+              <h5>
+                <span className="text-[#7b7b7c]">
+                  After completing the mobile UI designs,
+                </span>{" "}
+                I also designed the admin management portal so that the product
+                owners are able to create, edit, activate, and deactivate
+                courses and modules; they will also be able to manage other
+                admins and learners.
+              </h5>
+              <div className="max-w-[944px]">
+                <Image src={end2} alt="" placeholder="blur" quality={100} />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="setbody g20">
+          <div>
+            <div class="pmeasure">
+              <h5>Measuring goals</h5>
+              <h2>
+                Judging by this project is an mvp shipping,{" "}
+                <span className="text-[#363738]">our main goals include;</span>
+              </h2>
+              <ul>
+                <li>Total downloads of the app.</li>
+                <li>
+                  Customer reviews on the apple appstore and google playstore.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section className="setbody g20">
+          <div>
+            <div className="py-20 px-5 lg:pt-[260px] lg:pb-[162px] grid justify-center justify-items-center items-center">
+              <div class="max-w-[944px]">
+                <Image className="w-full h-auto" src={end1} alt="" placeholder="blur" quality={100} />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="g20-alt setbody">
+          <div>
+            <div className="w-full py-20 lg:pt-[216px] lg:pb-[249px]">
+              <div className="fheader-bottom">
+                <h6>Constraints</h6>
+                <p className="max-w-[1310px!important]">
+                  The first major constraint for this project was that there was
+                  limited time necessary to dot all the ‘Is’ and cross all the
+                  ‘Ts’.{" "}
+                  <span className="text-[#898A8A]">
+                    The second constraint was that this project will represent
+                    the first in the language learning community in Africa.
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="bg-[#161718] setbody">
+          <div>
+            <div className="w-full max-w-[1239px] pt-20 pb-8 lg:pt-[216px] lg:pb-[196px]">
+              <div className="fheader-bottom-alt">
+                <h6>Reflection</h6>
+                <p>
+                  <span className="text-[#989999]">
+                    This was a very important project for me, and I am thrilled
+                    to have worked on it.
+                  </span>
+                  {" "}I learnt a lot more about language learning, the needs and
+                  fears of Africans living in Diaspora, and the balance between
+                  providing value for the client and the customer in the EdTech
+                  industry.{" "}
+                  <span className="text-[#989999]">
+                    I am looking forward to the release of the app in the 3rd
+                    quarter of 2022.
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div className="flex bg-[#161718] px-5 lg:justify-center lg:items-center pb-20 lg:pt-[61px] lg:pb-[182px]">
+              <Link href="/all-projects" className="project-ctas">
+                <span>Next Project</span>
+                <Image className="w-4 h-4" src={arrow} alt="Arrow Right" />
+              </Link>
+            </div>
+
+            <footer className="setbody bg-[#161718] d-140">
+              <div>
+                <div id="actual-footer">
+                  <div className="">Alex Oyebade</div>
+                  <div>
+                    <ul className="">
+                      <li>Contact me</li>
+                      <li>resumé</li>
+                      <li>Linkedin</li>
+                      <li>TWitter</li>
+                      <li>dribble</li>
+                    </ul>
+                    <span className="d-150">copyright 2023 alex oyebade</span>
+                  </div>
+                </div>
+              </div>
+            </footer>
           </div>
         </section>
       </div>
