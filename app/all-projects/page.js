@@ -380,7 +380,7 @@ export default function Home() {
                   </Link>
                 </div>
 
-                <div id="yoohoo" className="flex flex-col gap-4">
+                <Link href="/projects/yoohoo" id="yoohoo" className="flex flex-col gap-4">
                   <div className="relative text-[#fafafa] w-full h-auto px-4 lg:pl-[76px] py-10 lg:pt-[187px] lg:pb-[77px]">
                     <Image
                       fill
@@ -515,7 +515,7 @@ export default function Home() {
                       A video streaming platform for clean and family content.
                     </div>
                   </div>
-                </div>
+                </Link>
 
                 <div id="Contentionary" className="flex flex-col gap-4">
                   <div className="content-1 px-[0!important] bg-[#363738]">
