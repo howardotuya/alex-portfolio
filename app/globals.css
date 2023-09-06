@@ -1495,9 +1495,9 @@ body {
   display: grid;
   padding-top: 80px;
   padding-bottom: 80px;
-  padding-left: 24px;
-  padding-right: 24px;
-  gap: 24px
+  padding-left: 20px;
+  padding-right: 20px;
+  gap: 24px;
 }
 
 .m2c-cont {
@@ -1515,12 +1515,124 @@ body {
   line-height: 150%; /* 36px */
 }
 
+.md-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 0;
+  gap: 24px;
+}
+
+.md {
+  display: grid;
+  gap: 12px;
+}
+
+.md > h2 {
+  color: #252627;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 119%; /* 28.56px */
+}
+
+.md > p {
+  color: #898a8a;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+.ydash-cont {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: grid;
+  gap: 24px;
+}
+
+.ydash-cont > h2 {
+  color: #161718;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 119%;
+}
+
+.ydash {
+  display: grid;
+  gap: 24px;
+}
+
 @media only screen and (min-width: 763px) {
 }
 
 @media only screen and (min-width: 1024px) {
-
   /* Yoohoo */
+
+  .ydash-cont {
+    padding-top: 303px;
+    padding-bottom: 155px;
+    padding-left: 82px;
+    padding-right: 82px;
+    display: grid;
+    gap: 136px;
+  }
+
+  .ydash-cont > h2 {
+    color: #161718;
+    text-align: center;
+    font-size: 164px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .ydash {
+    display: grid;
+    gap: 145px;
+  }
+
+  .md-cont {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    padding-top: 162px;
+    padding-left: 64px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    gap: 70px;
+  }
+
+  .md {
+    display: grid;
+    gap: 16px;
+  }
+
+  .md > h2 {
+    max-width: 641px;
+    color: #252627;
+    font-size: 172px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 180px; /* 104.651% */
+  }
+
+  .md > p {
+    max-width: 458px;
+    color: #898a8a;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 510;
+    line-height: 42px; /* 155.556% */
+  }
 
   .m2-cont {
     display: grid;
@@ -1528,16 +1640,16 @@ body {
     padding-bottom: 120px;
     padding-left: 24px;
     padding-right: 24px;
-    gap: 96px
+    gap: 96px;
   }
-  
+
   .m2c-cont {
     display: grid;
     gap: 231px;
     justify-content: center;
     justify-items: center;
   }
-  
+
   .m2c-cont > div:nth-of-type(2) {
     justify-self: start;
     padding-left: 54px;
@@ -1550,7 +1662,7 @@ body {
     font-weight: 700;
     line-height: normal;
   }
-  
+
   .yc-cont {
     gap: 138px;
   }

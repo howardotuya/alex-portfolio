@@ -6,6 +6,12 @@ import arrowleft from "@/public/images/arrow-left.png";
 import Hero from "@/public/images/yoohoo/Hero.png";
 import yoohoo from "@/public/images/yoohoo/yoohoo.svg";
 import Img1 from "@/public/images/yoohoo/Img1.png";
+import Img2 from "@/public/images/yoohoo/Img2.png";
+import Img3 from "@/public/images/yoohoo/Img3.png";
+import Img4 from "@/public/images/yoohoo/Img4.png";
+import Img5 from "@/public/images/yoohoo/Img5.png";
+import Img6 from "@/public/images/yoohoo/Img6.png";
+import Img7 from "@/public/images/yoohoo/Img7.png";
 import mindmap from "@/public/images/yoohoo/mind-map.png";
 import m2f from "@/public/images/yoohoo/m2-follow.svg";
 
@@ -36,7 +42,9 @@ function Collect() {
                   src={yoohoo}
                   alt="Yoohoo"
                 />
-                <span class="yc-s whitespace-nowrap">Brand Design, Mobile & Webapp Design</span>
+                <span class="yc-s whitespace-nowrap">
+                  Brand Design, Mobile & Webapp Design
+                </span>
               </div>
             </div>
             <div className="yci flex flex-col justify-center items-center w-full">
@@ -100,7 +108,12 @@ function Collect() {
               </div>
               <div className="m2c-cont">
                 <div>
-                  <Image src={mindmap} alt="Mind Map" quality={100} placeholder="blur" />
+                  <Image
+                    src={mindmap}
+                    alt="Mind Map"
+                    quality={100}
+                    placeholder="blur"
+                  />
                 </div>
                 <div>
                   <Image src={m2f} alt="Mind Map" />
@@ -109,7 +122,102 @@ function Collect() {
             </div>
           </div>
         </section>
+
+        <section className="setbody">
+          <div>
+            <div>
+              <Image src={Img2} alt="" placeholder="blur" />
+            </div>
+          </div>
+        </section>
+
+        <section className="setbody">
+          <div>
+            <div>
+              <Image src={Img3} alt="" placeholder="blur" />
+            </div>
+          </div>
+        </section>
+
+        <section className="setbody">
+          <div>
+            <div className="md-cont">
+              <div className="md">
+                <h2>Mobile Design</h2>
+                <p>
+                  To allow ease of use and democratise entry points, we went
+                  mobile first in the website design.
+                </p>
+              </div>
+              <div className="max-w-[411px]">
+                <Image src={Img4} alt="" placeholder="blur" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="setbody g20">
+          <div>
+            <div className="ydash-cont">
+              <h2 className="">Dashboard</h2>
+              <div className="ydash">
+                <div className="">
+                  <Image className="w-full h-auto" src={Img5} alt="" placeholder="blur" />
+                </div>
+                <div className="">
+                  <Image className="w-full h-auto" src={Img6} alt="" placeholder="blur" />
+                </div>
+                <div className="">
+                  <Image className="w-full h-auto" src={Img7} alt="" placeholder="blur" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
+
+      <section className="bg-[#161718] setbody">
+        <div>
+          <div className="w-full max-w-[1239px] pt-20 pb-8 lg:pt-[216px] lg:pb-[196px]">
+            <div className="fheader-bottom-alt">
+              <h6>Reflection</h6>
+              <p>
+                This is by far one of the most interesting and mentally
+                stimulating projects I’ve worked on. It helped me develop my
+                capacity as a full-range professional.
+                <span className="text-[#989999]">
+                {" "} The next step was to go to beta development and rounds of
+                  testing but I’m no more involved with this project.
+                </span>
+              </p>
+            </div>
+          </div>
+          <div className="flex bg-[#161718] px-5 lg:justify-center lg:items-center pb-20 lg:pt-[61px] lg:pb-[182px]">
+            <Link href="/projects/collect-africa" className="project-ctas">
+              <span>Next Project</span>
+              <Image className="w-4 h-4" src={arrow} alt="Arrow Right" />
+            </Link>
+          </div>
+
+          <footer className="setbody bg-[#161718] d-140">
+            <div>
+              <div id="actual-footer">
+                <div className="">Alex Oyebade</div>
+                <div>
+                  <ul className="">
+                    <li>Contact me</li>
+                    <li>resumé</li>
+                    <li>Linkedin</li>
+                    <li>TWitter</li>
+                    <li>dribble</li>
+                  </ul>
+                  <span className="d-150">copyright 2023 alex oyebade</span>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </section>
     </div>
   );
 }
