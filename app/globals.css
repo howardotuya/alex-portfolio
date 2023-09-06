@@ -1570,10 +1570,207 @@ body {
   gap: 24px;
 }
 
+.cnary-hcont {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  padding-top: 183px;
+  gap: 32px;
+}
+
+.cnary-hcont-h1 {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+}
+
+.cnary-hcont h1 {
+  padding-top: 24px;
+  padding-bottom: 16px;
+  color: #161718;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 119%; /* 28.56px */
+  letter-spacing: 0.48px;
+}
+
+.cnary-hcont h6 {
+  color: #161718;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 119%; /* 16.66px */
+  text-transform: uppercase;
+}
+
+.cont-cta {
+  display: inline-flex;
+  padding: 8px 16px;
+  align-items: center;
+  gap: 4px;
+  border-radius: 26px;
+  border: 1px solid #363738;
+  background: #363738;
+  color: #fafafa;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  text-decoration-line: underline;
+  order: 2;
+}
+
+.cnary-s3 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.cnary-s3 > h1,
+.cnary-s3 > div:nth-of-type(1) {
+  padding-left: 0;
+}
+
+.cnary-s3 > h1 {
+  max-width: 1025px;
+  color: #252627;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 27px */
+}
+
+.cs3-sub {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-shrink: 0;
+  padding-top: 12px;
+  padding-bottom: 40px;
+  gap: 16px;
+}
+
+.cs3-sub > h4 {
+  max-width: 600px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  order: 1;
+}
+
+.contentionary-grad {
+  background: linear-gradient(
+    90deg,
+    #dd6e20 -4.27%,
+    rgba(221, 163, 51, 0.91) 35.53%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cnary-mulc {
+  color:#161718;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: grid;
+  gap: 24px;
+  padding-top: 80px;
+}
+
 @media only screen and (min-width: 763px) {
 }
 
 @media only screen and (min-width: 1024px) {
+  /* Contentionary */
+
+  .cont-cta {
+    display: inline-flex;
+    padding: 12px 24px;
+    align-items: center;
+    gap: 4px;
+    border-radius: 26px;
+    border: 1px solid #363738;
+    background: #363738;
+    color: #fafafa;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    order: 1;
+  }
+
+  .cnary-s3 {
+    padding-top: 104px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 41px;
+  }
+
+  .cnary-s3 > h1,
+  .cnary-s3 > div:nth-of-type(1) {
+    padding-left: 214px;
+  }
+
+  .cnary-s3 > h1 {
+    max-width: 1025px;
+    color: #252627;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 860;
+    line-height: normal;
+  }
+
+  .cs3-sub {
+    gap: unset;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0;
+    padding-top: 64px;
+    padding-bottom: 136px;
+  }
+
+  .cs3-sub > h4 {
+    max-width: 600px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 150% */
+  }
+
+  .cnary-hcont {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 230px;
+    gap: 68px;
+  }
+
+  .cnary-hcont-h1 {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .cnary-hcont h6 {
+    color: #161718;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+
   /* Yoohoo */
 
   .ydash-cont {
@@ -2752,6 +2949,28 @@ body {
 }
 
 @media only screen and (min-width: 1280px) {
+  
+.cnary-mulc {
+  color: #161718;
+  text-align: center;
+  font-size: 136px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: grid;
+  gap: 72px;
+  padding-top: 112px;
+}
+  .cnary-hcont h1 {
+    padding-top: 16px;
+    padding-bottom: 12px;
+    color: #161718;
+    font-size: 180px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
   .flast-cont {
     display: grid;
     grid-template-columns: repeat(2, auto);
