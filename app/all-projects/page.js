@@ -568,8 +568,8 @@ export default function Home() {
                       subscribers on your terms.
                     </div>
                   </div>
-                </div>
-              </Link>
+                </Link>
+                        </div>
             </section>
           </div>
         </main>
