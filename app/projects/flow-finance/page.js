@@ -14,7 +14,7 @@ import bills from "@/public/images/flow-finance/bills.png";
 import m1 from "@/public/images/flow-finance/m1.png";
 import m2 from "@/public/images/flow-finance/m2.png";
 import m3 from "@/public/images/flow-finance/m3.png";
-import Img6 from "@/public/images/flow-finance/Home.png"; 
+import Img6 from "@/public/images/flow-finance/Home.png";
 import Img7 from "@/public/images/flow-finance/Homepage.png";
 import arrow from "@/public/images/cta-arrow.png";
 
@@ -432,11 +432,27 @@ export default function Home() {
                 <div className="">Alex Oyebade</div>
                 <div>
                   <ul className="">
-                    <li>Contact me</li>
-                    <li>resumé</li>
-                    <li>Linkedin</li>
-                    <li>TWitter</li>
-                    <li>dribble</li>
+                    <li>
+                      <Link href="mailto:ao.dsgnr@gmail.com">Contact me</Link>
+                    </li>
+                    <li>
+                      <Link href="https://read.cv/join/alexoyebade">
+                        resumé
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="https://www.linkedin.com/in/iamalexoyebade/">
+                        Linkedin
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="https://twitter.com/iamalexoyebade">
+                        Twitter
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="https://dribbble.com/AlexOye">dribble</Link>
+                    </li>
                   </ul>
                   <span className="d-150">copyright 2023 alex oyebade</span>
                 </div>

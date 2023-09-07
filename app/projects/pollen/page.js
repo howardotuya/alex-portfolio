@@ -453,7 +453,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            
+
             <div className="flex bg-[#161718] px-5 lg:justify-center lg:items-center pb-20 lg:pt-[61px] lg:pb-[182px]">
               <Link href="/projects/sorolingo" className="project-ctas">
                 <span>Next Project</span>
@@ -467,11 +467,27 @@ export default function Home() {
                   <div className="">Alex Oyebade</div>
                   <div>
                     <ul className="">
-                      <li>Contact me</li>
-                      <li>resumé</li>
-                      <li>Linkedin</li>
-                      <li>TWitter</li>
-                      <li>dribble</li>
+                      <li>
+                        <Link href="mailto:ao.dsgnr@gmail.com">Contact me</Link>
+                      </li>
+                      <li>
+                        <Link href="https://read.cv/join/alexoyebade">
+                          resumé
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="https://www.linkedin.com/in/iamalexoyebade/">
+                          Linkedin
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="https://twitter.com/iamalexoyebade">
+                          Twitter
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="https://dribbble.com/AlexOye">dribble</Link>
+                      </li>
                     </ul>
                     <span className="d-150">copyright 2023 alex oyebade</span>
                   </div>

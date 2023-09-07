@@ -162,13 +162,28 @@ function Collect() {
               <h2 className="">Dashboard</h2>
               <div className="ydash">
                 <div className="">
-                  <Image className="w-full h-auto" src={Img5} alt="" placeholder="blur" />
+                  <Image
+                    className="w-full h-auto"
+                    src={Img5}
+                    alt=""
+                    placeholder="blur"
+                  />
                 </div>
                 <div className="">
-                  <Image className="w-full h-auto" src={Img6} alt="" placeholder="blur" />
+                  <Image
+                    className="w-full h-auto"
+                    src={Img6}
+                    alt=""
+                    placeholder="blur"
+                  />
                 </div>
                 <div className="">
-                  <Image className="w-full h-auto" src={Img7} alt="" placeholder="blur" />
+                  <Image
+                    className="w-full h-auto"
+                    src={Img7}
+                    alt=""
+                    placeholder="blur"
+                  />
                 </div>
               </div>
             </div>
@@ -186,13 +201,14 @@ function Collect() {
                 stimulating projects I’ve worked on. It helped me develop my
                 capacity as a full-range professional.
                 <span className="text-[#989999]">
-                {" "} The next step was to go to beta development and rounds of
+                  {" "}
+                  The next step was to go to beta development and rounds of
                   testing but I’m no more involved with this project.
                 </span>
               </p>
             </div>
           </div>
-          
+
           <div className="flex bg-[#161718] px-5 lg:justify-center lg:items-center pb-20 lg:pt-[61px] lg:pb-[182px]">
             <Link href="/projects/contentionary" className="project-ctas">
               <span>Next Project</span>
@@ -206,11 +222,27 @@ function Collect() {
                 <div className="">Alex Oyebade</div>
                 <div>
                   <ul className="">
-                    <li>Contact me</li>
-                    <li>resumé</li>
-                    <li>Linkedin</li>
-                    <li>TWitter</li>
-                    <li>dribble</li>
+                    <li>
+                      <Link href="mailto:ao.dsgnr@gmail.com">Contact me</Link>
+                    </li>
+                    <li>
+                      <Link href="https://read.cv/join/alexoyebade">
+                        resumé
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="https://www.linkedin.com/in/iamalexoyebade/">
+                        Linkedin
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="https://twitter.com/iamalexoyebade">
+                        Twitter
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="https://dribbble.com/AlexOye">dribble</Link>
+                    </li>
                   </ul>
                   <span className="d-150">copyright 2023 alex oyebade</span>
                 </div>

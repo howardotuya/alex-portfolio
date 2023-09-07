@@ -666,7 +666,13 @@ export default function Sorolingo() {
           <div>
             <div className="py-20 px-5 lg:pt-[260px] lg:pb-[162px] grid justify-center justify-items-center items-center">
               <div class="max-w-[944px]">
-                <Image className="w-full h-auto" src={end1} alt="" placeholder="blur" quality={100} />
+                <Image
+                  className="w-full h-auto"
+                  src={end1}
+                  alt=""
+                  placeholder="blur"
+                  quality={100}
+                />
               </div>
             </div>
           </div>
@@ -700,8 +706,8 @@ export default function Sorolingo() {
                   <span className="text-[#989999]">
                     This was a very important project for me, and I am thrilled
                     to have worked on it.
-                  </span>
-                  {" "}I learnt a lot more about language learning, the needs and
+                  </span>{" "}
+                  I learnt a lot more about language learning, the needs and
                   fears of Africans living in Diaspora, and the balance between
                   providing value for the client and the customer in the EdTech
                   industry.{" "}
@@ -725,11 +731,27 @@ export default function Sorolingo() {
                   <div className="">Alex Oyebade</div>
                   <div>
                     <ul className="">
-                      <li>Contact me</li>
-                      <li>resumé</li>
-                      <li>Linkedin</li>
-                      <li>TWitter</li>
-                      <li>dribble</li>
+                      <li>
+                        <Link href="mailto:ao.dsgnr@gmail.com">Contact me</Link>
+                      </li>
+                      <li>
+                        <Link href="https://read.cv/join/alexoyebade">
+                          resumé
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="https://www.linkedin.com/in/iamalexoyebade/">
+                          Linkedin
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="https://twitter.com/iamalexoyebade">
+                          Twitter
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="https://dribbble.com/AlexOye">dribble</Link>
+                      </li>
                     </ul>
                     <span className="d-150">copyright 2023 alex oyebade</span>
                   </div>
