@@ -6,9 +6,15 @@ import Img1 from "@/public/images/contentionary/Img1.png";
 import Img2 from "@/public/images/contentionary/Img2.png";
 import Img3 from "@/public/images/contentionary/Img3.png";
 import Img4 from "@/public/images/contentionary/Img4.png";
-import Img5 from "@/public/images/contentionary/Img5.png";
+import Img5 from "@/public/images/contentionary/Img5x.png";
 import Img6 from "@/public/images/contentionary/Img6.png";
-import Img7 from "@/public/images/contentionary/Img7.png";
+import Img7 from "@/public/images/contentionary/Img7x.png";
+import Img8 from "@/public/images/contentionary/Img8.png";
+import Img9 from "@/public/images/contentionary/Img9.png";
+import Img10 from "@/public/images/contentionary/Img10.png";
+import Img11 from "@/public/images/contentionary/Img11.png";
+import Img12 from "@/public/images/contentionary/Img12.png";
+import Img13 from "@/public/images/contentionary/Img13.png";
 
 export default function Home() {
   return (
@@ -42,7 +48,7 @@ export default function Home() {
               <h6>Mobile, WEB, & Webapp Design</h6>
             </div>
             <div className="cnary-hcont-h2 lg:px-[30px]">
-              <Image src={Img1} alt="Contentionary" placeholder=“blur” />
+              <Image src={Img1} alt="" placeholder="blur" />
             </div>
           </div>
         </div>
@@ -130,7 +136,7 @@ export default function Home() {
         <div>
           <div className="inline-flex justify-center items-center py-[143px] px-5 lg:0 w-full">
             <div className="max-w-[642px]">
-              <Image className="" src={Img2} alt="Contentionary" placeholder=“blur” />
+              <Image className="" src={Img2} alt="" placeholder="blur" />
             </div>
           </div>
         </div>
@@ -198,7 +204,7 @@ export default function Home() {
               </div>
             </div>
             <div className="max-w-[1277px] justify-self-center px-5 lg:px-0">
-              <Image src={Img3} alt="Contentionary" placeholder=“blur” />
+              <Image src={Img3} alt="" placeholder="blur" />
             </div>
           </div>
         </div>
@@ -208,10 +214,10 @@ export default function Home() {
         <div>
           <div className="pt-20 justify-center items-center lg:justify-start lg:items-start lg:pt-[140px] flex flex-col lg:flex-row gap-6 w-full px-5 lg:pl-6 lg:px-14">
             <div className="w-full">
-              <Image src={Img4} alt="Contentionary" placeholder=“blur” />
+              <Image src={Img4} alt="" placeholder="blur" />
             </div>
-            <div className="w-full lg:max-w-[300px]">
-              <Image src={Img5} alt="Contentionary" placeholder=“blur” />
+            <div className="w-full lg:max-w-[300px] flex justify-center items-center">
+              <Image src={Img5} alt="" placeholder="blur" />
             </div>
           </div>
         </div>
@@ -223,13 +229,165 @@ export default function Home() {
             <h2> CREATOR DASHBOARD</h2>
             <div className="justify-center items-center lg:justify-start lg:items-start flex flex-col lg:flex-row gap-6 w-full px-5 lg:pl-6 lg:px-14">
               <div className="w-full">
-                <Image src={Img6} alt="Contentionary" placeholder=“blur” />
+                <Image src={Img6} alt="" placeholder="blur" />
               </div>
-              <div className="w-full lg:max-w-[300px]">
-                <Image src={Img7} alt="Contentionary" placeholder=“blur” />
+              <div className="w-full lg:max-w-[300px] flex justify-center items-center">
+                <Image src={Img7} alt="" placeholder="blur" />
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="setbody g20-alt">
+        <div>
+          <div className="cnary-mulc">
+            <h2>Wallet</h2>
+            <div className="justify-center items-center lg:justify-start lg:items-start flex flex-col lg:flex-row gap-6 w-full px-5 lg:pl-6 lg:px-14">
+              <div className="w-full">
+                <Image src={Img8} alt="" placeholder="blur" />
+              </div>
+              <div className="w-full lg:max-w-[300px] flex justify-center items-center">
+                <Image src={Img9} alt="" placeholder="blur" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="setbody g20-alt">
+        <div>
+          <div className="cnary-mulc">
+            <h2 className="max-w-[866px] self-center justify-self-center">
+              CENTRE DASHBOARD
+            </h2>
+            <div className="justify-center items-center flex flex-col lg:flex-row gap-6 w-full px-5 lg:px-[82px]">
+              <div className="w-full">
+                <Image src={Img10} alt="" placeholder="blur" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="setbody g20-alt">
+        <div>
+          <div className="cnary-mulc">
+            <h2 className="max-w-[866px] self-center justify-self-center">
+              COURSE DASHBOARD
+            </h2>
+            <div className="justify-center items-center flex flex-col lg:flex-row gap-6 w-full px-5 lg:px-[82px]">
+              <div className="w-full">
+                <Image src={Img11} alt="" placeholder="blur" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="setbody g20-alt">
+        <div>
+          <div className="cnary-mulc">
+            <h2 className="max-w-[866px] self-center justify-self-center">
+              PUBLICATIONS
+            </h2>
+            <div className="justify-center items-center flex flex-col lg:flex-row gap-6 w-full px-5 lg:px-[82px]">
+              <div className="w-full">
+                <Image src={Img13} alt="" placeholder="blur" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="setbody g20-alt">
+        <div>
+          <div className="cnary-mulc">
+            <h2 className="max-w-[866px] self-center justify-self-center">
+              LEARNERS DASHBOARD
+            </h2>
+            <div className="justify-center items-center flex flex-col lg:flex-row gap-6 w-full px-5 lg:px-[82px]">
+              <div className="w-full">
+                <Image src={Img12} alt="" placeholder="blur" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-[#161718] setbody">
+        <div>
+          <div className="w-full pt-20 pb-10 lg:pt-[216px] lg:pb-[152px]">
+            <div className="fheader-bottom-alt">
+              <h6>Reflection</h6>
+              <p className=" max-w-[1301px!important]">
+                Contentionary was successfully launched Q4 2022 and there are
+                currently over 100 users creators, educators, and centres with
+                over NGN4m in revenue generated.
+                <span className="text-[#898A8A!important]">
+                  {" "}I enjoyed working on this project because it marked my second
+                  Edtech product and showed me the innovations that are still
+                  possible in the space. There are still some improvements to be
+                  made on the product but I’m no more involved in the
+                  development. But I’m sure the product owners are committed to
+                  the success of the product.
+                </span>
+              </p>
+            </div>
+          </div>
+
+          <div className="impact-cont">
+            <h2>Impact</h2>
+
+            <div className="impact-2d">
+              <div className="imcard max-w-[507px]">
+                <p>
+                  Contentionary is more like our technical partner by virtue of
+                  what they have provided for Learn Africa. With their
+                  publication template, we are positioned to service our market
+                  of students. Highly recommended.
+                </p>
+                <div>
+                  <h6>Mr. Gbola Aiyedun, Publication Director</h6>
+                  <h2>Learn Africa Plc., Ikeja, Lagos State</h2>
+                </div>
+              </div>
+              <div className="imcard max-w-[616px]">
+                <p>
+                Contentionary's cloud-based Information Technology Academy (ITA) for institutions will change education in Africa. An amazing idea for knowledge sharing and revenue for the ACETEL Directorate of the National Open University of Nigeria. We are pleased with this partnership with Contentionary.
+                </p>
+                <div>
+                  <h6>Dr. Adewale Adesina, Director, Short Courses</h6>
+                  <h2>National Open University of Nigeria, F.C.T, Abuja</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex bg-[#161718] px-5 lg:justify-center lg:items-center pt-8 pb-20 lg:pt-[173px] lg:pb-[182px]">
+            <Link href="/" className="project-ctas">
+              <Image className="w-4 h-4 rotate-180" src={arrow} alt="Arrow Right" />
+              <span>Back Home</span>
+            </Link>
+          </div>
+
+          <footer className="setbody bg-[#161718] d-140">
+            <div>
+              <div id="actual-footer">
+                <div className="">Alex Oyebade</div>
+                <div>
+                  <ul className="">
+                    <li>Contact me</li>
+                    <li>resumé</li>
+                    <li>Linkedin</li>
+                    <li>TWitter</li>
+                    <li>dribble</li>
+                  </ul>
+                  <span className="d-150">copyright 2023 alex oyebade</span>
+                </div>
+              </div>
+            </div>
+          </footer>
         </div>
       </section>
     </div>

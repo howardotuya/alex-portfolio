@@ -325,7 +325,10 @@ export default function Home() {
                     </div>
                   </Link>
                   <Link
-                    href="/projects/sorolingo" id="Surolingo" className="flex flex-col gap-4">
+                    href="/projects/sorolingo"
+                    id="Surolingo"
+                    className="flex flex-col gap-4"
+                  >
                     <div className="content-1 bg-[#363738]">
                       <div className="g10">
                         <h6 className="text-sm font-medium lg:font-semibold leading-[120%]">
@@ -380,7 +383,11 @@ export default function Home() {
                   </Link>
                 </div>
 
-                <Link href="/projects/yoohoo" id="yoohoo" className="flex flex-col gap-4">
+                <Link
+                  href="/projects/yoohoo"
+                  id="yoohoo"
+                  className="flex flex-col gap-4"
+                >
                   <div className="relative text-[#fafafa] w-full h-auto px-4 lg:pl-[76px] py-10 lg:pt-[187px] lg:pb-[77px]">
                     <Image
                       fill
@@ -517,7 +524,11 @@ export default function Home() {
                   </div>
                 </Link>
 
-                <Link href="/projects/contentionary" id="Contentionary" className="flex flex-col gap-4">
+                <Link
+                  href="/projects/contentionary"
+                  id="Contentionary"
+                  className="flex flex-col gap-4"
+                >
                   <div className="content-1 px-[0!important] bg-[#363738]">
                     <div className="g10">
                       <h6 className="text-sm font-medium lg:font-semibold leading-[120%]">
@@ -569,7 +580,7 @@ export default function Home() {
                     </div>
                   </div>
                 </Link>
-                        </div>
+              </div>
             </section>
           </div>
         </main>
