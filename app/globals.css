@@ -1747,6 +1747,10 @@ body {
   line-height: 150%; /* 18px */
 }
 
+a:hover {
+  opacity: 0.75;
+}
+
 @media only screen and (min-width: 763px) {
 }
 

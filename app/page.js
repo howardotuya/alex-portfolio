@@ -342,7 +342,10 @@ export default function Home() {
                     </div>
                   </Link>
                   <Link
-                    href="/projects/sorolingo" id="Surolingo" className="flex flex-col gap-4">
+                    href="/projects/sorolingo"
+                    id="Surolingo"
+                    className="flex flex-col gap-4"
+                  >
                     <div className="content-1 bg-[#363738]">
                       <div className="g10">
                         <h6 className="text-sm font-medium lg:font-semibold leading-[120%]">
@@ -438,11 +441,24 @@ export default function Home() {
             <div className="d-110">Alex Oyebade</div>
             <div>
               <ul className="d-120">
-                <li>Contact me</li>
-                <li>resumé</li>
-                <li>Linkedin</li>
-                <li>TWitter</li>
-                <li>dribble</li>
+                <li>
+                  <Link href="mailto:ao.dsgnr@gmail.com">Contact me</Link>
+                </li>
+                <li>
+                  <Link href="https://read.cv/join/alexoyebade">resumé</Link>
+                </li>
+                <li>
+                  <Link href="https://www.linkedin.com/in/iamalexoyebade/">
+                    Linkedin
+                  </Link>
+                </li>
+                <li>
+                  <Link href="https://twitter.com/iamalexoyebade">Twitter</Link>
+                </li>
+                <li>
+                  {" "}
+                  <Link href="https://dribbble.com/AlexOye">dribble</Link>
+                </li>
               </ul>
               <div className="d-130">copyright 2023 alex oyebade</div>
             </div>
