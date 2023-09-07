@@ -354,7 +354,7 @@ export default function Home() {
               </div>
               <div className="imcard max-w-[616px]">
                 <p>
-                Contentionary's cloud-based Information Technology Academy (ITA) for institutions will change education in Africa. An amazing idea for knowledge sharing and revenue for the ACETEL Directorate of the National Open University of Nigeria. We are pleased with this partnership with Contentionary.
+                Contentionary&apos;s cloud-based Information Technology Academy (ITA) for institutions will change education in Africa. An amazing idea for knowledge sharing and revenue for the ACETEL Directorate of the National Open University of Nigeria. We are pleased with this partnership with Contentionary.
                 </p>
                 <div>
                   <h6>Dr. Adewale Adesina, Director, Short Courses</h6>
