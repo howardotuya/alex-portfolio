@@ -192,8 +192,9 @@ function Collect() {
               </p>
             </div>
           </div>
+          
           <div className="flex bg-[#161718] px-5 lg:justify-center lg:items-center pb-20 lg:pt-[61px] lg:pb-[182px]">
-            <Link href="/projects/collect-africa" className="project-ctas">
+            <Link href="/projects/contentionary" className="project-ctas">
               <span>Next Project</span>
               <Image className="w-4 h-4" src={arrow} alt="Arrow Right" />
             </Link>
