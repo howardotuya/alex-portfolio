@@ -517,7 +517,7 @@ export default function Home() {
                   </div>
                 </Link>
 
-                <div id="Contentionary" className="flex flex-col gap-4">
+                <Link href="/projects/contentionary" id="Contentionary" className="flex flex-col gap-4">
                   <div className="content-1 px-[0!important] bg-[#363738]">
                     <div className="g10">
                       <h6 className="text-sm font-medium lg:font-semibold leading-[120%]">
@@ -569,7 +569,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </Link>
             </section>
           </div>
         </main>
