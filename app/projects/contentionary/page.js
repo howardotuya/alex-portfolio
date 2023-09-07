@@ -42,7 +42,7 @@ export default function Home() {
               <h6>Mobile, WEB, & Webapp Design</h6>
             </div>
             <div className="cnary-hcont-h2 lg:px-[30px]">
-              <Image src={Img1} alt="" placeholder=“blur” />
+              <Image src={Img1} alt="Contentionary" placeholder=“blur” />
             </div>
           </div>
         </div>
@@ -130,7 +130,7 @@ export default function Home() {
         <div>
           <div className="inline-flex justify-center items-center py-[143px] px-5 lg:0 w-full">
             <div className="max-w-[642px]">
-              <Image className="" src={Img2} alt="" placeholder=“blur” />
+              <Image className="" src={Img2} alt="Contentionary" placeholder=“blur” />
             </div>
           </div>
         </div>
@@ -198,7 +198,7 @@ export default function Home() {
               </div>
             </div>
             <div className="max-w-[1277px] justify-self-center px-5 lg:px-0">
-              <Image src={Img3} alt="" placeholder=“blur” />
+              <Image src={Img3} alt="Contentionary" placeholder=“blur” />
             </div>
           </div>
         </div>
@@ -208,10 +208,10 @@ export default function Home() {
         <div>
           <div className="pt-20 justify-center items-center lg:justify-start lg:items-start lg:pt-[140px] flex flex-col lg:flex-row gap-6 w-full px-5 lg:pl-6 lg:px-14">
             <div className="w-full">
-              <Image src={Img4} alt="" placeholder=“blur” />
+              <Image src={Img4} alt="Contentionary" placeholder=“blur” />
             </div>
             <div className="w-full lg:max-w-[300px]">
-              <Image src={Img5} alt="" placeholder=“blur” />
+              <Image src={Img5} alt="Contentionary" placeholder=“blur” />
             </div>
           </div>
         </div>
@@ -223,10 +223,10 @@ export default function Home() {
             <h2> CREATOR DASHBOARD</h2>
             <div className="justify-center items-center lg:justify-start lg:items-start flex flex-col lg:flex-row gap-6 w-full px-5 lg:pl-6 lg:px-14">
               <div className="w-full">
-                <Image src={Img6} alt="" placeholder=“blur” />
+                <Image src={Img6} alt="Contentionary" placeholder=“blur” />
               </div>
               <div className="w-full lg:max-w-[300px]">
-                <Image src={Img7} alt="" placeholder=“blur” />
+                <Image src={Img7} alt="Contentionary" placeholder=“blur” />
               </div>
             </div>
           </div>
