@@ -14,6 +14,14 @@ import Img6 from "@/public/images/yoohoo/Img6.png";
 import Img7 from "@/public/images/yoohoo/Img7.png";
 import mindmap from "@/public/images/yoohoo/mind-map.png";
 import m2f from "@/public/images/yoohoo/m2-follow.svg";
+import Img8 from "@/public/images/yoohoo/1Img.png";
+import Img9 from "@/public/images/yoohoo/Img9.svg";
+import Img10 from "@/public/images/yoohoo/Img10.svg";
+import fImg1 from "@/public/images/yoohoo/fImg1.svg";
+import fImg2 from "@/public/images/yoohoo/fImg2.svg";
+import fImg3 from "@/public/images/yoohoo/fImg3.svg";
+import fImg4 from "@/public/images/yoohoo/fImg4.svg";
+import fImg5 from "@/public/images/yoohoo/fImg5.svg";
 
 function Collect() {
   return (
@@ -117,6 +125,71 @@ function Collect() {
                 </div>
                 <div>
                   <Image src={m2f} alt="Mind Map" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="setbody relative overflow-hidden">
+          <div>
+            <div className="bg-[#2D1E2F] absolute top-0 left-0 right-0 bottom-0 opacity-[0.68] z-30"></div>
+            <div className="bg-[#F79E16] absolute top-0 left-0 right-0 bottom-0 opacity-[0.168] z-20"></div>
+            <div className="bg-[#2D1E2F] absolute top-0 left-0 right-0 bottom-0 opacity-[0.68] z-30"></div>
+            <Image
+              src={Img8}
+              alt=""
+              className="object-center object-cover w-full h-auto z-10"
+              fill
+            />
+            <div className="logo-cont">
+              <div className="lc-three relative ">
+                <h2>Main Logo</h2>
+                <div>
+                  <Image className="hidden lg:block" src={Img9} alt="" />
+                  <Image className="block lg:hidden" src={Img10} alt="" />
+                </div>
+                <div>
+                  <h6>Our logo is our flag.</h6>
+                  <p>
+                    It represents us, who we are and what we stand for. A symbol
+                    of identity and trust in the process.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+ 
+        <section className="setbody"> 
+          <div>
+            <div class="ytwo-rows">
+              <div className="flex lg:flex-row flex-col justify-between py-16 px-[57px] lg:px-20 gap-[56px] lg:pl-[149px] lg:pt-[229px] gap-8 lg:pr-[133px]">
+                <div>
+                  <Image src={fImg1} alt="" />
+                </div>
+                <div>
+                  <Image src={fImg2} alt="" />
+                </div>
+              </div>
+              <div className="ythree-rows">
+                <div>
+                  <h6>Standard Colour</h6>
+                  <div>
+                    <Image src={fImg3} alt="" />
+                  </div>
+                </div>
+                <div>
+                  <h6>Monotone White</h6>
+                  <div>
+                    <Image src={fImg4} alt="" />
+                  </div>
+                </div>
+                <div>
+                  <h6>Monotone Black</h6>
+                  <div>
+                    <Image src={fImg5} alt="" />
+                  </div>
                 </div>
               </div>
             </div>
