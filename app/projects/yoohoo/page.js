@@ -22,6 +22,9 @@ import fImg2 from "@/public/images/yoohoo/fImg2.svg";
 import fImg3 from "@/public/images/yoohoo/fImg3.svg";
 import fImg4 from "@/public/images/yoohoo/fImg4.svg";
 import fImg5 from "@/public/images/yoohoo/fImg5.svg";
+import Img11 from "@/public/images/yoohoo/2Img.png";
+import Img12 from "@/public/images/yoohoo/3Img.png";
+import Img13 from "@/public/images/yoohoo/4Img.png";
 
 function Collect() {
   return (
@@ -132,10 +135,7 @@ function Collect() {
         </section>
 
         <section className="setbody relative overflow-hidden">
-          <div>
-            <div className="bg-[#2D1E2F] absolute top-0 left-0 right-0 bottom-0 opacity-[0.68] z-30"></div>
-            <div className="bg-[#F79E16] absolute top-0 left-0 right-0 bottom-0 opacity-[0.168] z-20"></div>
-            <div className="bg-[#2D1E2F] absolute top-0 left-0 right-0 bottom-0 opacity-[0.68] z-30"></div>
+          <div className="relative">
             <Image
               src={Img8}
               alt=""
@@ -160,8 +160,31 @@ function Collect() {
             </div>
           </div>
         </section>
- 
-        <section className="setbody"> 
+
+        <section className="setbody relative overflow-hidden">
+          <div className="relative">
+            <Image
+              src={Img12}
+              alt=""
+              className="block lg:hidden object-center object-cover w-full h-auto"
+              fill
+              sizes="100vw"
+            />
+            <Image
+              src={Img13}
+              alt=""
+              className="hidden lg:block object-center object-cover w-full h-auto"
+              fill
+              sizes="100vw"
+            />
+            <div className="relative cp-cont">
+              <h2>Colour Palette</h2>
+              <p>It represents us, who we are and what we stand for. </p>
+            </div>
+          </div>
+        </section>
+
+        <section className="setbody">
           <div>
             <div class="ytwo-rows">
               <div className="flex lg:flex-row flex-col justify-between py-16 px-[57px] lg:px-20 gap-[56px] lg:pl-[149px] lg:pt-[229px] gap-8 lg:pr-[133px]">
@@ -191,6 +214,34 @@ function Collect() {
                     <Image src={fImg5} alt="" />
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="setbody relative overflow-hidden">
+          <div className="relative">
+            <Image
+              src={Img11}
+              alt=""
+              className=" object-center object-cover w-full h-auto"
+              fill
+              sizes="100vw"
+            />
+            <div className="relative ytt-cont">
+              <div className="ytt2-1">
+                <h2>Typography</h2>
+                <p>
+                  Typography clarity and hierarchy are extremely important for
+                  the brand communication.
+                  <span className="text-white">
+                    {" "}Neue Machina and DM Sans are our brand fonts.
+                  </span>
+                </p>
+              </div>
+              <div className="ytt2-2">
+                <h3 className=" font-extrabold">Aa</h3>
+                <h3 className=" font-normal">Aa</h3>
               </div>
             </div>
           </div>

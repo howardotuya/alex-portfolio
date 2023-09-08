@@ -51,6 +51,16 @@
   src: url("/fonts/lexend/Lexend-Bold.ttf") format("TrueType");
   font-weight: 700;
 }
+@font-face {
+  font-family: "dmsans";
+  src: url("/fonts/dmsans/dm4.ttf") format("TrueType");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "dmsans";
+  src: url("/fonts/dmsans/dm8.ttf") format("TrueType");
+  font-weight: 800;
+}
 
 .lexend {
   font-family: "Lexend";
@@ -1826,6 +1836,74 @@ a:hover {
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.04);
 }
 
+.cp-cont {
+  padding: 64px;
+  padding-bottom: 440px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: grid;
+  gap: 12px;
+}
+
+.cp-cont > h2 {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 119.2%;
+  max-width: 641px;
+}
+
+.cp-cont > p {
+  color: #ebebec;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.ytt-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 56px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.ytt2-1 > h2 {
+  color: #fff;
+  font-family: "Neue Machina";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 123.7%; /* 29.688px */
+}
+
+.ytt2-1 > p {
+  color: #989999;
+  padding-top: 16px;
+  font-family: "dmsans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.ytt2-2 {
+  color: #fff;
+  font-family: "Neue Machina";
+  font-style: normal;
+  line-height: normal;
+  display: flex;
+  font-size: 64px;
+  flex-direction: row;
+  gap: 56px;
+}
+
 @media only screen and (min-width: 763px) {
 }
 
@@ -1976,6 +2054,72 @@ a:hover {
 
   /* Yoohoo */
 
+  .ytt-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 271px;
+    padding-bottom: 265px;
+    padding-left: 169px;
+  }
+
+  .ytt2-1 > h2 {
+    color: #fff;
+    font-family: "Neue Machina";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 123.7%; /* 89.064px */
+  }
+
+  .ytt2-1 > p {
+    color: #989999;
+    padding-top: 6.5px;
+    font-family: "dmsans";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40.5px; /* 135% */
+    max-width: 533px;
+  }
+
+  .ytt2-2 {
+    color: #fff;
+    font-family: "Neue Machina";
+    font-size: 150px;
+    font-style: normal;
+    line-height: normal;
+    display: flex;
+    flex-direction: row;
+    gap: 56px;
+    transform: rotate(-90deg);
+  }
+
+  .cp-cont {
+    padding: 128px;
+    padding-bottom: 222px;
+    padding-left: 72px;
+    display: grid;
+    gap: 16px;
+  }
+
+  .cp-cont > h2 {
+    color: #fff;
+    font-size: 172px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 180px; /* 104.651% */
+    max-width: 641px;
+  }
+
+  .cp-cont > p {
+    color: #ebebec;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px; /* 155.556% */
+    max-width: 369px;
+  }
   .ythree-rows > div {
     display: grid;
     justify-content: center;
