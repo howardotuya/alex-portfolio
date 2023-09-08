@@ -30,7 +30,7 @@ export default function Home() {
       </span>
       <header className="g20 header-full setbody">
         <div>
-          <div className="pt-[320px] pb-24 lg:pt-[337px] lg:pb-[337px] self-end items-end flex flex-col justify-center w-full h-full lg:h-auto pr-5 lg:pr-[21.53%]">
+          <div className="pt-[360px] pb-24 lg:pt-[337px] lg:pb-[337px] self-end items-end flex flex-col justify-center w-full h-full lg:h-auto pr-5 lg:pr-[21.53%]">
             <Image
               className="hidden lg:flex max-w-[323px] lg:max-w-[746px] w-full h-auto"
               placeholder="blur"
