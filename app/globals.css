@@ -80,11 +80,6 @@ body {
   line-height: normal;
 }
 
-.header-full {
-  height: 100vh;
-  overflow: hidden;
-}
-
 @layer utilities {
   .g10 {
     color: #fafafa;
@@ -1909,6 +1904,11 @@ a:hover {
 
 @media only screen and (min-width: 1024px) {
   /* Contentionary */
+
+  .header-full {
+    height: 100vh;
+    overflow: hidden;
+  }
 
   .impact-2d {
     display: flex;
