@@ -14,7 +14,7 @@ import onb3 from "@/public/images/pollen/onb3.png";
 import onb4 from "@/public/images/pollen/onb4.png";
 import onb5 from "@/public/images/pollen/onb5.png";
 import ac1 from "@/public/images/pollen/ac1.png";  
-import ac2 from "@/public/images/pollen/ac2.png";
+import ac2 from "@/public/images/pollen/ac2.png"; 
 import ac3 from "@/public/images/pollen/ac3.png";
 import ac4 from "@/public/images/pollen/ac4.png";
 import ac5 from "@/public/images/pollen/ac5.png";

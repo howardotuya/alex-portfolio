@@ -615,8 +615,8 @@ export default function Sorolingo() {
                   <Image src={pointer} alt="arrow" />
                 </div>
                 <div className="tt-text">
-                  The course taking is in several categpories. Some are text
-                  alone, some are text and image, whoile some are text, image,
+                  The course taking is in several categories. Some are text
+                  alone, some are text and image, while some are text, image,
                   and audio.
                 </div>
               </div>
