@@ -52,7 +52,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </header>
+      </header> 
 
       <section className="setbody g20-alt">
         <div>
