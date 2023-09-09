@@ -13,7 +13,7 @@ import Img5 from "@/public/images/yoohoo/Img5.png";
 import Img6 from "@/public/images/yoohoo/Img6.png";
 import Img7 from "@/public/images/yoohoo/Img7.png";
 import mindmap from "@/public/images/yoohoo/mind-map.png";
-import m2f from "@/public/images/yoohoo/m2-follow.svg";
+import m2f from "@/public/images/yoohoo/m3-follow.svg";
 import Img8 from "@/public/images/yoohoo/1Img.png";
 import Img9 from "@/public/images/yoohoo/Img9.svg";
 import Img10 from "@/public/images/yoohoo/Img10.svg";

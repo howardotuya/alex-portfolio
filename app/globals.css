@@ -125,6 +125,11 @@ body {
   }
 }
 
+.header-full {
+  height: 85vh;
+  overflow: hidden;
+}
+
 #first-row-projects,
 #second-row-projects {
   display: grid;
@@ -1903,12 +1908,14 @@ a:hover {
 }
 
 @media only screen and (min-width: 1024px) {
-  /* Contentionary */
 
-  .header-full {
-    height: 100vh;
-    overflow: hidden;
-  }
+  
+.header-full {
+  height: 90vh;
+  overflow: hidden;
+}
+
+  /* Contentionary */
 
   .impact-2d {
     display: flex;
