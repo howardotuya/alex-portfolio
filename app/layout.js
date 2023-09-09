@@ -5,7 +5,7 @@ export const metadata = {
     default: "Alex Oyebade",
     template: "%s - Alex Oyebade",
   },
-  description: "Created by Howard Otuya",
+  description: "Endearing users to a product through simple and delightful designs.",
   keywords: [
     "Alex Oyebade",
     "Oyebade Alex",

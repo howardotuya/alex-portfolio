@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'Sorolingo',
-  description: 'Created by Howard Otuya',
+  description: 'Endearing users to a product through simple and delightful designs.',
   themeColor: '#f5f5f5'
 }
 

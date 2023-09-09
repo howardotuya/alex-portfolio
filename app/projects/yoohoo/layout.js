@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'Yoohoo',
-  description: 'Created by Howard Otuya',
+  description: 'Endearing users to a product through simple and delightful designs.',
   themeColor: '#161718'
 }
 

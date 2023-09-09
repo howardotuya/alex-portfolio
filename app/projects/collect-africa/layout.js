@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'Collect Mobile App UX Case Study',
-  description: 'Created by Howard Otuya',
+  description: 'Endearing users to a product through simple and delightful designs.',
   themeColor: '#161718'
 }
 
