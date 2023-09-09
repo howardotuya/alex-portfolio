@@ -48,7 +48,7 @@ export default function Home() {
                     className="w-full h-auto"
                     src={Img1}
                     placeholder="blur"
-                    alt="Zacrac Learning"
+                    alt="Zacrac Learning Landing Page"
                   />
                 </div>
               </div>
@@ -126,7 +126,7 @@ export default function Home() {
             <div className="w-full grid gap-6 lg:gap-0 py-16 lg:pt-6 lg:pb-[178px]">
               <h2 class="zHeader-h2">Course Page</h2>
               <div className="lg:pt-[121px] px-5 lg:px-[82px]">
-                <Image src={Img3} alt="" placeholder="blur" quality={100} />
+                <Image src={Img3} alt="Course Page" placeholder="blur" quality={100} />
               </div>
               <p className="lg:py-28 px-5 lg:px-0 justify-self-end lg:mr-[197px] zBody-p">
                 We implemented a clean accordion element on the page to give the
@@ -135,13 +135,13 @@ export default function Home() {
               </p>
               <div class="zGrid-1">
                 <div>
-                  <Image src={Img4} alt="" placeholder="blur" quality={100} />
+                  <Image src={Img4} alt="More on Course Page" placeholder="blur" quality={100} />
                 </div>
                 <div>
-                  <Image src={Img6} alt="" placeholder="blur" quality={100} />
+                  <Image src={Img6} alt="Billing - Course Page" placeholder="blur" quality={100} />
                 </div>
                 <div>
-                  <Image src={Img5} alt="" placeholder="blur" quality={100} />
+                  <Image src={Img5} alt="Scheduling - Course Page" placeholder="blur" quality={100} />
                 </div>
               </div>
             </div>
@@ -153,7 +153,7 @@ export default function Home() {
             <div className="w-full grid gap-6 lg:gap-0 pt-16 lg:pt-6 lg:pb-0">
               <h2 class="zHeader-h2">Instructors Page</h2>
               <div className="lg:pt-[120px] px-5 lg:px-[82px]">
-                <Image src={Img7} alt="" placeholder="blur" quality={100} />
+                <Image src={Img7} alt="Instructors Page" placeholder="blur" quality={100} />
               </div>
             </div>
           </div>
@@ -164,7 +164,7 @@ export default function Home() {
             <div className="w-full grid gap-6 lg:gap-0 py-16 lg:pt-[160px] lg:pb-[100px]">
               <h2 class="zHeader-h2">Products</h2>
               <div className="lg:pt-16 px-5 lg:px-[82px]">
-                <Image src={Img8} alt="" placeholder="blur" quality={100} />
+                <Image src={Img8} alt="Products Page" placeholder="blur" quality={100} />
               </div>
             </div>
           </div>
@@ -175,10 +175,10 @@ export default function Home() {
             <div className="w-full grid gap-4 lg:gap-0 pt-16 lg:pt-[160px] lg:pb-[132px]">
               <h2 class="zHeader-h2">Other Services</h2>
               <div className="lg:pt-[88px] mt-2 lg:mt-0 grid justify-center items-center px-5 lg:px-[82px]">
-                <Image src={Img9} alt="" quality={100} />
+                <Image src={Img9} alt="More than a lending platform" quality={100} />
               </div>
               <div className="lg:pt-[150px] px-5 lg:px-[82px]">
-                <Image src={Img10} alt="" placeholder="blur" quality={100} />
+                <Image src={Img10} alt="Zacrac for business learning" placeholder="blur" quality={100} />
               </div>
             </div>
           </div>
@@ -189,7 +189,7 @@ export default function Home() {
             <div className="w-full zdown px-5 pt-16 lg:pt-[117px] lg:pb-0">
               <div className="max-w-[209px] lg:max-w-[301px] order-2 lg:order-1">
                 <div>
-                  <Image className="" src={Img11} alt="" />
+                  <Image placeholder="blur" src={Img11} alt="Whatsapp Groupchat - Project Revamp" />
                 </div>
               </div>
               <h3 className="max-w-[628px] order-1 lg:order-2 zdown-h3">

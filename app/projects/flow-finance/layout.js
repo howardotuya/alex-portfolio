@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Flow Finance - Alex Oyebade',
+  title: 'Flow Finance',
   description: 'Created by Howard Otuya',
   themeColor: '#ebebec'
 }

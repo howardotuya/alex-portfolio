@@ -48,11 +48,11 @@ export default function Home() {
               <h6>Mobile, WEB, & Webapp Design</h6>
             </div>
             <div className="cnary-hcont-h2 lg:px-[30px]">
-              <Image src={Img1} alt="" placeholder="blur" />
+              <Image src={Img1} alt="Landing Page" placeholder="blur" />
             </div>
           </div>
         </div>
-      </header> 
+      </header>
 
       <section className="setbody g20-alt">
         <div>
@@ -63,7 +63,11 @@ export default function Home() {
             <div className="cs3-sub">
               <div className="cont-cta">
                 <span>Visit Website</span>
-                <Image src={arrow} className="w-[14px] h-[14px]" alt="" />
+                <Image
+                  src={arrow}
+                  className="w-[14px] h-[14px]"
+                  alt="Right Arrow"
+                />
               </div>
               <h4>
                 <span class="contentionary-grad">Contentionary</span> allows
@@ -136,7 +140,7 @@ export default function Home() {
         <div>
           <div className="inline-flex justify-center items-center py-[143px] px-5 lg:0 w-full">
             <div className="max-w-[642px]">
-              <Image className="" src={Img2} alt="" placeholder="blur" />
+              <Image src={Img2} alt="Dashboard" placeholder="blur" />
             </div>
           </div>
         </div>
@@ -204,7 +208,11 @@ export default function Home() {
               </div>
             </div>
             <div className="max-w-[1277px] justify-self-center px-5 lg:px-0">
-              <Image src={Img3} alt="" placeholder="blur" />
+              <Image
+                src={Img3}
+                alt="Final Iteration of the website"
+                placeholder="blur"
+              />
             </div>
           </div>
         </div>
@@ -214,10 +222,18 @@ export default function Home() {
         <div>
           <div className="pt-20 justify-center items-center lg:justify-start lg:items-start lg:pt-[140px] flex flex-col lg:flex-row gap-6 w-full px-5 lg:pl-6 lg:px-14">
             <div className="w-full">
-              <Image src={Img4} alt="" placeholder="blur" />
+              <Image
+                src={Img4}
+                alt="Landing Page - Desktop"
+                placeholder="blur"
+              />
             </div>
             <div className="w-full lg:max-w-[300px] flex justify-center items-center">
-              <Image src={Img5} alt="" placeholder="blur" />
+              <Image
+                src={Img5}
+                alt="Landing Page - Mobile"
+                placeholder="blur"
+              />
             </div>
           </div>
         </div>
@@ -229,10 +245,18 @@ export default function Home() {
             <h2> CREATOR DASHBOARD</h2>
             <div className="justify-center items-center lg:justify-start lg:items-start flex flex-col lg:flex-row gap-6 w-full px-5 lg:pl-6 lg:px-14">
               <div className="w-full">
-                <Image src={Img6} alt="" placeholder="blur" />
+                <Image
+                  src={Img6}
+                  alt="Creator Dashboard - Desktop"
+                  placeholder="blur"
+                />
               </div>
               <div className="w-full lg:max-w-[300px] flex justify-center items-center">
-                <Image src={Img7} alt="" placeholder="blur" />
+                <Image
+                  src={Img7}
+                  alt="Creator Dashboard - Mobile"
+                  placeholder="blur"
+                />
               </div>
             </div>
           </div>
@@ -245,10 +269,10 @@ export default function Home() {
             <h2>Wallet</h2>
             <div className="justify-center items-center lg:justify-start lg:items-start flex flex-col lg:flex-row gap-6 w-full px-5 lg:pl-6 lg:px-14">
               <div className="w-full">
-                <Image src={Img8} alt="" placeholder="blur" />
+                <Image src={Img8} alt="Wallet Page - Desktop" placeholder="blur" />
               </div>
               <div className="w-full lg:max-w-[300px] flex justify-center items-center">
-                <Image src={Img9} alt="" placeholder="blur" />
+                <Image src={Img9} alt="Wallet Page - Mobile" placeholder="blur" />
               </div>
             </div>
           </div>
@@ -263,7 +287,7 @@ export default function Home() {
             </h2>
             <div className="justify-center items-center flex flex-col lg:flex-row gap-6 w-full px-5 lg:px-[82px]">
               <div className="w-full">
-                <Image src={Img10} alt="" placeholder="blur" />
+                <Image src={Img10} alt="Centre Dashboard" placeholder="blur" />
               </div>
             </div>
           </div>
@@ -278,7 +302,7 @@ export default function Home() {
             </h2>
             <div className="justify-center items-center flex flex-col lg:flex-row gap-6 w-full px-5 lg:px-[82px]">
               <div className="w-full">
-                <Image src={Img11} alt="" placeholder="blur" />
+                <Image src={Img11} alt="Course Dashboard" placeholder="blur" />
               </div>
             </div>
           </div>
@@ -293,7 +317,7 @@ export default function Home() {
             </h2>
             <div className="justify-center items-center flex flex-col lg:flex-row gap-6 w-full px-5 lg:px-[82px]">
               <div className="w-full">
-                <Image src={Img13} alt="" placeholder="blur" />
+                <Image src={Img13} alt="Publication Page" placeholder="blur" />
               </div>
             </div>
           </div>
@@ -308,7 +332,7 @@ export default function Home() {
             </h2>
             <div className="justify-center items-center flex flex-col lg:flex-row gap-6 w-full px-5 lg:px-[82px]">
               <div className="w-full">
-                <Image src={Img12} alt="" placeholder="blur" />
+                <Image src={Img12} alt="Learners Page" placeholder="blur" />
               </div>
             </div>
           </div>
@@ -325,7 +349,8 @@ export default function Home() {
                 currently over 100 users creators, educators, and centres with
                 over NGN4m in revenue generated.
                 <span className="text-[#898A8A!important]">
-                  {" "}I enjoyed working on this project because it marked my second
+                  {" "}
+                  I enjoyed working on this project because it marked my second
                   Edtech product and showed me the innovations that are still
                   possible in the space. There are still some improvements to be
                   made on the product but I’m no more involved in the
@@ -354,7 +379,12 @@ export default function Home() {
               </div>
               <div className="imcard max-w-[616px]">
                 <p>
-                Contentionary&apos;s cloud-based Information Technology Academy (ITA) for institutions will change education in Africa. An amazing idea for knowledge sharing and revenue for the ACETEL Directorate of the National Open University of Nigeria. We are pleased with this partnership with Contentionary.
+                  Contentionary&apos;s cloud-based Information Technology
+                  Academy (ITA) for institutions will change education in
+                  Africa. An amazing idea for knowledge sharing and revenue for
+                  the ACETEL Directorate of the National Open University of
+                  Nigeria. We are pleased with this partnership with
+                  Contentionary.
                 </p>
                 <div>
                   <h6>Dr. Adewale Adesina, Director, Short Courses</h6>
@@ -366,7 +396,11 @@ export default function Home() {
 
           <div className="flex bg-[#161718] px-5 lg:justify-center lg:items-center pt-8 pb-20 lg:pt-[173px] lg:pb-[182px]">
             <Link href="/" className="project-ctas">
-              <Image className="w-4 h-4 rotate-180" src={arrow} alt="Arrow Right" />
+              <Image
+                className="w-4 h-4 rotate-180"
+                src={arrow}
+                alt="Arrow Right"
+              />
               <span>Back Home</span>
             </Link>
           </div>
@@ -377,11 +411,27 @@ export default function Home() {
                 <div className="">Alex Oyebade</div>
                 <div>
                   <ul className="">
-                    <li><Link href="mailto:ao.dsgnr@gmail.com">Contact me</Link></li>
-                    <li><Link href="https://read.cv/join/alexoyebade">resumé</Link></li>
-                    <li><Link href="https://www.linkedin.com/in/iamalexoyebade/">Linkedin</Link></li>
-                    <li><Link href="https://twitter.com/iamalexoyebade">Twitter</Link></li>
-                    <li><Link href="https://dribbble.com/AlexOye">dribble</Link></li>
+                    <li>
+                      <Link href="mailto:ao.dsgnr@gmail.com">Contact me</Link>
+                    </li>
+                    <li>
+                      <Link href="https://read.cv/join/alexoyebade">
+                        resumé
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="https://www.linkedin.com/in/iamalexoyebade/">
+                        Linkedin
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="https://twitter.com/iamalexoyebade">
+                        Twitter
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="https://dribbble.com/AlexOye">dribble</Link>
+                    </li>
                   </ul>
                   <span className="d-150">copyright 2023 alex oyebade</span>
                 </div>

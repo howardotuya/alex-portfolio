@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Sorolingo - Alex Oyebade',
+  title: 'Sorolingo',
   description: 'Created by Howard Otuya',
   themeColor: '#f5f5f5'
 }

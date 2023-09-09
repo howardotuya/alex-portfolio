@@ -234,14 +234,14 @@ export default function Home() {
                         src={zacrac}
                         quality={100}
                         placeholder="blur"
-                        alt="Flow Finance"
+                        alt="Zacrac Learning"
                       />
                       <Image
                         className="block md:hidden w-full h-auto "
                         src={zacracm}
                         quality={100}
                         placeholder="blur"
-                        alt="Flow Finance"
+                        alt="Zacrac Learning"
                       />
                     </div>
                   </div>
@@ -324,6 +324,7 @@ export default function Home() {
                       </div>
                     </div>
                   </Link>
+
                   <Link
                     href="/projects/sorolingo"
                     id="Surolingo"

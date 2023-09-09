@@ -3,7 +3,7 @@ import "./globals.css";
 export const metadata = {
   title: {
     default: "Alex Oyebade",
-    template: "%s | Alex Oyebade",
+    template: "%s - Alex Oyebade",
   },
   description: "Created by Howard Otuya",
   keywords: [

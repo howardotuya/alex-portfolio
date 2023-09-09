@@ -784,7 +784,7 @@ function Collect() {
                         placeholder="blur"
                         quality={100}
                         src={one4}
-                        alt=""
+                        alt="Personal Information"
                       />
                     </div>
                     <div className="">
@@ -792,7 +792,7 @@ function Collect() {
                         placeholder="blur"
                         quality={100}
                         src={one1}
-                        alt=""
+                        alt="Choose category"
                       />
                     </div>
                     <div className="">
@@ -800,7 +800,7 @@ function Collect() {
                         placeholder="blur"
                         quality={100}
                         src={one3}
-                        alt=""
+                        alt="Password"
                       />
                     </div>
                     <div className="">
@@ -808,7 +808,7 @@ function Collect() {
                         placeholder="blur"
                         quality={100}
                         src={one2}
-                        alt=""
+                        alt="Compliance Prompt"
                       />
                     </div>
                     <div className="">
@@ -816,7 +816,7 @@ function Collect() {
                         placeholder="blur"
                         quality={100}
                         src={one7}
-                        alt=""
+                        alt="Verify Phone Number"
                       />
                     </div>
                     <div className="">
@@ -824,7 +824,7 @@ function Collect() {
                         placeholder="blur"
                         quality={100}
                         src={one6}
-                        alt=""
+                        alt="Verify Phone Number"
                       />
                     </div>
                     <div className="">
@@ -832,7 +832,7 @@ function Collect() {
                         placeholder="blur"
                         quality={100}
                         src={one5}
-                        alt=""
+                        alt="Verify email address"
                       />
                     </div>
                   </div>
@@ -844,7 +844,7 @@ function Collect() {
                       placeholder="blur"
                       quality={100}
                       src={two1}
-                      alt=""
+                      alt="Dashboard"
                     />
                   </div>
                   <div className="ls-cont  order-1 lg:order-2">
@@ -879,7 +879,7 @@ function Collect() {
                         placeholder="blur"
                         quality={100}
                         src={three1}
-                        alt=""
+                        alt="My Business"
                       />
                     </div>
                     <div className="">
@@ -887,7 +887,7 @@ function Collect() {
                         placeholder="blur"
                         quality={100}
                         src={three2}
-                        alt=""
+                        alt="Revenue"
                       />
                     </div>
                     <div className="w-[181px!important]">
@@ -895,7 +895,7 @@ function Collect() {
                         placeholder="blur"
                         quality={100}
                         src={three3}
-                        alt=""
+                        alt="Paid Invoice"
                       />
                     </div>
                     <div className="">
@@ -903,7 +903,7 @@ function Collect() {
                         placeholder="blur"
                         quality={100}
                         src={three4}
-                        alt=""
+                        alt="View Paylink details"
                       />
                     </div>
                     <div className="">
@@ -911,7 +911,7 @@ function Collect() {
                         placeholder="blur"
                         quality={100}
                         src={three5}
-                        alt=""
+                        alt="POS"
                       />
                     </div>
                   </div>
@@ -923,7 +923,7 @@ function Collect() {
                     className="w-full h-auto"
                     quality={100}
                     src={four}
-                    alt=""
+                    alt="Collect Call - To -Action"
                   />
                 </div>
                 <div className="ls-cont order-1 lg:order-2">
@@ -966,7 +966,7 @@ function Collect() {
                       placeholder="blur"
                       quality={100}
                       src={five1}
-                      alt=""
+                      alt="Customers"
                     />
                   </div>
                   <div className="">
@@ -974,7 +974,7 @@ function Collect() {
                       placeholder="blur"
                       quality={100}
                       src={five2}
-                      alt=""
+                      alt="Customers2"
                     />
                   </div>
                   <div className="">
@@ -982,7 +982,7 @@ function Collect() {
                       placeholder="blur"
                       quality={100}
                       src={five3}
-                      alt=""
+                      alt="Customer details"
                     />
                   </div>
                 </div>
@@ -1006,25 +1006,25 @@ function Collect() {
                 </div>
                 <div className="one-image">
                   <div className="">
-                    <Image placeholder="blur" quality={100} src={six1} alt="" />
+                    <Image placeholder="blur" quality={100} src={six1} alt="Receive with Bank Transfer" />
                   </div>
                   <div className="">
-                    <Image placeholder="blur" quality={100} src={six2} alt="" />
+                    <Image placeholder="blur" quality={100} src={six2} alt="Send with Bank Transfer" />
                   </div>
                   <div className="">
-                    <Image placeholder="blur" quality={100} src={six3} alt="" />
+                    <Image placeholder="blur" quality={100} src={six3} alt="Select beneficiaries" />
                   </div>
                   <div className="">
-                    <Image placeholder="blur" quality={100} src={six4} alt="" />
+                    <Image placeholder="blur" quality={100} src={six4} alt="Bank Transfer|Send" />
                   </div>
                   <div className="">
-                    <Image placeholder="blur" quality={100} src={six5} alt="" />
+                    <Image placeholder="blur" quality={100} src={six5} alt="Select beneficiaries" />
                   </div>
-                  {/* <div className="">
-                    <Image placeholder="blur" quality={100} src={six6} alt="" />
-                  </div> */}
                   <div className="">
-                    <Image placeholder="blur" quality={100} src={six7} alt="" />
+                    <Image placeholder="blur" quality={100} src={six6} alt="Success" />
+                  </div>
+                  <div className="">
+                    <Image placeholder="blur" quality={100} src={six7} alt="Transaction Details" />
                   </div>
                 </div>
               </div>
@@ -1055,7 +1055,7 @@ function Collect() {
                       placeholder="blur"
                       quality={100}
                       src={seven1}
-                      alt=""
+                      alt="Payment link"
                     />
                   </div>
                   <div className="w-[138px!important]">
@@ -1063,7 +1063,7 @@ function Collect() {
                       placeholder="blur"
                       quality={100}
                       src={seven2}
-                      alt=""
+                      alt="Payment link"
                     />
                   </div>
                   <div className="w-[138px!important]">
@@ -1071,7 +1071,7 @@ function Collect() {
                       placeholder="blur"
                       quality={100}
                       src={seven3}
-                      alt=""
+                      alt="View Paylink details"
                     />
                   </div>
                   <div className="w-[138px!important]">
@@ -1079,7 +1079,7 @@ function Collect() {
                       placeholder="blur"
                       quality={100}
                       src={seven4}
-                      alt=""
+                      alt="Create Paylink|Owner Inputs amount"
                     />
                   </div>
                 </div>
@@ -1102,7 +1102,7 @@ function Collect() {
                       placeholder="blur"
                       quality={100}
                       src={eight1}
-                      alt=""
+                      alt="Rewards & Referrals"
                     />
                   </div>
                   <div className="w-[156px!important]">
@@ -1110,7 +1110,7 @@ function Collect() {
                       placeholder="blur"
                       quality={100}
                       src={eight2}
-                      alt=""
+                      alt="Rewards & Referrals"
                     />
                   </div>
                   <div className="w-[156px!important]">
@@ -1118,7 +1118,7 @@ function Collect() {
                       placeholder="blur"
                       quality={100}
                       src={eight3}
-                      alt=""
+                      alt="Rewards & Referrals"
                     />
                   </div>
                   <div className="w-[156px!important]">
@@ -1126,7 +1126,7 @@ function Collect() {
                       placeholder="blur"
                       quality={100}
                       src={eight4}
-                      alt=""
+                      alt="Rewards & Referrals"
                     />
                   </div>
                   <div className="w-[156px!important]">
@@ -1134,7 +1134,7 @@ function Collect() {
                       placeholder="blur"
                       quality={100}
                       src={eight5}
-                      alt=""
+                      alt="Offer Details"
                     />
                   </div>
                 </div>

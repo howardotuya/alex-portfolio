@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Contentionary - Alex Oyebade',
+  title: 'Contentionary',
   description: 'Created by Howard Otuya',
   themeColor: '#ebebec'
 }

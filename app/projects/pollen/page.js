@@ -339,7 +339,7 @@ export default function Home() {
                   <Image
                     className="w-full h-auto"
                     src={ac1}
-                    alt="onboarding 1"
+                    alt="Courses Page 1"
                     placeholder="blur"
                     quality={100}
                   />
@@ -348,7 +348,7 @@ export default function Home() {
                   <Image
                     className="w-full h-auto"
                     src={ac2}
-                    alt="onboarding 2"
+                    alt="Courses Page 2"
                     placeholder="blur"
                     quality={100}
                   />
@@ -357,7 +357,7 @@ export default function Home() {
                   <Image
                     className="w-full h-auto"
                     src={ac3}
-                    alt="onboarding 3"
+                    alt="Courses Page 3"
                     placeholder="blur"
                     quality={100}
                   />
@@ -366,7 +366,7 @@ export default function Home() {
                   <Image
                     className="w-full h-auto"
                     src={ac4}
-                    alt="onboarding 4"
+                    alt="Courses Page 4"
                     placeholder="blur"
                     quality={100}
                   />
@@ -375,7 +375,7 @@ export default function Home() {
                   <Image
                     className="w-full h-auto"
                     src={ac5}
-                    alt="onboarding 5"
+                    alt="Courses Page 5"
                     placeholder="blur"
                     quality={100}
                   />
@@ -402,7 +402,7 @@ export default function Home() {
                   <Image
                     className="w-full h-auto"
                     src={t1}
-                    alt="onboarding 1"
+                    alt="Tasks Page 1"
                     placeholder="blur"
                     quality={100}
                   />
@@ -411,7 +411,7 @@ export default function Home() {
                   <Image
                     className="w-full h-auto"
                     src={t2}
-                    alt="onboarding 2"
+                    alt="Tasks Page 2"
                     placeholder="blur"
                     quality={100}
                   />
@@ -420,7 +420,7 @@ export default function Home() {
                   <Image
                     className="w-full h-auto"
                     src={t3}
-                    alt="onboarding 3"
+                    alt="Tasks Page 3"
                     placeholder="blur"
                     quality={100}
                   />
@@ -429,7 +429,7 @@ export default function Home() {
                   <Image
                     className="w-full h-auto"
                     src={t4}
-                    alt="onboarding 4"
+                    alt="Tasks Page 4"
                     placeholder="blur"
                     quality={100}
                   />

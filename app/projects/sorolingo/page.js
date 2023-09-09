@@ -128,6 +128,7 @@ export default function Sorolingo() {
                   className="w-full h-auto"
                   src={Img2}
                   alt="Completed Module"
+                  placeholder="blur"
                 />
               </div>
             </div>
@@ -191,7 +192,7 @@ export default function Sorolingo() {
                     <Image
                       className="w-full h-auto"
                       src={Img4}
-                      alt=""
+                      alt="Mandla"
                       placeholder="blur"
                       quality={100}
                     />
@@ -209,7 +210,7 @@ export default function Sorolingo() {
                     <Image
                       className="w-full h-auto"
                       src={Img5}
-                      alt=""
+                      alt="ASA"
                       placeholder="blur"
                       quality={100}
                     />
@@ -226,7 +227,7 @@ export default function Sorolingo() {
                     <Image
                       className="w-full h-auto"
                       src={Img6}
-                      alt=""
+                      alt="Duolingo"
                       placeholder="blur"
                       quality={100}
                     />
@@ -256,7 +257,7 @@ export default function Sorolingo() {
                 </p>
               </div>
               <div className="max-w-[1040px] px-5 lg:px-0">
-                <Image src={Img7} alt="" quality={100} placeholder="blur" />
+                <Image src={Img7} alt="User Story / Scenario" quality={100} placeholder="blur" />
               </div>
             </div>
           </div>
@@ -275,8 +276,8 @@ export default function Sorolingo() {
                 </p>
               </div>
               <div className="max-w-[1040px] grid gap-4 lg:gap-6 px-5 lg:px-0">
-                <Image src={Img8} alt="" quality={100} placeholder="blur" />
-                <Image src={Img9} alt="" quality={100} placeholder="blur" />
+                <Image src={Img8} alt="Ayo Olagbegi" quality={100} placeholder="blur" />
+                <Image src={Img9} alt="Fola Williams" quality={100} placeholder="blur" />
               </div>
             </div>
           </div>
@@ -291,7 +292,7 @@ export default function Sorolingo() {
                   <Image src={text} alt="Hi-fi Wireframes" />
                 </div>
                 <div className="flex justify-center items-center">
-                  <Image src={Img10} alt="" placeholder="blur" quality={100} />
+                  <Image src={Img10} alt="Hi-fi Wireframes" placeholder="blur" quality={100} />
                 </div>
               </div>
             </div>
@@ -308,7 +309,7 @@ export default function Sorolingo() {
                     <Image
                       className="w-full h-auto"
                       src={onb1}
-                      alt=""
+                      alt="Onboarding Flow 1"
                       quality={100}
                       placeholder="blur"
                     />
@@ -317,7 +318,7 @@ export default function Sorolingo() {
                     <Image
                       className="w-full h-auto"
                       src={onb2}
-                      alt=""
+                      alt="Onboarding Flow 2"
                       quality={100}
                       placeholder="blur"
                     />
@@ -326,7 +327,7 @@ export default function Sorolingo() {
                     <Image
                       className="w-full h-auto"
                       src={onb3}
-                      alt=""
+                      alt="Onboarding Flow 3"
                       quality={100}
                       placeholder="blur"
                     />
@@ -335,7 +336,7 @@ export default function Sorolingo() {
                     <Image
                       className="w-full h-auto"
                       src={onb4}
-                      alt=""
+                      alt="Onboarding Flow 4"
                       quality={100}
                       placeholder="blur"
                     />
@@ -370,7 +371,7 @@ export default function Sorolingo() {
               </div>
               <div className="grid gap-10 justify-center justify-items-center lg:hidden">
                 <div className="w-[209px]">
-                  <Image src={onb1} alt="" placeholder="blur" quality={100} />
+                  <Image src={onb1} alt="Onboarding Flow 1" placeholder="blur" quality={100} />
                 </div>
                 <div className="flex flex-col gap-10">
                   <div className="pd-cont">
@@ -474,7 +475,7 @@ export default function Sorolingo() {
                     <Image
                       className=""
                       src={dash2}
-                      alt=""
+                      alt="Dashboard flow 1"
                       placeholder="blur"
                       quality={100}
                     />
@@ -483,7 +484,7 @@ export default function Sorolingo() {
                     <Image
                       className=""
                       src={dash1}
-                      alt=""
+                      alt="Dashboard flow 2"
                       placeholder="blur"
                       quality={100}
                     />
@@ -569,7 +570,7 @@ export default function Sorolingo() {
                     <Image
                       className="w-full h-auto"
                       src={TT1}
-                      alt=""
+                      alt="Translate Phrases 1"
                       quality={100}
                       placeholder="blur"
                     />
@@ -578,7 +579,7 @@ export default function Sorolingo() {
                     <Image
                       className="w-full h-auto"
                       src={TT2}
-                      alt=""
+                      alt="Translate Phrases 2"
                       quality={100}
                       placeholder="blur"
                     />
@@ -587,7 +588,7 @@ export default function Sorolingo() {
                     <Image
                       className="w-full h-auto"
                       src={TT3}
-                      alt=""
+                      alt="Translate Phrases 3"
                       quality={100}
                       placeholder="blur"
                     />
@@ -596,7 +597,7 @@ export default function Sorolingo() {
                     <Image
                       className="w-full h-auto"
                       src={TT4}
-                      alt=""
+                      alt="Translate Phrases 4"
                       quality={100}
                       placeholder="blur"
                     />
@@ -605,7 +606,7 @@ export default function Sorolingo() {
                     <Image
                       className="w-full h-auto"
                       src={TT5}
-                      alt=""
+                      alt="Translate Phrases 5"
                       quality={100}
                       placeholder="blur"
                     />
@@ -638,7 +639,7 @@ export default function Sorolingo() {
                 admins and learners.
               </h5>
               <div className="max-w-[944px]">
-                <Image src={end2} alt="" placeholder="blur" quality={100} />
+                <Image src={end2} alt="Dashboard" placeholder="blur" quality={100} />
               </div>
             </div>
           </div>
@@ -669,7 +670,7 @@ export default function Sorolingo() {
                 <Image
                   className="w-full h-auto"
                   src={end1}
-                  alt=""
+                  alt="Learners Management - Dashboard"
                   placeholder="blur"
                   quality={100}
                 />

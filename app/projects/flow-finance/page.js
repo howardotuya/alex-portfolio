@@ -111,7 +111,7 @@ export default function Home() {
                   placeholder="blur"
                   src={fheaderImg}
                   quality={100}
-                  alt="Mockup"
+                  alt="Flow Finance - Mockup"
                 />
               </div>
             </div>
@@ -213,6 +213,7 @@ export default function Home() {
                 <Image
                   src={dashwithout}
                   quality={100}
+                  placeholder="blur"
                   alt="Dashboard without Flow"
                 />
               </div>
@@ -223,7 +224,12 @@ export default function Home() {
             </div>
             <div class="dcard">
               <div className="dcard-img">
-                <Image src={dashwith} quality={100} alt="Dashboard with Flow" />
+                <Image
+                  src={dashwith}
+                  quality={100}
+                  placeholder="blur"
+                  alt="Dashboard with Flow"
+                />
               </div>
               <h6>
                 <span class="text-[#898A8A]">Dashboard with</span>{" "}
@@ -351,13 +357,13 @@ export default function Home() {
         <div>
           <div className="photoG">
             <div>
-              <Image src={m1} placeholder="blur" quality={100} alt="" />
+              <Image src={m1} placeholder="blur" quality={100} alt="Add a bank account" />
             </div>
             <div>
-              <Image src={m2} placeholder="blur" quality={100} alt="" />
+              <Image src={m2} placeholder="blur" quality={100} alt="FlowTarget" />
             </div>
             <div>
-              <Image src={m3} placeholder="blur" quality={100} alt="" />
+              <Image src={m3} placeholder="blur" quality={100} alt="Get Started" />
             </div>
           </div>
         </div>
@@ -387,7 +393,7 @@ export default function Home() {
                 src={Img7}
                 quality={100}
                 placeholder="blur"
-                alt="Desktop"
+                alt="Landing Page - Desktop"
               />
             </div>
             <div>
@@ -396,7 +402,7 @@ export default function Home() {
                 src={Img6}
                 quality={100}
                 placeholder="blur"
-                alt="Mobile"
+                alt="Landing Page - Mobile"
               />
             </div>
           </div>

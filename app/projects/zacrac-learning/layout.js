@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Zacrac Learning - Alex Oyebade',
+  title: 'Zacrac Learning',
   description: 'Created by Howard Otuya',
   themeColor: '#fafafa'
 }

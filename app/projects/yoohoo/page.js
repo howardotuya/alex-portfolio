@@ -105,7 +105,7 @@ function Collect() {
             </div>
             <div className="flex justify-center items-center px-5 lg:px-0 pb-20 lg:pb-[138px]">
               <div className="flex justify-center items-center max-w-[642px]">
-                <Image src={Img1} alt="Ipad" />
+                <Image src={Img1} alt="Landing Page - Ipad" placeholder="blur" />
               </div>
             </div>
           </div>
@@ -146,8 +146,8 @@ function Collect() {
               <div className="lc-three relative ">
                 <h2>Main Logo</h2>
                 <div>
-                  <Image className="hidden lg:block" src={Img9} alt="" />
-                  <Image className="block lg:hidden" src={Img10} alt="" />
+                  <Image className="hidden lg:block" src={Img9} alt="Two friends smilling" />
+                  <Image className="block lg:hidden" src={Img10} alt="Two friends smilling" />
                 </div>
                 <div>
                   <h6>Our logo is our flag.</h6>
@@ -165,14 +165,14 @@ function Collect() {
           <div className="relative">
             <Image
               src={Img12}
-              alt=""
+              alt="A group of friends"
               className="block lg:hidden object-center object-cover w-full h-auto"
               fill
               sizes="100vw"
             />
             <Image
               src={Img13}
-              alt=""
+              alt="A group of friends"
               className="hidden lg:block object-center object-cover w-full h-auto"
               fill
               sizes="100vw"
@@ -187,31 +187,31 @@ function Collect() {
         <section className="setbody">
           <div>
             <div class="ytwo-rows">
-              <div className="flex lg:flex-row flex-col justify-between py-16 px-[57px] lg:px-20 gap-[56px] lg:pl-[149px] lg:pt-[229px] gap-8 lg:pr-[133px]">
+              <div className="flex lg:flex-row flex-col justify-between py-16 px-[57px] lg:px-20 gap-[56px] lg:pl-[149px] lg:pt-[229px] lg:gap-8 lg:pr-[133px]">
                 <div>
-                  <Image src={fImg1} alt="" />
+                  <Image src={fImg1} alt="YOOHOO LOGO" />
                 </div>
                 <div>
-                  <Image src={fImg2} alt="" />
+                  <Image src={fImg2} alt="YOOHOO LOGO on black background" />
                 </div>
               </div>
               <div className="ythree-rows">
                 <div>
                   <h6>Standard Colour</h6>
                   <div>
-                    <Image src={fImg3} alt="" />
+                    <Image src={fImg3} alt="Standard Colour" />
                   </div>
                 </div>
                 <div>
                   <h6>Monotone White</h6>
                   <div>
-                    <Image src={fImg4} alt="" />
+                    <Image src={fImg4} alt="Monotone White" />
                   </div>
                 </div>
                 <div>
                   <h6>Monotone Black</h6>
                   <div>
-                    <Image src={fImg5} alt="" />
+                    <Image src={fImg5} alt="Monotone Black" />
                   </div>
                 </div>
               </div>
@@ -223,7 +223,7 @@ function Collect() {
           <div className="relative">
             <Image
               src={Img11}
-              alt=""
+              alt="A group of friends of smilling"
               className=" object-center object-cover w-full h-auto"
               fill
               sizes="100vw"
@@ -250,7 +250,7 @@ function Collect() {
         <section className="setbody">
           <div>
             <div>
-              <Image src={Img2} alt="" placeholder="blur" />
+              <Image src={Img2} alt="Coffee mockup" placeholder="blur" />
             </div>
           </div>
         </section>
@@ -258,7 +258,7 @@ function Collect() {
         <section className="setbody">
           <div>
             <div>
-              <Image src={Img3} alt="" placeholder="blur" />
+              <Image src={Img3} alt="Wristband" placeholder="blur" />
             </div>
           </div>
         </section>
@@ -274,7 +274,7 @@ function Collect() {
                 </p>
               </div>
               <div className="max-w-[411px]">
-                <Image src={Img4} alt="" placeholder="blur" />
+                <Image src={Img4} alt="Landing Page - Mobile" placeholder="blur" />
               </div>
             </div>
           </div>
@@ -289,7 +289,7 @@ function Collect() {
                   <Image
                     className="w-full h-auto"
                     src={Img5}
-                    alt=""
+                    alt="Home Page"
                     placeholder="blur"
                   />
                 </div>
@@ -297,7 +297,7 @@ function Collect() {
                   <Image
                     className="w-full h-auto"
                     src={Img6}
-                    alt=""
+                    alt="Discover Page"
                     placeholder="blur"
                   />
                 </div>
@@ -305,7 +305,7 @@ function Collect() {
                   <Image
                     className="w-full h-auto"
                     src={Img7}
-                    alt=""
+                    alt="Home Page"
                     placeholder="blur"
                   />
                 </div>

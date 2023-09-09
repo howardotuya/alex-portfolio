@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Yoohoo - Alex Oyebade',
+  title: 'Yoohoo',
   description: 'Created by Howard Otuya',
   themeColor: '#161718'
 }

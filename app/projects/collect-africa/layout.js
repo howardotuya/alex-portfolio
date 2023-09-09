@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Collect Mobile App UX Case Study - Alex Oyebade',
+  title: 'Collect Mobile App UX Case Study',
   description: 'Created by Howard Otuya',
   themeColor: '#161718'
 }
