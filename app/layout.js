@@ -5,7 +5,8 @@ export const metadata = {
     default: "Alex Oyebade",
     template: "%s - Alex Oyebade",
   },
-  description: "Endearing users to a product through simple and delightful designs.",
+  description:
+    "Endearing users to a product through simple and delightful designs.",
   keywords: [
     "Alex Oyebade",
     "Oyebade Alex",
@@ -99,7 +100,32 @@ export const metadata = {
     "Design Portfolio Tips",
     "User-Centric Design Examples",
   ],
-  themeColor: '#f5f5f5',
+  themeColor: "#f5f5f5",
+  openGraph: {
+    title: {
+      default: "Alex Oyebade",
+      template: "%s - Alex Oyebade",
+    },
+    description:
+      "Endearing users to a product through simple and delightful designs.",
+    url: "https://alexoyebade.xyz",
+    siteName: "Next.js",
+    images: [
+      {
+        url: "https://alexoyebade.xyz/og-alt.png",
+        width: 800,
+        height: 600,
+      },
+      {
+        url: "https://alexoyebade.xyz/og-alt.png",
+        width: 1800,
+        height: 1600,
+        alt: "My custom alt",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }) {
