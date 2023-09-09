@@ -91,7 +91,7 @@ export default function Home() {
           <div>
             <div className="py-20 lg:py-[177px] inline-flex justify-center items-center w-full">
               <div className="w-[209px] md:w-[425px] inline-flex justify-center items-center">
-                <Image className="w-full h-auto" src={Img2} alt="Leaderboard" />
+                <Image className="w-full h-auto" src={Img2} alt="Leaderboard" placeholder="blur" quality={100} />
               </div>
             </div>
           </div>
