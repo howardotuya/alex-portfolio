@@ -51,17 +51,17 @@ export default function Home() {
 
       <main className="bg-[#161718] setbody">
         <div>
-          <section className="px-5 py-24 lg:pl-6 lg:pt-[184px] lg:pb-[214px] g30 flex flex-col gap-8 lg:gap-16">
+          <section className="px-5 pt-[48px] pb-[64px] lg:pl-6 lg:pt-[184px] lg:pb-[214px] g30 flex flex-col gap-8 lg:gap-16">
             <div className="flex flex-col gap-2 lg:gap-3">
               <h6 className="lg:text-xl lg:font-bold font-semibold text-[16px] leading-[120%]">
                 Alex <span className="g100">Oyebade</span>{" "}
               </h6>
-              <p className="text-2xl font-normal leading-[120%]">
+              <p className="text-[20px] lg:text-2xl font-normal leading-[120%]">
                 /Oh-yay-BAH-day/
               </p>
             </div>
             <div>
-              <p className="lg:text-[80px] lg:leading-[104px] lg:font-bold font-semibold text-[16px] leading-[160%]">
+              <p className="lg:text-[80px] lg:leading-[104px] lg:font-bold font-semibold text-[20px] leading-[160%]">
                 <span>
                   I love how design is able to endear a business to her
                   customers and have them hooked even at first use.

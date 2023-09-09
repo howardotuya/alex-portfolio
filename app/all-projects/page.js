@@ -37,12 +37,12 @@ export default function Home() {
                 <h6 className="lg:text-xl lg:font-bold font-semibold text-[16px] leading-[120%]">
                   Alex <span className="g100">Oyebade</span>{" "}
                 </h6>
-                <p className="text-2xl font-normal leading-[120%]">
+                <p className="text-[20px] lg:text-2xl font-normal leading-[120%]">
                   /Oh-yay-BAH-day/
                 </p>
               </div>
               <div>
-                <p className="lg:text-[80px] lg:leading-[104px] lg:font-bold font-semibold text-[16px] leading-[160%]">
+                <p className="lg:text-[80px] lg:leading-[104px] lg:font-bold font-semibold text-[20px] leading-[160%]">
                   <span>
                     I love how design is able to endear a business to her
                     customers and have them hooked even at first use.
