@@ -109,22 +109,22 @@ export const metadata = {
     description:
       "Endearing users to a product through simple and delightful designs.",
     url: "https://alexoyebade.xyz",
-    siteName: "Next.js",
+    siteName: "Alex Oyebade",
     images: [
       {
-        url: "https://alexoyebade.xyz/og-alt.png",
-        width: 800,
-        height: 600,
+        url: "https://alexoyebade.xyz/og-alt2.png",
+        width: 1480,
+        height: 1132,
       },
       {
-        url: "https://alexoyebade.xyz/og-alt.png",
-        width: 1800,
-        height: 1600,
+        url: "https://alexoyebade.xyz/og-alt2.png",
+        width: 1480,
+        height: 1132,
         alt: "My custom alt",
       },
     ],
     locale: "en_US",
-    type: "website",
+    type: "website", 
   },
 };
 
