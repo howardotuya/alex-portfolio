@@ -1757,10 +1757,6 @@ body {
   line-height: 150%; /* 18px */
 }
 
-a:hover {
-  opacity: 0.75;
-}
-
 .lc-three {
   padding-top: 64px;
   z-index: 9999;
