@@ -7,7 +7,7 @@ import menu from "public/images/menu.png";
 import flow from "@/public/images/selectedprojects/flow.png";
 import collect from "@/public/images/selectedprojects/collect.png";
 import zacrac from "@/public/images/selectedprojects/zacrac.png";
-import pollen from "@/public/images/selectedprojects/pollen.png";
+import pollen from "@/public/images/selectedprojects/pollen.png"; 
 import sorolingo from "@/public/images/selectedprojects/sorolingo.png";
 import flows from "@/public/images/selectedprojects/flows.png";
 import collects from "@/public/images/selectedprojects/collects.png";
