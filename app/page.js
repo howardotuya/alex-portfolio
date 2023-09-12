@@ -106,12 +106,12 @@ export default function Home() {
                         </h2>
                         <Link
                           href="/projects/flow-finance"
-                          className="flex flex-row gap-[10px] items-center"
+                          className="flex flex-row gap-1 items-center"
                         >
                           <span className="text-sm text-[#69A9E9] leading-[120%]">
                             Read More
                           </span>
-                          <span className="w-4 h-4">
+                          <span className="w-3 h-3">
                             <Image
                               src={arrowright}
                               quality={100}
@@ -168,12 +168,12 @@ export default function Home() {
                         </h2>
                         <Link
                           href="/projects/collect-africa"
-                          className="flex flex-row gap-[10px] items-center"
+                          className="flex flex-row gap-1 items-center"
                         >
                           <span className="text-sm text-[#252627] leading-[120%]">
                             Read More
                           </span>
-                          <span className="w-4 h-4">
+                          <span className="w-3 h-3">
                             <Image
                               src={arrowright2}
                               quality={100}
@@ -230,12 +230,12 @@ export default function Home() {
                       </h2>
                       <Link
                         href="/projects/zacrac-learning"
-                        className="flex flex-row gap-[10px] items-center"
+                        className="flex flex-row gap-1 items-center"
                       >
                         <span className="text-sm text-[#69A9E9] leading-[120%]">
                           Read More
                         </span>
-                        <span className="w-4 h-4">
+                        <span className="w-3 h-3">
                           <Image
                             src={arrowright}
                             quality={100}
@@ -290,11 +290,11 @@ export default function Home() {
                         <h2 className="xl:text-[80px] xl:leading-[95px] text-2xl font-bold">
                           Pollen
                         </h2>
-                        <div className="flex flex-row gap-[10px] items-center">
+                        <div className="flex flex-row gap-1 items-center">
                           <span className="text-sm text-[#69A9E9] leading-[120%]">
                             Read More
                           </span>
-                          <span className="w-4 h-4">
+                          <span className="w-3 h-3">
                             <Image
                               src={arrowright}
                               quality={100}
@@ -354,11 +354,11 @@ export default function Home() {
                         <h2 className="xl:text-[80px] xl:leading-[95px] text-2xl font-bold">
                           Sorolingo
                         </h2>
-                        <div className="flex flex-row gap-[10px] items-center">
+                        <div className="flex flex-row gap-1 items-center">
                           <span className="text-sm text-[#69A9E9] leading-[120%]">
                             Read More
                           </span>
-                          <span className="w-4 h-4">
+                          <span className="w-3 h-3">
                             <Image
                               src={arrowright}
                               quality={100}
