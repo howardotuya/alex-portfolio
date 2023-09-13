@@ -56,6 +56,8 @@ import eight3 from "@/public/images/collect-africa/8-3.png";
 import eight4 from "@/public/images/collect-africa/8-4.png";
 import eight5 from "@/public/images/collect-africa/8-5.png";
 import arrow from "@/public/images/cta-arrow.png";
+import arrowright from "@/public/images/arrow-right.png";
+import ctaarrow from "@/public/images/cta-arrow.png";
 
 function Collect() {
   return (
@@ -1168,12 +1170,28 @@ function Collect() {
           </section>
         </div>
 
+        
         <div className="flex px-5 lg:justify-center lg:items-center pb-20 lg:pb-[243px]">
-          <Link href="/projects/zacrac-learning" className="project-ctas">
-            <span>Next Project</span>
-            <Image className="w-4 h-4" src={arrow} alt="Arrow Right" />
-          </Link>
-        </div>
+            <Link
+              href="/projects/zacrac-learning"
+              className="project-ctas xx1 g10 hover:border-[#69A9E9]  hover:text-[#69A9E9!important]"
+            >
+              <span>Next Project</span>
+              
+              <Image
+                className="yy1 hidden lg:w-4 lg:h-4 w-3 h-3 shrink-0"
+                src={arrowright}
+                quality={100}
+                placeholder="blur"
+                alt="Arrow Right"
+              />
+              <Image
+                className="lg:w-4 lg:h-4 w-3 h-3 ww1 shrink-0"
+                src={ctaarrow}
+                alt="Arrow Right"
+              />
+            </Link>
+          </div>
       </main>
 
       <footer className="setbody d-140">

@@ -13,6 +13,8 @@ import Img9 from "@/public/images/zacrac-learning/Img9.svg";
 import Img10 from "@/public/images/zacrac-learning/Img10.png";
 import Img11 from "@/public/images/zacrac-learning/Img11.png";
 import arrow from "@/public/images/cta-arrow.png";
+import arrowright from "@/public/images/arrow-right.png";
+import ctaarrow from "@/public/images/cta-arrow.png";
 
 export default function Home() {
   return (
@@ -217,10 +219,25 @@ export default function Home() {
               </div>
             </div>
             <div className="flex bg-[#161718] px-5 lg:justify-center lg:items-center pb-20 lg:pt-[61px] lg:pb-[182px]">
-              <Link href="/projects/pollen" className="project-ctas">
-                <span>Next Project</span>
-                <Image className="w-4 h-4" src={arrow} alt="Arrow Right" />
-              </Link>
+            <Link
+              href="/projects/pollen"
+              className="project-ctas xx1 g10 hover:border-[#69A9E9]  hover:text-[#69A9E9!important]"
+            >
+              <span>Next Project</span>
+              
+              <Image
+                className="yy1 hidden lg:w-4 lg:h-4 w-3 h-3 shrink-0"
+                src={arrowright}
+                quality={100}
+                placeholder="blur"
+                alt="Arrow Right"
+              />
+              <Image
+                className="lg:w-4 lg:h-4 w-3 h-3 ww1 shrink-0"
+                src={ctaarrow}
+                alt="Arrow Right"
+              />
+            </Link>
             </div>
 
             <footer className="setbody bg-[#161718] d-140">

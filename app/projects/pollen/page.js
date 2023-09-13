@@ -13,8 +13,8 @@ import onb2 from "@/public/images/pollen/onb2.png";
 import onb3 from "@/public/images/pollen/onb3.png";
 import onb4 from "@/public/images/pollen/onb4.png";
 import onb5 from "@/public/images/pollen/onb5.png";
-import ac1 from "@/public/images/pollen/ac1.png";  
-import ac2 from "@/public/images/pollen/ac2.png"; 
+import ac1 from "@/public/images/pollen/ac1.png";
+import ac2 from "@/public/images/pollen/ac2.png";
 import ac3 from "@/public/images/pollen/ac3.png";
 import ac4 from "@/public/images/pollen/ac4.png";
 import ac5 from "@/public/images/pollen/ac5.png";
@@ -24,6 +24,8 @@ import t2 from "@/public/images/pollen/t2.png";
 import t3 from "@/public/images/pollen/t3.png";
 import t4 from "@/public/images/pollen/t4.png";
 import next from "@/public/images/pollen/next.png";
+import arrowright from "@/public/images/arrow-right.png";
+import ctaarrow from "@/public/images/cta-arrow.png";
 
 export default function Home() {
   return (
@@ -91,7 +93,13 @@ export default function Home() {
           <div>
             <div className="py-20 lg:py-[177px] inline-flex justify-center items-center w-full">
               <div className="w-[209px] md:w-[425px] inline-flex justify-center items-center">
-                <Image className="w-full h-auto" src={Img2} alt="Leaderboard" placeholder="blur" quality={100} />
+                <Image
+                  className="w-full h-auto"
+                  src={Img2}
+                  alt="Leaderboard"
+                  placeholder="blur"
+                  quality={100}
+                />
               </div>
             </div>
           </div>
@@ -455,9 +463,24 @@ export default function Home() {
             </div>
 
             <div className="flex bg-[#161718] px-5 lg:justify-center lg:items-center pb-20 lg:pt-[61px] lg:pb-[182px]">
-              <Link href="/projects/sorolingo" className="project-ctas">
+              <Link
+                href="/projects/sorolingo"
+                className="project-ctas xx1 g10 hover:border-[#69A9E9]  hover:text-[#69A9E9!important]"
+              >
                 <span>Next Project</span>
-                <Image className="w-4 h-4" src={arrow} alt="Arrow Right" />
+
+                <Image
+                  className="yy1 hidden lg:w-4 lg:h-4 w-3 h-3 shrink-0"
+                  src={arrowright}
+                  quality={100}
+                  placeholder="blur"
+                  alt="Arrow Right"
+                />
+                <Image
+                  className="lg:w-4 lg:h-4 w-3 h-3 ww1 shrink-0"
+                  src={arrow}
+                  alt="Arrow Right"
+                />
               </Link>
             </div>
 

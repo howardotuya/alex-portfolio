@@ -755,9 +755,6 @@ body {
   gap: 4px;
   border-radius: 22px;
   border: 1px solid #fafafa;
-}
-
-.project-ctas > span {
   color: #f5f5f5;
   font-size: 12px;
   font-style: normal;
@@ -1900,16 +1897,119 @@ body {
   gap: 56px;
 }
 
+.aa1:hover .ab1 {
+  display: none;
+}
+
+.aa1:hover span {
+  color: white!important;
+}
+
+.aa1:hover .ac1 {
+  display: block!important;
+}
+
+
+.bb1:hover .ab1 {
+  display: none;
+}
+
+.bb1:hover span {
+  color: white!important;
+}
+
+.bb1:hover .ac1 {
+  display: block!important;
+}
+
+
+.cc1:hover .ab1 {
+  display: none;
+}
+
+.cc1:hover span {
+  color: white!important;
+}
+
+.cc1:hover .ac1 {
+  display: block!important;
+}
+
+
+.dd1:hover .ab1 {
+  display: none;
+}
+
+.dd1:hover span {
+  color: white!important;
+}
+
+.dd1:hover .ac1 {
+  display: block!important;
+}
+
+
+.ee1:hover .ab1 {
+  display: none;
+}
+
+.ee1:hover span {
+  color: white!important;
+}
+
+.ee1:hover .ac1 {
+  display: block!important;
+}
+
+
+.ff1:hover .ab1 {
+  display: none;
+}
+
+.ff1:hover span {
+  color: white!important;
+}
+
+.ff1:hover .ac1 {
+  display: block!important;
+}
+
+
+.gg1:hover .ab1 {
+  display: none;
+}
+
+.gg1:hover span {
+  color: white!important;
+}
+
+.gg1:hover .ac1 {
+  display: block!important;
+}
+
+.xx1:hover .yy1 {
+  display: block;
+}
+
+.xx1:hover .ww1 {
+  display: none;
+}
+
+.olx:hover .olx2 {
+  display: block;
+  }
+  .olx:hover .olx3 {
+  display: none;
+  }
+
 @media only screen and (min-width: 763px) {
 }
 
 @media only screen and (min-width: 1024px) {
-
-  
-.header-full {
-  height: 90vh;
-  overflow: hidden;
-}
+  .header-full {
+    height: 90vh;
+    overflow: hidden;
+  }
 
   /* Contentionary */
 
@@ -2938,10 +3038,7 @@ body {
 
   .project-ctas {
     padding: 12px 24px;
-    gap: 8px;
-  }
-
-  .project-ctas > span {
+    gap: 4px;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;

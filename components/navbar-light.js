@@ -18,7 +18,7 @@ function NavbarLight() {
       popup.style.display = "none";
     }
   };
-
+ 
   return (
     <>
       <div className="g20 xpopup fixed hidden flex-col gap-20 justify-between px-5 pt-8 pb-14 top-0 bottom-0 left-0 right-0 z-[999999999]">
@@ -43,7 +43,7 @@ function NavbarLight() {
               <Link href="mailto:ao.dsgnr@gmail.com">
                 <li className="underline">Contact me</li>
               </Link>
-             <Link href="/all-projects"><li>works</li></Link>
+             <Link href="/all-projects"><li>projects</li></Link>
               <li>articles</li>
             </ul>
           </nav>
@@ -59,7 +59,7 @@ function NavbarLight() {
                 <li>Linkedin</li>
               </Link>
               <Link href="https://twitter.com/iamalexoyebade">
-                <li>TWitter</li>
+                <li>Twitter</li>
               </Link>
               <Link href="https://dribbble.com/AlexOye">
                 <li>dribble</li>
@@ -80,7 +80,7 @@ function NavbarLight() {
               <Link href="mailto:ao.dsgnr@gmail.com">
                 <li className="underline">Contact me</li>
               </Link>
-             <Link href="/all-projects"><li>works</li></Link>
+             <Link href="/all-projects"><li>projects</li></Link>
               <li>articles</li>
             </ul>
             <div className="flex lg:hidden flex-col w-6 h-6">

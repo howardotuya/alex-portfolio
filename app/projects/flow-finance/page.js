@@ -17,6 +17,8 @@ import m3 from "@/public/images/flow-finance/m3.png";
 import Img6 from "@/public/images/flow-finance/Home.png";
 import Img7 from "@/public/images/flow-finance/Homepage.png";
 import arrow from "@/public/images/cta-arrow.png";
+import arrowright from "@/public/images/arrow-right.png";
+import ctaarrow from "@/public/images/cta-arrow.png";
 
 export default function Home() {
   return (
@@ -357,13 +359,28 @@ export default function Home() {
         <div>
           <div className="photoG">
             <div>
-              <Image src={m1} placeholder="blur" quality={100} alt="Add a bank account" />
+              <Image
+                src={m1}
+                placeholder="blur"
+                quality={100}
+                alt="Add a bank account"
+              />
             </div>
             <div>
-              <Image src={m2} placeholder="blur" quality={100} alt="FlowTarget" />
+              <Image
+                src={m2}
+                placeholder="blur"
+                quality={100}
+                alt="FlowTarget"
+              />
             </div>
             <div>
-              <Image src={m3} placeholder="blur" quality={100} alt="Get Started" />
+              <Image
+                src={m3}
+                placeholder="blur"
+                quality={100}
+                alt="Get Started"
+              />
             </div>
           </div>
         </div>
@@ -426,9 +443,24 @@ export default function Home() {
             </div>
           </div>
           <div className="flex bg-[#161718] px-5 lg:justify-center lg:items-center pb-20 lg:pt-[61px] lg:pb-[182px]">
-            <Link href="/projects/collect-africa" className="project-ctas">
+          <Link
+              href="/projects/collect-africa"
+              className="project-ctas xx1 g10 hover:border-[#69A9E9] hover:text-[#69A9E9!important]"
+            >
               <span>Next Project</span>
-              <Image className="w-4 h-4" src={arrow} alt="Arrow Right" />
+              
+              <Image
+                className="yy1 hidden lg:w-4 lg:h-4 w-3 h-3 shrink-0"
+                src={arrowright}
+                quality={100}
+                placeholder="blur"
+                alt="Arrow Right"
+              />
+              <Image
+                className="lg:w-4 lg:h-4 w-3 h-3 ww1 shrink-0"
+                src={ctaarrow}
+                alt="Arrow Right"
+              />
             </Link>
           </div>
 

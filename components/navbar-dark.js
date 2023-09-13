@@ -17,6 +17,7 @@ function NavbarDark() {
       popup.style.display = "none";
     }
   };
+   
   return (
     <>
       <div className="g20 xpopup fixed hidden flex-col gap-20 justify-between px-5 pt-8 pb-14 top-0 bottom-0 left-0 right-0 z-[999999999]">
@@ -42,7 +43,7 @@ function NavbarDark() {
                 <li className="underline">Contact me</li>
               </Link>
               <Link href="/all-projects">
-                <li>works</li>
+                <li>projects</li>
               </Link>
               <li>articles</li>
             </ul>
@@ -82,7 +83,7 @@ function NavbarDark() {
               </Link>
 
               <Link href="/all-projects">
-                <li className=" g70">works</li>
+                <li className=" g70">projects</li>
               </Link>
               <li className=" g70">articles</li>
             </ul>

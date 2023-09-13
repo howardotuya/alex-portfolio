@@ -25,6 +25,8 @@ import fImg5 from "@/public/images/yoohoo/fImg5.svg";
 import Img11 from "@/public/images/yoohoo/2Img.png";
 import Img12 from "@/public/images/yoohoo/3Img.png";
 import Img13 from "@/public/images/yoohoo/4Img.png";
+import arrowright from "@/public/images/arrow-right.png";
+import ctaarrow from "@/public/images/cta-arrow.png";
 
 function Collect() {
   return (
@@ -105,7 +107,11 @@ function Collect() {
             </div>
             <div className="flex justify-center items-center px-5 lg:px-0 pb-20 lg:pb-[138px]">
               <div className="flex justify-center items-center max-w-[642px]">
-                <Image src={Img1} alt="Landing Page - Ipad" placeholder="blur" />
+                <Image
+                  src={Img1}
+                  alt="Landing Page - Ipad"
+                  placeholder="blur"
+                />
               </div>
             </div>
           </div>
@@ -146,8 +152,16 @@ function Collect() {
               <div className="lc-three relative ">
                 <h2>Main Logo</h2>
                 <div>
-                  <Image className="hidden lg:block" src={Img9} alt="Two friends smilling" />
-                  <Image className="block lg:hidden" src={Img10} alt="Two friends smilling" />
+                  <Image
+                    className="hidden lg:block"
+                    src={Img9}
+                    alt="Two friends smilling"
+                  />
+                  <Image
+                    className="block lg:hidden"
+                    src={Img10}
+                    alt="Two friends smilling"
+                  />
                 </div>
                 <div>
                   <h6>Our logo is our flag.</h6>
@@ -235,7 +249,8 @@ function Collect() {
                   Typography clarity and hierarchy are extremely important for
                   the brand communication.
                   <span className="text-white">
-                    {" "}Neue Machina and DM Sans are our brand fonts.
+                    {" "}
+                    Neue Machina and DM Sans are our brand fonts.
                   </span>
                 </p>
               </div>
@@ -274,7 +289,11 @@ function Collect() {
                 </p>
               </div>
               <div className="max-w-[411px]">
-                <Image src={Img4} alt="Landing Page - Mobile" placeholder="blur" />
+                <Image
+                  src={Img4}
+                  alt="Landing Page - Mobile"
+                  placeholder="blur"
+                />
               </div>
             </div>
           </div>
@@ -334,9 +353,24 @@ function Collect() {
           </div>
 
           <div className="flex bg-[#161718] px-5 lg:justify-center lg:items-center pb-20 lg:pt-[61px] lg:pb-[182px]">
-            <Link href="/projects/contentionary" className="project-ctas">
+            <Link
+              href="/projects/contentionary"
+              className="project-ctas xx1 g10 hover:border-[#69A9E9]  hover:text-[#69A9E9!important]"
+            >
               <span>Next Project</span>
-              <Image className="w-4 h-4" src={arrow} alt="Arrow Right" />
+
+              <Image
+                className="yy1 hidden lg:w-4 lg:h-4 w-3 h-3 shrink-0"
+                src={arrowright}
+                quality={100}
+                placeholder="blur"
+                alt="Arrow Right"
+              />
+              <Image
+                className="lg:w-4 lg:h-4 w-3 h-3 ww1 shrink-0"
+                src={arrow}
+                alt="Arrow Right"
+              />
             </Link>
           </div>
 

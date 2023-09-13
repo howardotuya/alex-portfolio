@@ -15,6 +15,7 @@ import Img10 from "@/public/images/contentionary/Img10.png";
 import Img11 from "@/public/images/contentionary/Img11.png";
 import Img12 from "@/public/images/contentionary/Img12.png";
 import Img13 from "@/public/images/contentionary/Img13.png";
+import arrowright from "@/public/images/arrow-right.png";
 
 export default function Home() {
   return (
@@ -395,10 +396,17 @@ export default function Home() {
           </div>
 
           <div className="flex bg-[#161718] px-5 lg:justify-center lg:items-center pt-8 pb-20 lg:pt-[173px] lg:pb-[182px]">
-            <Link href="/" className="project-ctas">
+            <Link href="/" className="project-ctas xx1 g10 hover:border-[#69A9E9]  hover:text-[#69A9E9!important]">
               <Image
-                className="w-4 h-4 rotate-180"
+                className="w-4 h-4 ww1 rotate-180"
                 src={arrow}
+                alt="Arrow Right"
+              />
+              <Image
+                className="yy1 rotate-180 hidden lg:w-4 lg:h-4 w-3 h-3 shrink-0"
+                src={arrowright}
+                quality={100}
+                placeholder="blur"
                 alt="Arrow Right"
               />
               <span>Back Home</span>

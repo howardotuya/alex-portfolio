@@ -7,7 +7,7 @@ import menu from "public/images/menu.png";
 import flow from "@/public/images/selectedprojects/flow.png";
 import collect from "@/public/images/selectedprojects/collect.png";
 import zacrac from "@/public/images/selectedprojects/zacrac.png";
-import pollen from "@/public/images/selectedprojects/pollen.png"; 
+import pollen from "@/public/images/selectedprojects/pollen.png";
 import sorolingo from "@/public/images/selectedprojects/sorolingo.png";
 import flows from "@/public/images/selectedprojects/flows.png";
 import collects from "@/public/images/selectedprojects/collects.png";
@@ -106,16 +106,22 @@ export default function Home() {
                         </h2>
                         <Link
                           href="/projects/flow-finance"
-                          className="flex flex-row gap-1 items-center"
+                          className="flex aa1 justify-center gap-1 items-center"
                         >
                           <span className="text-sm text-[#69A9E9] leading-[120%]">
                             Read More
                           </span>
                           <span className="w-3 h-3">
                             <Image
+                              className="ab1"
                               src={arrowright}
                               quality={100}
                               placeholder="blur"
+                              alt="Arrow Right"
+                            />
+                            <Image
+                              className="hidden ac1"
+                              src={ctaarrow}
                               alt="Arrow Right"
                             />
                           </span>
@@ -156,7 +162,7 @@ export default function Home() {
                   <Link
                     href="/projects/collect-africa"
                     id="Collect Africa"
-                    className="flex flex-col gap-4"
+                    className="flex flex-col justify-center items-center gap-4"
                   >
                     <div className="content-1 bg-[#5285F2]">
                       <div className="g10">
@@ -168,16 +174,22 @@ export default function Home() {
                         </h2>
                         <Link
                           href="/projects/collect-africa"
-                          className="flex flex-row gap-1 items-center"
+                          className="flex bb1 flex-row gap-1 items-center"
                         >
                           <span className="text-sm text-[#252627] leading-[120%]">
                             Read More
                           </span>
                           <span className="w-3 h-3">
                             <Image
+                              className="ab1"
                               src={arrowright2}
                               quality={100}
                               placeholder="blur"
+                              alt="Arrow Right"
+                            />
+                            <Image
+                              className="hidden ac1"
+                              src={ctaarrow}
                               alt="Arrow Right"
                             />
                           </span>
@@ -230,16 +242,22 @@ export default function Home() {
                       </h2>
                       <Link
                         href="/projects/zacrac-learning"
-                        className="flex flex-row gap-1 items-center"
+                        className="flex cc1 flex-row gap-1 items-center"
                       >
                         <span className="text-sm text-[#69A9E9] leading-[120%]">
                           Read More
                         </span>
                         <span className="w-3 h-3">
                           <Image
+                            className="ab1"
                             src={arrowright}
                             quality={100}
                             placeholder="blur"
+                            alt="Arrow Right"
+                          />
+                          <Image
+                            className="hidden ac1"
+                            src={ctaarrow}
                             alt="Arrow Right"
                           />
                         </span>
@@ -290,19 +308,28 @@ export default function Home() {
                         <h2 className="xl:text-[80px] xl:leading-[95px] text-2xl font-bold">
                           Pollen
                         </h2>
-                        <div className="flex flex-row gap-1 items-center">
+                        <Link
+                          href="/projects/pollen"
+                          className="flex dd1 flex-row gap-1 items-center"
+                        >
                           <span className="text-sm text-[#69A9E9] leading-[120%]">
                             Read More
                           </span>
                           <span className="w-3 h-3">
                             <Image
+                              className="ab1"
                               src={arrowright}
                               quality={100}
                               placeholder="blur"
                               alt="Arrow Right"
                             />
+                            <Image
+                              className="hidden ac1"
+                              src={ctaarrow}
+                              alt="Arrow Right"
+                            />
                           </span>
-                        </div>
+                        </Link>
                       </div>
                       <div className="flex flex-col w-full max-w-[233px] lg:max-w-[425px] h-auto">
                         <Image
@@ -354,19 +381,28 @@ export default function Home() {
                         <h2 className="xl:text-[80px] xl:leading-[95px] text-2xl font-bold">
                           Sorolingo
                         </h2>
-                        <div className="flex flex-row gap-1 items-center">
+                        <Link
+                          href="/projects/sorolingo"
+                          className="flex ee1 flex-row gap-1 items-center"
+                        >
                           <span className="text-sm text-[#69A9E9] leading-[120%]">
                             Read More
                           </span>
                           <span className="w-3 h-3">
                             <Image
+                              className="ab1"
                               src={arrowright}
                               quality={100}
                               placeholder="blur"
                               alt="Arrow Right"
                             />
+                            <Image
+                              className="hidden ac1"
+                              src={ctaarrow}
+                              alt="Arrow Right"
+                            />
                           </span>
-                        </div>
+                        </Link>
                       </div>
                       <div className="flex flex-col w-full max-w-[233px] lg:max-w-[425px] h-auto">
                         <Image
@@ -404,10 +440,17 @@ export default function Home() {
                 <Link
                   href="/all-projects"
                   id="CTA"
-                  class="py-2 px-4 rounded-[20px] w-auto flex justify-center items-center gap-1 text-[14px] leading-[120%] g10 border border-[#fafafa]"
+                  class="py-2 px-4 xx1 hover:text-[#69A9E9] rounded-[20px] w-auto flex justify-center items-center gap-1 text-[14px] leading-[120%] g10 border border-[#fafafa] hover:border-[#69A9E9]"
                 >
                   View All Projects
-                  <Image className="w-3 h-3" src={ctaarrow} alt="Arrow Right" />
+                  <Image
+                    className="yy1 hidden w-3 h-3 shrink-0"
+                    src={arrowright}
+                    quality={100}
+                    placeholder="blur"
+                    alt="Arrow Right"
+                  />
+                  <Image className="w-3 h-3 ww1 shrink-0" src={ctaarrow} alt="Arrow Right" />
                 </Link>
               </div>
             </div>
