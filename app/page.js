@@ -16,9 +16,9 @@ import sorolingos from "@/public/images/selectedprojects/sorolingos.png";
 import zacracm from "@/public/images/selectedprojects/zacrac-mini2.png";
 
 import crushin from "@/public/images/selectedprojects/crushing.png";
-import ctaarrow from "@/public/images/cta-arrow.png";
+import ctaarrow from "@/public/images/cta-arrow.svg";
 
-import arrowright from "@/public/images/arrow-right.png";
+import arrowright from "@/public/images/arrow-right.svg";
 import arrowright2 from "@/public/images/black-arrow-right.png";
 import NavbarLight from "@/components/navbar-light";
 
@@ -108,19 +108,18 @@ export default function Home() {
                           href="/projects/flow-finance"
                           className="flex aa1 justify-center gap-1 items-center"
                         >
-                          <span className="text-sm text-[#69A9E9] leading-[120%]">
+                          <span className="text-[14px] text-[#69A9E9] leading-[24px]">
                             Read More
                           </span>
-                          <span className="w-3 h-3">
+                          <span className="w-[14px] h-auto overflow-hidden">
                             <Image
-                              className="ab1"
+                              className="ab1 w-full h-auto shrink-0"
                               src={arrowright}
                               quality={100}
-                              placeholder="blur"
                               alt="Arrow Right"
                             />
                             <Image
-                              className="hidden ac1"
+                              className="hidden ac1 w-full h-auto shrink-0"
                               src={ctaarrow}
                               alt="Arrow Right"
                             />
@@ -162,7 +161,7 @@ export default function Home() {
                   <Link
                     href="/projects/collect-africa"
                     id="Collect Africa"
-                    className="flex flex-col justify-center items-center gap-4"
+                    className="flex flex-col  gap-4"
                   >
                     <div className="content-1 bg-[#5285F2]">
                       <div className="g10">
@@ -174,21 +173,20 @@ export default function Home() {
                         </h2>
                         <Link
                           href="/projects/collect-africa"
-                          className="flex bb1 flex-row gap-1 items-center"
+                          className="flex bb1 flex-row gap-1 items-center justify-center"
                         >
-                          <span className="text-sm text-[#252627] leading-[120%]">
+                          <span className="text-[14px] text-[#252627] leading-[24px]">
                             Read More
                           </span>
-                          <span className="w-3 h-3">
+                          <span className="w-[14px] h-auto overflow-hidden">
                             <Image
-                              className="ab1"
+                              className="ab1 w-full h-auto shrink-0"
                               src={arrowright2}
                               quality={100}
-                              placeholder="blur"
                               alt="Arrow Right"
                             />
                             <Image
-                              className="hidden ac1"
+                              className="hidden ac1 w-full h-auto shrink-0"
                               src={ctaarrow}
                               alt="Arrow Right"
                             />
@@ -242,21 +240,20 @@ export default function Home() {
                       </h2>
                       <Link
                         href="/projects/zacrac-learning"
-                        className="flex cc1 flex-row gap-1 items-center"
+                        className="flex cc1 flex-row gap-1 items-center justify-center"
                       >
-                        <span className="text-sm text-[#69A9E9] leading-[120%]">
+                        <span className="text-[14px] text-[#69A9E9] leading-[24px]">
                           Read More
                         </span>
-                        <span className="w-3 h-3">
+                        <span className="w-[14px] h-auto overflow-hidden">
                           <Image
-                            className="ab1"
+                            className="ab1 w-full h-auto shrink-0"
                             src={arrowright}
                             quality={100}
-                            placeholder="blur"
                             alt="Arrow Right"
                           />
                           <Image
-                            className="hidden ac1"
+                            className="hidden ac1 w-full h-auto shrink-0"
                             src={ctaarrow}
                             alt="Arrow Right"
                           />
@@ -310,21 +307,20 @@ export default function Home() {
                         </h2>
                         <Link
                           href="/projects/pollen"
-                          className="flex dd1 flex-row gap-1 items-center"
+                          className="flex dd1 flex-row gap-1 items-center justify-center"
                         >
-                          <span className="text-sm text-[#69A9E9] leading-[120%]">
+                          <span className="text-[14px] text-[#69A9E9] leading-[24px]">
                             Read More
                           </span>
-                          <span className="w-3 h-3">
+                          <span className="w-[14px] h-auto overflow-hidden">
                             <Image
-                              className="ab1"
+                              className="ab1 w-full h-auto shrink-0"
                               src={arrowright}
                               quality={100}
-                              placeholder="blur"
                               alt="Arrow Right"
                             />
                             <Image
-                              className="hidden ac1"
+                              className="hidden ac1 w-full h-auto shrink-0"
                               src={ctaarrow}
                               alt="Arrow Right"
                             />
@@ -383,21 +379,20 @@ export default function Home() {
                         </h2>
                         <Link
                           href="/projects/sorolingo"
-                          className="flex ee1 flex-row gap-1 items-center"
+                          className="flex ee1 flex-row gap-1 items-center justify-center"
                         >
-                          <span className="text-sm text-[#69A9E9] leading-[120%]">
+                          <span className="text-[14px] text-[#69A9E9] leading-[24px]">
                             Read More
                           </span>
-                          <span className="w-3 h-3">
+                          <span className="w-[14px] h-auto overflow-hidden">
                             <Image
-                              className="ab1"
+                              className="ab1 w-full h-auto shrink-0"
                               src={arrowright}
                               quality={100}
-                              placeholder="blur"
                               alt="Arrow Right"
                             />
                             <Image
-                              className="hidden ac1"
+                              className="hidden ac1 w-full h-auto shrink-0"
                               src={ctaarrow}
                               alt="Arrow Right"
                             />
@@ -440,17 +435,20 @@ export default function Home() {
                 <Link
                   href="/all-projects"
                   id="CTA"
-                  class="py-2 px-4 xx1 hover:text-[#69A9E9] rounded-[20px] w-auto flex justify-center items-center gap-1 text-[14px] leading-[120%] g10 border border-[#fafafa] hover:border-[#69A9E9]"
+                  class="py-2 px-4 xx1 hover:text-[#69A9E9] rounded-[20px] w-auto flex justify-center items-center gap-1 text-[12px] leading-[14px] g10 border border-[#fafafa] hover:border-[#69A9E9]"
                 >
                   View All Projects
                   <Image
-                    className="yy1 hidden w-3 h-3 shrink-0"
+                    className="yy1 hidden w-4 shrink-0"
                     src={arrowright}
                     quality={100}
-                    placeholder="blur"
                     alt="Arrow Right"
                   />
-                  <Image className="w-3 h-3 ww1 shrink-0" src={ctaarrow} alt="Arrow Right" />
+                  <Image
+                    className="w-4 ww1 shrink-0"
+                    src={ctaarrow}
+                    alt="Arrow Right"
+                  />
                 </Link>
               </div>
             </div>

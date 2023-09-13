@@ -1,7 +1,7 @@
 import NavbarDark from "@/components/navbar-dark";
 import Image from "next/image";
 import Link from "next/link";
-import arrow from "@/public/images/cta-arrow.png";
+import arrow from "@/public/images/cta-arrow.svg";
 import arrowleft from "@/public/images/arrow-left.png";
 import Hero from "@/public/images/yoohoo/Hero.png";
 import yoohoo from "@/public/images/yoohoo/yoohoo.svg";
@@ -25,8 +25,8 @@ import fImg5 from "@/public/images/yoohoo/fImg5.svg";
 import Img11 from "@/public/images/yoohoo/2Img.png";
 import Img12 from "@/public/images/yoohoo/3Img.png";
 import Img13 from "@/public/images/yoohoo/4Img.png";
-import arrowright from "@/public/images/arrow-right.png";
-import ctaarrow from "@/public/images/cta-arrow.png";
+import arrowright from "@/public/images/arrow-right.svg";
+import ctaarrow from "@/public/images/cta-arrow.svg";
 
 function Collect() {
   return (
@@ -37,13 +37,22 @@ function Collect() {
         <div>
           <div className="bg-[#161718] yc-cont pt-20 lg:pt-[135px]">
             <div className="yc">
-              <Link href="/" className="phc-x1">
+              <Link
+                href="/"
+                className="phc-x1  hover:border-[#69A9E9]  hover:text-[#69A9E9!important] xx1"
+              >
                 <div>
                   <Image
-                    className="w-3 h-3"
+                    className="w-3 h-3 ww1 shrink-0"
                     placeholder="blur"
                     src={arrowleft}
                     alt="arrow-left"
+                  />
+                  <Image
+                    className="yy1 rotate-180 hidden w-3 h-auto shrink-0"
+                    src={arrowright}
+                    quality={100}
+                    alt="Arrow Right"
                   />
                 </div>
                 <h6>Back to home</h6>
@@ -360,14 +369,13 @@ function Collect() {
               <span>Next Project</span>
 
               <Image
-                className="yy1 hidden lg:w-4 h-auto w-3 shrink-0"
+                className="yy1 hidden w-4 h-auto shrink-0"
                 src={arrowright}
                 quality={100}
-                placeholder="blur"
                 alt="Arrow Right"
               />
               <Image
-                className=" lg:w-4 h-auto w-3 ww1 shrink-0"
+                className=" w-4 h-auto ww1 shrink-0"
                 src={arrow}
                 alt="Arrow Right"
               />

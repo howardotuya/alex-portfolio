@@ -26,9 +26,9 @@ import TT4 from "@/public/images/sorolingo/TT4.png";
 import TT5 from "@/public/images/sorolingo/TT5.png";
 import end1 from "@/public/images/sorolingo/end1.png";
 import end2 from "@/public/images/sorolingo/end2.png";
-import arrow from "@/public/images/cta-arrow.png";
-import arrowright from "@/public/images/arrow-right.png";
-import ctaarrow from "@/public/images/cta-arrow.png";
+import arrow from "@/public/images/cta-arrow.svg";
+import arrowright from "@/public/images/arrow-right.svg";
+import ctaarrow from "@/public/images/cta-arrow.svg";
 
 export default function Sorolingo() {
   return (
@@ -42,9 +42,26 @@ export default function Sorolingo() {
           <div className="no-use">
             <div className="pollenHeader px-5 lg:px-6">
               <div className="">
-                <Link href="/" className="fheader-button">
+                <Link
+                  href="/"
+                  className="fheader-button xyx1 hover:border-[#69A9E9] hover:text-[#69A9E9!important]"
+                >
                   <div>
                     <svg
+                      className="xyx2 hidden"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="13"
+                      height="12"
+                      viewBox="0 0 13 12"
+                      fill="none"
+                    >
+                      <path
+                        d="M8.00014 10.335C7.90514 10.335 7.81014 10.3 7.73514 10.225L4.47514 6.96499C3.94514 6.43499 3.94514 5.56499 4.47514 5.03499L7.73514 1.77499C7.88014 1.62999 8.12014 1.62999 8.26514 1.77499C8.41014 1.91999 8.41014 2.15999 8.26514 2.30499L5.00514 5.56499C4.76514 5.80499 4.76514 6.19499 5.00514 6.43499L8.26514 9.69499C8.41014 9.83999 8.41014 10.08 8.26514 10.225C8.19014 10.295 8.09514 10.335 8.00014 10.335Z"
+                        fill="#69A9E9"
+                      />
+                    </svg>
+                    <svg
+                      className="xyx3"
                       xmlns="http://www.w3.org/2000/svg"
                       width="13"
                       height="12"
@@ -259,7 +276,12 @@ export default function Sorolingo() {
                 </p>
               </div>
               <div className="max-w-[1040px] px-5 lg:px-0">
-                <Image src={Img7} alt="User Story / Scenario" quality={100} placeholder="blur" />
+                <Image
+                  src={Img7}
+                  alt="User Story / Scenario"
+                  quality={100}
+                  placeholder="blur"
+                />
               </div>
             </div>
           </div>
@@ -278,8 +300,18 @@ export default function Sorolingo() {
                 </p>
               </div>
               <div className="max-w-[1040px] grid gap-4 lg:gap-6 px-5 lg:px-0">
-                <Image src={Img8} alt="Ayo Olagbegi" quality={100} placeholder="blur" />
-                <Image src={Img9} alt="Fola Williams" quality={100} placeholder="blur" />
+                <Image
+                  src={Img8}
+                  alt="Ayo Olagbegi"
+                  quality={100}
+                  placeholder="blur"
+                />
+                <Image
+                  src={Img9}
+                  alt="Fola Williams"
+                  quality={100}
+                  placeholder="blur"
+                />
               </div>
             </div>
           </div>
@@ -294,7 +326,12 @@ export default function Sorolingo() {
                   <Image src={text} alt="Hi-fi Wireframes" />
                 </div>
                 <div className="flex justify-center items-center">
-                  <Image src={Img10} alt="Hi-fi Wireframes" placeholder="blur" quality={100} />
+                  <Image
+                    src={Img10}
+                    alt="Hi-fi Wireframes"
+                    placeholder="blur"
+                    quality={100}
+                  />
                 </div>
               </div>
             </div>
@@ -373,7 +410,12 @@ export default function Sorolingo() {
               </div>
               <div className="grid gap-10 justify-center justify-items-center lg:hidden">
                 <div className="w-[209px]">
-                  <Image src={onb1} alt="Onboarding Flow 1" placeholder="blur" quality={100} />
+                  <Image
+                    src={onb1}
+                    alt="Onboarding Flow 1"
+                    placeholder="blur"
+                    quality={100}
+                  />
                 </div>
                 <div className="flex flex-col gap-10">
                   <div className="pd-cont">
@@ -641,7 +683,12 @@ export default function Sorolingo() {
                 admins and learners.
               </h5>
               <div className="max-w-[944px]">
-                <Image src={end2} alt="Dashboard" placeholder="blur" quality={100} />
+                <Image
+                  src={end2}
+                  alt="Dashboard"
+                  placeholder="blur"
+                  quality={100}
+                />
               </div>
             </div>
           </div>
@@ -722,21 +769,20 @@ export default function Sorolingo() {
               </div>
             </div>
             <div className="flex bg-[#161718] px-5 lg:justify-center lg:items-center pb-20 lg:pt-[61px] lg:pb-[182px]">
-            <Link
+              <Link
                 href="/projects/yoohoo"
                 className="project-ctas xx1 g10 hover:border-[#69A9E9]  hover:text-[#69A9E9!important]"
               >
                 <span>Next Project</span>
 
                 <Image
-                  className="yy1 hidden lg:w-4 h-auto w-3 shrink-0"
+                  className="yy1 hidden w-4 h-auto shrink-0"
                   src={arrowright}
                   quality={100}
-                  placeholder="blur"
                   alt="Arrow Right"
                 />
                 <Image
-                  className=" lg:w-4 h-auto w-3 ww1 shrink-0"
+                  className=" w-4 h-auto ww1 shrink-0"
                   src={arrow}
                   alt="Arrow Right"
                 />

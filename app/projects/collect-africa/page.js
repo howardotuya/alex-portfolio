@@ -55,9 +55,10 @@ import eight2 from "@/public/images/collect-africa/8-2.png";
 import eight3 from "@/public/images/collect-africa/8-3.png";
 import eight4 from "@/public/images/collect-africa/8-4.png";
 import eight5 from "@/public/images/collect-africa/8-5.png";
-import arrow from "@/public/images/cta-arrow.png";
-import arrowright from "@/public/images/arrow-right.png";
-import ctaarrow from "@/public/images/cta-arrow.png";
+import arrow from "@/public/images/cta-arrow.svg";
+import arrowright from "@/public/images/arrow-right.svg";
+import ctaarrow from "@/public/images/cta-arrow.svg";
+import { useRouter } from "next/navigation";
 
 function Collect() {
   return (
@@ -65,13 +66,22 @@ function Collect() {
       <NavbarDark className="fixed" />
       <header className="bg-[#161718] phc pt-20 lg:pt-[135px]">
         <div className="phc-content">
-          <Link href="/" className="phc-x1">
+          <Link
+            href="/"
+            className="phc-x1  hover:border-[#69A9E9]  hover:text-[#69A9E9!important] xx1"
+          >
             <div>
               <Image
-                className="w-3 h-3"
+                className="w-3 h-3 ww1 shrink-0"
                 placeholder="blur"
                 src={arrowleft}
                 alt="arrow-left"
+              />
+              <Image
+                className="yy1 rotate-180 hidden w-3 h-auto shrink-0"
+                src={arrowright}
+                quality={100}
+                alt="Arrow Right"
               />
             </div>
             <h6>Back to home</h6>
@@ -1008,25 +1018,60 @@ function Collect() {
                 </div>
                 <div className="one-image">
                   <div className="">
-                    <Image placeholder="blur" quality={100} src={six1} alt="Receive with Bank Transfer" />
+                    <Image
+                      placeholder="blur"
+                      quality={100}
+                      src={six1}
+                      alt="Receive with Bank Transfer"
+                    />
                   </div>
                   <div className="">
-                    <Image placeholder="blur" quality={100} src={six2} alt="Send with Bank Transfer" />
+                    <Image
+                      placeholder="blur"
+                      quality={100}
+                      src={six2}
+                      alt="Send with Bank Transfer"
+                    />
                   </div>
                   <div className="">
-                    <Image placeholder="blur" quality={100} src={six3} alt="Select beneficiaries" />
+                    <Image
+                      placeholder="blur"
+                      quality={100}
+                      src={six3}
+                      alt="Select beneficiaries"
+                    />
                   </div>
                   <div className="">
-                    <Image placeholder="blur" quality={100} src={six4} alt="Bank Transfer|Send" />
+                    <Image
+                      placeholder="blur"
+                      quality={100}
+                      src={six4}
+                      alt="Bank Transfer|Send"
+                    />
                   </div>
                   <div className="">
-                    <Image placeholder="blur" quality={100} src={six5} alt="Select beneficiaries" />
+                    <Image
+                      placeholder="blur"
+                      quality={100}
+                      src={six5}
+                      alt="Select beneficiaries"
+                    />
                   </div>
                   <div className="">
-                    <Image placeholder="blur" quality={100} src={six6} alt="Success" />
+                    <Image
+                      placeholder="blur"
+                      quality={100}
+                      src={six6}
+                      alt="Success"
+                    />
                   </div>
                   <div className="">
-                    <Image placeholder="blur" quality={100} src={six7} alt="Transaction Details" />
+                    <Image
+                      placeholder="blur"
+                      quality={100}
+                      src={six7}
+                      alt="Transaction Details"
+                    />
                   </div>
                 </div>
               </div>
@@ -1170,28 +1215,26 @@ function Collect() {
           </section>
         </div>
 
-        
         <div className="flex px-5 lg:justify-center lg:items-center pb-20 lg:pb-[243px]">
-            <Link
-              href="/projects/zacrac-learning"
-              className="project-ctas xx1 g10 hover:border-[#69A9E9]  hover:text-[#69A9E9!important]"
-            >
-              <span>Next Project</span>
-              
-              <Image
-                className="yy1 hidden lg:w-4 h-auto w-3 shrink-0"
-                src={arrowright}
-                quality={100}
-                placeholder="blur"
-                alt="Arrow Right"
-              />
-              <Image
-                className=" lg:w-4 h-auto w-3 ww1 shrink-0"
-                src={ctaarrow}
-                alt="Arrow Right"
-              />
-            </Link>
-          </div>
+          <Link
+            href="/projects/zacrac-learning"
+            className="project-ctas xx1 g10 hover:border-[#69A9E9]  hover:text-[#69A9E9!important]"
+          >
+            <span>Next Project</span>
+
+            <Image
+              className="yy1 hidden w-4 h-auto shrink-0"
+              src={arrowright}
+              quality={100}
+              alt="Arrow Right"
+            />
+            <Image
+              className=" w-4 h-auto ww1 shrink-0"
+              src={ctaarrow}
+              alt="Arrow Right"
+            />
+          </Link>
+        </div>
       </main>
 
       <footer className="setbody d-140">

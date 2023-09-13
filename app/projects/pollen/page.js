@@ -7,7 +7,7 @@ import Img3 from "@/public/images/pollen/Img3.png";
 import Img4 from "@/public/images/pollen/Img5.png";
 import Img5 from "@/public/images/pollen/Img4.png";
 import Img6 from "@/public/images/pollen/Img6.png";
-import arrow from "@/public/images/cta-arrow.png";
+import arrow from "@/public/images/cta-arrow.svg";
 import onb1 from "@/public/images/pollen/onb1.png";
 import onb2 from "@/public/images/pollen/onb2.png";
 import onb3 from "@/public/images/pollen/onb3.png";
@@ -24,8 +24,8 @@ import t2 from "@/public/images/pollen/t2.png";
 import t3 from "@/public/images/pollen/t3.png";
 import t4 from "@/public/images/pollen/t4.png";
 import next from "@/public/images/pollen/next.png";
-import arrowright from "@/public/images/arrow-right.png";
-import ctaarrow from "@/public/images/cta-arrow.png";
+import arrowright from "@/public/images/arrow-right.svg";
+import ctaarrow from "@/public/images/cta-arrow.svg";
 
 export default function Home() {
   return (
@@ -39,9 +39,26 @@ export default function Home() {
           <div className="no-use">
             <div className="pollenHeader px-5 lg:px-6">
               <div className="">
-                <Link href="/" className="fheader-button">
+                <Link
+                  href="/"
+                  className="fheader-button xyx1 hover:border-[#69A9E9] hover:text-[#69A9E9!important]"
+                >
                   <div>
                     <svg
+                      className="xyx2 hidden"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="13"
+                      height="12"
+                      viewBox="0 0 13 12"
+                      fill="none"
+                    >
+                      <path
+                        d="M8.00014 10.335C7.90514 10.335 7.81014 10.3 7.73514 10.225L4.47514 6.96499C3.94514 6.43499 3.94514 5.56499 4.47514 5.03499L7.73514 1.77499C7.88014 1.62999 8.12014 1.62999 8.26514 1.77499C8.41014 1.91999 8.41014 2.15999 8.26514 2.30499L5.00514 5.56499C4.76514 5.80499 4.76514 6.19499 5.00514 6.43499L8.26514 9.69499C8.41014 9.83999 8.41014 10.08 8.26514 10.225C8.19014 10.295 8.09514 10.335 8.00014 10.335Z"
+                        fill="#69A9E9"
+                      />
+                    </svg>
+                    <svg
+                      className="xyx3"
                       xmlns="http://www.w3.org/2000/svg"
                       width="13"
                       height="12"
@@ -470,14 +487,13 @@ export default function Home() {
                 <span>Next Project</span>
 
                 <Image
-                  className="yy1 hidden lg:w-4 h-auto w-3 shrink-0"
+                  className="yy1 hidden w-4 h-auto shrink-0"
                   src={arrowright}
                   quality={100}
-                  placeholder="blur"
                   alt="Arrow Right"
                 />
                 <Image
-                  className=" lg:w-4 h-auto w-3 ww1 shrink-0"
+                  className=" w-4 h-auto ww1 shrink-0"
                   src={arrow}
                   alt="Arrow Right"
                 />
