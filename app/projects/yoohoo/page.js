@@ -360,14 +360,14 @@ function Collect() {
               <span>Next Project</span>
 
               <Image
-                className="yy1 hidden lg:w-4 lg:h-4 w-3 h-3 shrink-0"
+                className="yy1 hidden lg:w-4 h-auto w-3 shrink-0"
                 src={arrowright}
                 quality={100}
                 placeholder="blur"
                 alt="Arrow Right"
               />
               <Image
-                className="lg:w-4 lg:h-4 w-3 h-3 ww1 shrink-0"
+                className=" lg:w-4 h-auto w-3 ww1 shrink-0"
                 src={arrow}
                 alt="Arrow Right"
               />

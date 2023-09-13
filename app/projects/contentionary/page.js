@@ -398,12 +398,12 @@ export default function Home() {
           <div className="flex bg-[#161718] px-5 lg:justify-center lg:items-center pt-8 pb-20 lg:pt-[173px] lg:pb-[182px]">
             <Link href="/" className="project-ctas xx1 g10 hover:border-[#69A9E9]  hover:text-[#69A9E9!important]">
               <Image
-                className="w-4 h-4 ww1 rotate-180"
+                className=" lg:w-4 h-auto w-3 ww1 rotate-180"
                 src={arrow}
                 alt="Arrow Right"
               />
               <Image
-                className="yy1 rotate-180 hidden lg:w-4 lg:h-4 w-3 h-3 shrink-0"
+                className="yy1 rotate-180 hidden lg:w-4 h-auto w-3 shrink-0"
                 src={arrowright}
                 quality={100}
                 placeholder="blur"
