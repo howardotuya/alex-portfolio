@@ -131,6 +131,20 @@ export const metadata = {
     locale: "en_US",
     type: "website",
   },
+  robots: {
+    index: true,              // Allow search engines to index this page.
+    follow: true,             // Allow search engines to follow links on this page.
+    nocache: false,           // Allow search engines to cache this page.
+    googleBot: {
+      index: true,            // Allow Googlebot to index this page.
+      follow: true,           // Allow Googlebot to follow links on this page.
+      noimageindex: false,    // Allow Googlebot to index images on this page.
+      'max-video-preview': 'auto', // Let Google determine video preview lengths.
+      'max-image-preview': 'large', // Suggest using large image previews in search results.
+      'max-snippet': -1,      // Allow Google to display longer snippets if needed.
+    },
+  }
+  
 };
 
 export default function RootLayout({ children }) {
