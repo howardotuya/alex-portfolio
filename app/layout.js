@@ -1,6 +1,11 @@
 import "./globals.css";
 
 export const metadata = {
+  icons: {
+    icon: "/images/icon.png",
+    shortcut: "/images/icon.png",
+    apple: "/images/icon.png",
+  },
   title: {
     default: "Alex Oyebade",
     template: "%s - Alex Oyebade",
@@ -124,7 +129,7 @@ export const metadata = {
       },
     ],
     locale: "en_US",
-    type: "website", 
+    type: "website",
   },
 };
 
