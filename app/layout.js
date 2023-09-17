@@ -1,8 +1,18 @@
 import "./globals.css";
 
 export const metadata = {
+<<<<<<< HEAD
   title: {
     default: "Alex Oyebade", 
+=======
+  icons: {
+    icon: "/images/icon.png",
+    shortcut: "/images/icon.png",
+    apple: "/images/icon.png",
+  },
+  title: {
+    default: "Alex Oyebade",
+>>>>>>> d56b3bbf71923a38b9f9b54bb4d7b2d8b18e0913
     template: "%s - Alex Oyebade",
   },
   description:
