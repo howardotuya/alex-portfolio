@@ -138,8 +138,7 @@ export const metadata = {
       'max-image-preview': 'large', // Suggest using large image previews in search results.
       'max-snippet': -1,      // Allow Google to display longer snippets if needed.
     },
-  }
-  
+  },
 };
 
 export default function RootLayout({ children }) {
