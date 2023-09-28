@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.alexoyebade.xyz/sitemap.xml
+Sitemap: https://alexoyebade.xyz/sitemap.xml
