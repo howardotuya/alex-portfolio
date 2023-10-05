@@ -3574,6 +3574,7 @@ body {
 @media only screen and (min-width: 1640px) {
   .header-full {
     height: auto;
+    padding-top: 378px;
     padding-bottom: 337px;
   }
   .setbody3 {
