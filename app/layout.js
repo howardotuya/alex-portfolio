@@ -1,5 +1,6 @@
 import { Analytics } from '@vercel/analytics/react';
 import "./globals.css";
+import Script from "next/script";
 
 export const metadata = {
   title: {
@@ -147,6 +148,17 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>{children}</body>
       <Analytics />
+    <Script
+        strategy="afterInteractive"
+        src={"https://www.googletagmanager.com/gtag/js?id=G-KBZWRXTEHS"}
+      />
+      <Script strategy="afterInteractive" id="afterInteractive">
+        {`window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KBZWRXTEHS');`}
+      </Script>
     </html>
   );
 }
